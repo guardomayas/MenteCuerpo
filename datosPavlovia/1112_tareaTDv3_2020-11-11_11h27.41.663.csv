@@ -1,0 +1,5 @@
+key1.keys,key1.rt,key2.keys,key2.rt,key2_2.keys,key2_2.rt,key2_3.keys,key2_3.rt,key3.keys,key3.rt,key4.keys,key4.rt,respP.keys,respP.corr,respP.rt,Practice.thisRepN,Practice.thisTrialN,Practice.thisN,Practice.thisIndex,Practice.ran,ssAmount,llAmount,llDelay,session,participant,date,expName,psychopyVersion,OS,frameRate,key5.keys,key5.rt,respT.keys,respT.corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,ss_Amt,ss_Delay,ll_Amt,ll_Delay
+space,12.08586,space,28.154925,space,36.357435,space,7.756175,space,11.52702,space,4.57505,right,0,5.760705,0,0,0,2,1,10000,19000,89,002,1112,2020-11-11_11h27.41.663,tareaTDv3,2020.2.5,MacIntel,60,,,,,,,,,,,,,
+,,,,,,,,,,,,left,1,1.54236,0,1,1,1,1,25000,35000,150,002,1112,2020-11-11_11h27.41.663,tareaTDv3,2020.2.5,MacIntel,60,,,,,,,,,,,,,
+,,,,,,,,,,,,right,1,2.86952,0,2,2,0,1,10000,109000,9,002,1112,2020-11-11_11h27.41.663,tareaTDv3,2020.2.5,MacIntel,60,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,002,1112,2020-11-11_11h27.41.663,tareaTDv3,2020.2.5,MacIntel,60,g,141.8078,,0,0,0,0,88,1,25000,0,125000,149

@@ -1,0 +1,2213 @@
+16.3072 	WARNING 	User requested fullscreen with size [1280  800], but screen is actually [1366, 768]. Using actual size
+18.0073 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0AFFEE30>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1CF42950>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1366,  768]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType=u'pyglet')
+18.0073 	EXP 	window1: recordFrameIntervals = False
+18.1728 	EXP 	window1: recordFrameIntervals = True
+18.3562 	EXP 	window1: recordFrameIntervals = False
+18.5921 	EXP 	Created intro1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='intro1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.8316 	EXP 	Created intro2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intro2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.0918 	EXP 	Created intro2_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intro2_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.1637 	EXP 	Created Intro2_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Intro2_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.1861 	EXP 	Created intro3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='intro3', opacity=1.0, ori=0, pos=array([0. , 0.5]), rgb=array([255., 255., 255.]), text='Por ejemplo, \xbfqu\xe9 preferir\xedas?', units=u'norm', win=Window(...), wrapWidth=1)
+19.1980 	EXP 	Created ss_am = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ss_am', opacity=1.0, ori=0, pos=array([-0.5,  0.1]), rgb=array([255., 255., 255.]), text='$5.000', units=u'norm', win=Window(...), wrapWidth=1)
+19.2039 	EXP 	Created ss_del = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ss_del', opacity=1.0, ori=0, pos=array([-0.5, -0.1]), rgb=array([255., 255., 255.]), text='hoy', units=u'norm', win=Window(...), wrapWidth=1)
+19.2121 	EXP 	Created ll_am = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ll_am', opacity=1.0, ori=0, pos=array([0.5, 0.1]), rgb=array([255., 255., 255.]), text='$10.000', units=u'norm', win=Window(...), wrapWidth=1)
+19.2220 	EXP 	Created ll_del = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ll_del', opacity=1.0, ori=0, pos=array([ 0.5, -0.1]), rgb=array([255., 255., 255.]), text='en 7 d\xedas', units=u'norm', win=Window(...), wrapWidth=1)
+19.2406 	EXP 	Created Intro4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Intro4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Hagamos unos ensayos de pr\xe1ctica', units=u'norm', win=Window(...), wrapWidth=1)
+19.2518 	EXP 	Created pregunta = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='pregunta', opacity=1.0, ori=0, pos=array([0. , 0.5]), rgb=array([255., 255., 255.]), text='\xbfqu\xe9 preferir\xedas?', units=u'norm', win=Window(...), wrapWidth=1)
+19.2619 	EXP 	Created ssAm_P = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ssAm_P', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.2663 	EXP 	Created ssDel_P = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ssDel_P', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='hoy', units=u'norm', win=Window(...), wrapWidth=1)
+19.2754 	EXP 	Created llAm_P = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='llAm_P', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.2845 	EXP 	Created llDel_P = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='llDel_P', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.2935 	EXP 	Created feedbackP = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedbackP', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.3561 	EXP 	Created comienzo = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='comienzo', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.3674 	EXP 	Created preguntaT = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='preguntaT', opacity=1.0, ori=0, pos=array([0. , 0.5]), rgb=array([255., 255., 255.]), text='\xbfqu\xe9 preferir\xedas?', units=u'norm', win=Window(...), wrapWidth=1)
+19.3764 	EXP 	Created ssAm_T = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ssAm_T', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.3812 	EXP 	Created ssDel_T = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ssDel_T', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='hoy', units=u'norm', win=Window(...), wrapWidth=1)
+19.3900 	EXP 	Created llAm_T = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='llAm_T', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.3990 	EXP 	Created llDel_T = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='llDel_T', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.4081 	EXP 	Created textfbT = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textfbT', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.4352 	EXP 	Created Gracias = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Gracias', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.4801 	EXP 	intro1: autoDraw = True
+23.1054 	DATA 	Keypress: space
+23.1219 	EXP 	intro1: autoDraw = False
+23.1219 	EXP 	intro2: autoDraw = True
+40.0689 	DATA 	Keypress: space
+40.0853 	EXP 	intro2: autoDraw = False
+40.0853 	EXP 	intro2_2: autoDraw = True
+61.5981 	DATA 	Keypress: space
+61.6144 	EXP 	intro2_2: autoDraw = False
+61.6144 	EXP 	Intro2_3: autoDraw = True
+78.1292 	DATA 	Keypress: space
+78.1447 	EXP 	Intro2_3: autoDraw = False
+78.1447 	EXP 	intro3: autoDraw = True
+78.1447 	EXP 	ss_am: autoDraw = True
+78.1447 	EXP 	ss_del: autoDraw = True
+78.1447 	EXP 	ll_am: autoDraw = True
+78.1447 	EXP 	ll_del: autoDraw = True
+81.6615 	DATA 	Keypress: right
+81.6773 	EXP 	intro3: autoDraw = False
+81.6773 	EXP 	ss_am: autoDraw = False
+81.6773 	EXP 	ss_del: autoDraw = False
+81.6773 	EXP 	ll_am: autoDraw = False
+81.6773 	EXP 	ll_del: autoDraw = False
+81.6773 	EXP 	Intro4: autoDraw = True
+83.9114 	DATA 	Keypress: space
+84.1360 	EXP 	Imported choiceSet_practice.xlsx as conditions, 3 conditions, 3 params
+84.1362 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+84.1365 	EXP 	New trial (rep=0, index=0): OrderedDict([(u'ssAmount', 25), (u'llAmount', 35), (u'llDelay', 150)])
+84.1614 	EXP 	Intro4: autoDraw = False
+84.1614 	EXP 	ssAm_P: text = u'$25 mil'
+84.1614 	EXP 	ssAm_P: pos = array([0.5, 0.1])
+84.1614 	EXP 	ssDel_P: pos = array([ 0.5, -0.1])
+84.1614 	EXP 	llAm_P: text = u'$35 mil'
+84.1614 	EXP 	llAm_P: pos = array([-0.5,  0.1])
+84.1614 	EXP 	llDel_P: text = u'en 150 d\xedas'
+84.1614 	EXP 	llDel_P: pos = array([-0.5, -0.1])
+84.1614 	EXP 	pregunta: autoDraw = True
+84.1614 	EXP 	ssAm_P: autoDraw = True
+84.1614 	EXP 	ssDel_P: autoDraw = True
+84.1614 	EXP 	llAm_P: autoDraw = True
+84.1614 	EXP 	llDel_P: autoDraw = True
+87.4937 	DATA 	Keypress: right
+87.5181 	EXP 	pregunta: autoDraw = False
+87.5181 	EXP 	ssAm_P: autoDraw = False
+87.5181 	EXP 	ssDel_P: autoDraw = False
+87.5181 	EXP 	llAm_P: autoDraw = False
+87.5181 	EXP 	llDel_P: autoDraw = False
+87.5181 	EXP 	feedbackP: text = 'Elegiste no esperar'
+87.5181 	EXP 	feedbackP: autoDraw = True
+90.4932 	EXP 	New trial (rep=0, index=1): OrderedDict([(u'ssAmount', 10), (u'llAmount', 19), (u'llDelay', 89)])
+90.5273 	EXP 	feedbackP: autoDraw = False
+90.5273 	EXP 	feedbackP: autoDraw = False
+90.5273 	EXP 	ssAm_P: text = u'$10 mil'
+90.5273 	EXP 	ssAm_P: pos = array([-0.5,  0.1])
+90.5273 	EXP 	ssDel_P: pos = array([-0.5, -0.1])
+90.5273 	EXP 	llAm_P: text = u'$19 mil'
+90.5273 	EXP 	llAm_P: pos = array([0.5, 0.1])
+90.5273 	EXP 	llDel_P: text = u'en 89 d\xedas'
+90.5273 	EXP 	llDel_P: pos = array([ 0.5, -0.1])
+90.5273 	EXP 	pregunta: autoDraw = True
+90.5273 	EXP 	ssAm_P: autoDraw = True
+90.5273 	EXP 	ssDel_P: autoDraw = True
+90.5273 	EXP 	llAm_P: autoDraw = True
+90.5273 	EXP 	llDel_P: autoDraw = True
+90.6925 	DATA 	Keypress: space
+95.1417 	DATA 	Keypress: left
+95.1580 	EXP 	pregunta: autoDraw = False
+95.1580 	EXP 	ssAm_P: autoDraw = False
+95.1580 	EXP 	ssDel_P: autoDraw = False
+95.1580 	EXP 	llAm_P: autoDraw = False
+95.1580 	EXP 	llDel_P: autoDraw = False
+95.1580 	EXP 	feedbackP: text = 'Elegiste no esperar'
+95.1580 	EXP 	feedbackP: autoDraw = True
+98.1413 	EXP 	New trial (rep=0, index=2): OrderedDict([(u'ssAmount', 10), (u'llAmount', 109), (u'llDelay', 9)])
+98.1613 	EXP 	feedbackP: autoDraw = False
+98.1613 	EXP 	feedbackP: autoDraw = False
+98.1613 	EXP 	ssAm_P: text = u'$10 mil'
+98.1613 	EXP 	ssAm_P: pos = array([-0.5,  0.1])
+98.1613 	EXP 	ssDel_P: pos = array([-0.5, -0.1])
+98.1613 	EXP 	llAm_P: text = u'$109 mil'
+98.1613 	EXP 	llAm_P: pos = array([0.5, 0.1])
+98.1613 	EXP 	llDel_P: text = u'en 9 d\xedas'
+98.1613 	EXP 	llDel_P: pos = array([ 0.5, -0.1])
+98.1613 	EXP 	pregunta: autoDraw = True
+98.1613 	EXP 	ssAm_P: autoDraw = True
+98.1613 	EXP 	ssDel_P: autoDraw = True
+98.1613 	EXP 	llAm_P: autoDraw = True
+98.1613 	EXP 	llDel_P: autoDraw = True
+99.7242 	DATA 	Keypress: right
+99.7407 	EXP 	pregunta: autoDraw = False
+99.7407 	EXP 	ssAm_P: autoDraw = False
+99.7407 	EXP 	ssDel_P: autoDraw = False
+99.7407 	EXP 	llAm_P: autoDraw = False
+99.7407 	EXP 	llDel_P: autoDraw = False
+99.7407 	EXP 	feedbackP: text = 'Elegiste esperar'
+99.7407 	EXP 	feedbackP: autoDraw = True
+102.7399 	EXP 	feedbackP: autoDraw = False
+102.7399 	EXP 	feedbackP: autoDraw = False
+102.7399 	EXP 	comienzo: autoDraw = True
+106.9394 	DATA 	Keypress: space
+109.1725 	DATA 	Keypress: right
+111.0720 	DATA 	Keypress: space
+134.6178 	DATA 	Keypress: space
+134.9513 	DATA 	Keypress: space
+135.7172 	DATA 	Keypress: right
+136.2008 	DATA 	Keypress: left
+923.3345 	DATA 	Keypress: g
+923.3976 	EXP 	Imported choiceSet_trials.xlsx as conditions, 90 conditions, 4 params
+923.3980 	EXP 	Created sequence: random, trialTypes=90, nReps=1, seed=None
+923.3984 	EXP 	New trial (rep=0, index=0): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 104.0), (u'll_del', 5)])
+923.4240 	EXP 	comienzo: autoDraw = False
+923.4240 	EXP 	ssAm_T: text = u'$5 mil'
+923.4240 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+923.4240 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+923.4240 	EXP 	llAm_T: text = u'$104 mil'
+923.4240 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+923.4240 	EXP 	llDel_T: text = u'en 5 d\xedas'
+923.4240 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+923.4240 	EXP 	preguntaT: autoDraw = True
+923.4240 	EXP 	ssAm_T: autoDraw = True
+923.4240 	EXP 	ssDel_T: autoDraw = True
+923.4240 	EXP 	llAm_T: autoDraw = True
+923.4240 	EXP 	llDel_T: autoDraw = True
+925.3191 	DATA 	Keypress: left
+925.3460 	EXP 	preguntaT: autoDraw = False
+925.3460 	EXP 	ssAm_T: autoDraw = False
+925.3460 	EXP 	ssDel_T: autoDraw = False
+925.3460 	EXP 	llAm_T: autoDraw = False
+925.3460 	EXP 	llDel_T: autoDraw = False
+925.3460 	EXP 	textfbT: text = 'Elegiste esperar'
+925.3460 	EXP 	textfbT: autoDraw = True
+928.3193 	EXP 	New trial (rep=0, index=1): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 151.0), (u'll_del', 150)])
+928.3565 	EXP 	textfbT: autoDraw = False
+928.3565 	EXP 	textfbT: autoDraw = False
+928.3565 	EXP 	ssAm_T: text = u'$5 mil'
+928.3565 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+928.3565 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+928.3565 	EXP 	llAm_T: text = u'$151 mil'
+928.3565 	EXP 	llAm_T: pos = array([0.5, 0.1])
+928.3565 	EXP 	llDel_T: text = u'en 150 d\xedas'
+928.3565 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+928.3565 	EXP 	preguntaT: autoDraw = True
+928.3565 	EXP 	ssAm_T: autoDraw = True
+928.3565 	EXP 	ssDel_T: autoDraw = True
+928.3565 	EXP 	llAm_T: autoDraw = True
+928.3565 	EXP 	llDel_T: autoDraw = True
+930.7379 	DATA 	Keypress: right
+930.7667 	EXP 	preguntaT: autoDraw = False
+930.7667 	EXP 	ssAm_T: autoDraw = False
+930.7667 	EXP 	ssDel_T: autoDraw = False
+930.7667 	EXP 	llAm_T: autoDraw = False
+930.7667 	EXP 	llDel_T: autoDraw = False
+930.7667 	EXP 	textfbT: text = 'Elegiste esperar'
+930.7667 	EXP 	textfbT: autoDraw = True
+933.7514 	EXP 	New trial (rep=0, index=2): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 30)])
+933.7865 	EXP 	textfbT: autoDraw = False
+933.7865 	EXP 	textfbT: autoDraw = False
+933.7865 	EXP 	ssAm_T: text = u'$5 mil'
+933.7865 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+933.7865 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+933.7865 	EXP 	llAm_T: text = u'$150 mil'
+933.7865 	EXP 	llAm_T: pos = array([0.5, 0.1])
+933.7865 	EXP 	llDel_T: text = u'en 30 d\xedas'
+933.7865 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+933.7865 	EXP 	preguntaT: autoDraw = True
+933.7865 	EXP 	ssAm_T: autoDraw = True
+933.7865 	EXP 	ssDel_T: autoDraw = True
+933.7865 	EXP 	llAm_T: autoDraw = True
+933.7865 	EXP 	llDel_T: autoDraw = True
+935.2168 	DATA 	Keypress: right
+935.2326 	EXP 	preguntaT: autoDraw = False
+935.2326 	EXP 	ssAm_T: autoDraw = False
+935.2326 	EXP 	ssDel_T: autoDraw = False
+935.2326 	EXP 	llAm_T: autoDraw = False
+935.2326 	EXP 	llDel_T: autoDraw = False
+935.2326 	EXP 	textfbT: text = 'Elegiste esperar'
+935.2326 	EXP 	textfbT: autoDraw = True
+938.2175 	EXP 	New trial (rep=0, index=3): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 60.0), (u'll_del', 60)])
+938.2601 	EXP 	textfbT: autoDraw = False
+938.2601 	EXP 	textfbT: autoDraw = False
+938.2601 	EXP 	ssAm_T: text = u'$10 mil'
+938.2601 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+938.2601 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+938.2601 	EXP 	llAm_T: text = u'$60 mil'
+938.2601 	EXP 	llAm_T: pos = array([0.5, 0.1])
+938.2601 	EXP 	llDel_T: text = u'en 60 d\xedas'
+938.2601 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+938.2601 	EXP 	preguntaT: autoDraw = True
+938.2601 	EXP 	ssAm_T: autoDraw = True
+938.2601 	EXP 	ssDel_T: autoDraw = True
+938.2601 	EXP 	llAm_T: autoDraw = True
+938.2601 	EXP 	llDel_T: autoDraw = True
+939.9990 	DATA 	Keypress: left
+940.0262 	EXP 	preguntaT: autoDraw = False
+940.0262 	EXP 	ssAm_T: autoDraw = False
+940.0262 	EXP 	ssDel_T: autoDraw = False
+940.0262 	EXP 	llAm_T: autoDraw = False
+940.0262 	EXP 	llDel_T: autoDraw = False
+940.0262 	EXP 	textfbT: text = 'Elegiste no esperar'
+940.0262 	EXP 	textfbT: autoDraw = True
+942.9995 	EXP 	New trial (rep=0, index=4): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 39.0), (u'll_del', 6)])
+943.0320 	EXP 	textfbT: autoDraw = False
+943.0320 	EXP 	textfbT: autoDraw = False
+943.0320 	EXP 	ssAm_T: text = u'$10 mil'
+943.0320 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+943.0320 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+943.0320 	EXP 	llAm_T: text = u'$39 mil'
+943.0320 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+943.0320 	EXP 	llDel_T: text = u'en 6 d\xedas'
+943.0320 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+943.0320 	EXP 	preguntaT: autoDraw = True
+943.0320 	EXP 	ssAm_T: autoDraw = True
+943.0320 	EXP 	ssDel_T: autoDraw = True
+943.0320 	EXP 	llAm_T: autoDraw = True
+943.0320 	EXP 	llDel_T: autoDraw = True
+944.7982 	DATA 	Keypress: right
+944.8141 	EXP 	preguntaT: autoDraw = False
+944.8141 	EXP 	ssAm_T: autoDraw = False
+944.8141 	EXP 	ssDel_T: autoDraw = False
+944.8141 	EXP 	llAm_T: autoDraw = False
+944.8141 	EXP 	llDel_T: autoDraw = False
+944.8141 	EXP 	textfbT: text = 'Elegiste no esperar'
+944.8141 	EXP 	textfbT: autoDraw = True
+947.7989 	EXP 	New trial (rep=0, index=5): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 104.0), (u'll_del', 90)])
+947.8378 	EXP 	textfbT: autoDraw = False
+947.8378 	EXP 	textfbT: autoDraw = False
+947.8378 	EXP 	ssAm_T: text = u'$5 mil'
+947.8378 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+947.8378 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+947.8378 	EXP 	llAm_T: text = u'$104 mil'
+947.8378 	EXP 	llAm_T: pos = array([0.5, 0.1])
+947.8378 	EXP 	llDel_T: text = u'en 90 d\xedas'
+947.8378 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+947.8378 	EXP 	preguntaT: autoDraw = True
+947.8378 	EXP 	ssAm_T: autoDraw = True
+947.8378 	EXP 	ssDel_T: autoDraw = True
+947.8378 	EXP 	llAm_T: autoDraw = True
+947.8378 	EXP 	llDel_T: autoDraw = True
+951.4472 	DATA 	Keypress: right
+951.4787 	EXP 	preguntaT: autoDraw = False
+951.4787 	EXP 	ssAm_T: autoDraw = False
+951.4787 	EXP 	ssDel_T: autoDraw = False
+951.4787 	EXP 	llAm_T: autoDraw = False
+951.4787 	EXP 	llDel_T: autoDraw = False
+951.4787 	EXP 	textfbT: text = 'Elegiste esperar'
+951.4787 	EXP 	textfbT: autoDraw = True
+954.4476 	EXP 	New trial (rep=0, index=6): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 5)])
+954.4881 	EXP 	textfbT: autoDraw = False
+954.4881 	EXP 	textfbT: autoDraw = False
+954.4881 	EXP 	ssAm_T: text = u'$10 mil'
+954.4881 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+954.4881 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+954.4881 	EXP 	llAm_T: text = u'$150 mil'
+954.4881 	EXP 	llAm_T: pos = array([0.5, 0.1])
+954.4881 	EXP 	llDel_T: text = u'en 5 d\xedas'
+954.4881 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+954.4881 	EXP 	preguntaT: autoDraw = True
+954.4881 	EXP 	ssAm_T: autoDraw = True
+954.4881 	EXP 	ssDel_T: autoDraw = True
+954.4881 	EXP 	llAm_T: autoDraw = True
+954.4881 	EXP 	llDel_T: autoDraw = True
+956.3792 	DATA 	Keypress: left
+956.4094 	EXP 	preguntaT: autoDraw = False
+956.4094 	EXP 	ssAm_T: autoDraw = False
+956.4094 	EXP 	ssDel_T: autoDraw = False
+956.4094 	EXP 	llAm_T: autoDraw = False
+956.4094 	EXP 	llDel_T: autoDraw = False
+956.4094 	EXP 	textfbT: text = 'Elegiste no esperar'
+956.4094 	EXP 	textfbT: autoDraw = True
+959.3802 	EXP 	New trial (rep=0, index=7): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 151.0), (u'll_del', 4)])
+959.4214 	EXP 	textfbT: autoDraw = False
+959.4214 	EXP 	textfbT: autoDraw = False
+959.4214 	EXP 	ssAm_T: text = u'$5 mil'
+959.4214 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+959.4214 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+959.4214 	EXP 	llAm_T: text = u'$151 mil'
+959.4214 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+959.4214 	EXP 	llDel_T: text = u'en 4 d\xedas'
+959.4214 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+959.4214 	EXP 	preguntaT: autoDraw = True
+959.4214 	EXP 	ssAm_T: autoDraw = True
+959.4214 	EXP 	ssDel_T: autoDraw = True
+959.4214 	EXP 	llAm_T: autoDraw = True
+959.4214 	EXP 	llDel_T: autoDraw = True
+960.9119 	DATA 	Keypress: left
+960.9364 	EXP 	preguntaT: autoDraw = False
+960.9364 	EXP 	ssAm_T: autoDraw = False
+960.9364 	EXP 	ssDel_T: autoDraw = False
+960.9364 	EXP 	llAm_T: autoDraw = False
+960.9364 	EXP 	llDel_T: autoDraw = False
+960.9364 	EXP 	textfbT: text = 'Elegiste esperar'
+960.9364 	EXP 	textfbT: autoDraw = True
+963.9124 	EXP 	New trial (rep=0, index=8): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 149.0), (u'll_del', 10)])
+963.9515 	EXP 	textfbT: autoDraw = False
+963.9515 	EXP 	textfbT: autoDraw = False
+963.9515 	EXP 	ssAm_T: text = u'$5 mil'
+963.9515 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+963.9515 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+963.9515 	EXP 	llAm_T: text = u'$149 mil'
+963.9515 	EXP 	llAm_T: pos = array([0.5, 0.1])
+963.9515 	EXP 	llDel_T: text = u'en 10 d\xedas'
+963.9515 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+963.9515 	EXP 	preguntaT: autoDraw = True
+963.9515 	EXP 	ssAm_T: autoDraw = True
+963.9515 	EXP 	ssDel_T: autoDraw = True
+963.9515 	EXP 	llAm_T: autoDraw = True
+963.9515 	EXP 	llDel_T: autoDraw = True
+966.1271 	DATA 	Keypress: right
+966.1430 	EXP 	preguntaT: autoDraw = False
+966.1430 	EXP 	ssAm_T: autoDraw = False
+966.1430 	EXP 	ssDel_T: autoDraw = False
+966.1430 	EXP 	llAm_T: autoDraw = False
+966.1430 	EXP 	llDel_T: autoDraw = False
+966.1430 	EXP 	textfbT: text = 'Elegiste esperar'
+966.1430 	EXP 	textfbT: autoDraw = True
+969.1279 	EXP 	New trial (rep=0, index=9): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 125.0), (u'll_del', 149)])
+969.1740 	EXP 	textfbT: autoDraw = False
+969.1740 	EXP 	textfbT: autoDraw = False
+969.1740 	EXP 	ssAm_T: text = u'$25 mil'
+969.1740 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+969.1740 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+969.1740 	EXP 	llAm_T: text = u'$125 mil'
+969.1740 	EXP 	llAm_T: pos = array([0.5, 0.1])
+969.1740 	EXP 	llDel_T: text = u'en 149 d\xedas'
+969.1740 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+969.1740 	EXP 	preguntaT: autoDraw = True
+969.1740 	EXP 	ssAm_T: autoDraw = True
+969.1740 	EXP 	ssDel_T: autoDraw = True
+969.1740 	EXP 	llAm_T: autoDraw = True
+969.1740 	EXP 	llDel_T: autoDraw = True
+971.0102 	DATA 	Keypress: left
+971.0406 	EXP 	preguntaT: autoDraw = False
+971.0406 	EXP 	ssAm_T: autoDraw = False
+971.0406 	EXP 	ssDel_T: autoDraw = False
+971.0406 	EXP 	llAm_T: autoDraw = False
+971.0406 	EXP 	llDel_T: autoDraw = False
+971.0406 	EXP 	textfbT: text = 'Elegiste no esperar'
+971.0406 	EXP 	textfbT: autoDraw = True
+974.0107 	EXP 	New trial (rep=0, index=10): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 106.0), (u'll_del', 29)])
+974.0486 	EXP 	textfbT: autoDraw = False
+974.0486 	EXP 	textfbT: autoDraw = False
+974.0486 	EXP 	ssAm_T: text = u'$5 mil'
+974.0486 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+974.0486 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+974.0486 	EXP 	llAm_T: text = u'$106 mil'
+974.0486 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+974.0486 	EXP 	llDel_T: text = u'en 29 d\xedas'
+974.0486 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+974.0486 	EXP 	preguntaT: autoDraw = True
+974.0486 	EXP 	ssAm_T: autoDraw = True
+974.0486 	EXP 	ssDel_T: autoDraw = True
+974.0486 	EXP 	llAm_T: autoDraw = True
+974.0486 	EXP 	llDel_T: autoDraw = True
+976.0424 	DATA 	Keypress: left
+976.0707 	EXP 	preguntaT: autoDraw = False
+976.0707 	EXP 	ssAm_T: autoDraw = False
+976.0707 	EXP 	ssDel_T: autoDraw = False
+976.0707 	EXP 	llAm_T: autoDraw = False
+976.0707 	EXP 	llDel_T: autoDraw = False
+976.0707 	EXP 	textfbT: text = 'Elegiste esperar'
+976.0707 	EXP 	textfbT: autoDraw = True
+979.0428 	EXP 	New trial (rep=0, index=11): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 151.0), (u'll_del', 151)])
+979.0841 	EXP 	textfbT: autoDraw = False
+979.0841 	EXP 	textfbT: autoDraw = False
+979.0841 	EXP 	ssAm_T: text = u'$10 mil'
+979.0841 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+979.0841 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+979.0841 	EXP 	llAm_T: text = u'$151 mil'
+979.0841 	EXP 	llAm_T: pos = array([0.5, 0.1])
+979.0841 	EXP 	llDel_T: text = u'en 151 d\xedas'
+979.0841 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+979.0841 	EXP 	preguntaT: autoDraw = True
+979.0841 	EXP 	ssAm_T: autoDraw = True
+979.0841 	EXP 	ssDel_T: autoDraw = True
+979.0841 	EXP 	llAm_T: autoDraw = True
+979.0841 	EXP 	llDel_T: autoDraw = True
+982.8911 	DATA 	Keypress: left
+982.9223 	EXP 	preguntaT: autoDraw = False
+982.9223 	EXP 	ssAm_T: autoDraw = False
+982.9223 	EXP 	ssDel_T: autoDraw = False
+982.9223 	EXP 	llAm_T: autoDraw = False
+982.9223 	EXP 	llDel_T: autoDraw = False
+982.9223 	EXP 	textfbT: text = 'Elegiste no esperar'
+982.9223 	EXP 	textfbT: autoDraw = True
+985.8916 	EXP 	New trial (rep=0, index=12): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 89)])
+985.9334 	EXP 	textfbT: autoDraw = False
+985.9334 	EXP 	textfbT: autoDraw = False
+985.9334 	EXP 	ssAm_T: text = u'$5 mil'
+985.9334 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+985.9334 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+985.9334 	EXP 	llAm_T: text = u'$35 mil'
+985.9334 	EXP 	llAm_T: pos = array([0.5, 0.1])
+985.9334 	EXP 	llDel_T: text = u'en 89 d\xedas'
+985.9334 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+985.9334 	EXP 	preguntaT: autoDraw = True
+985.9334 	EXP 	ssAm_T: autoDraw = True
+985.9334 	EXP 	ssDel_T: autoDraw = True
+985.9334 	EXP 	llAm_T: autoDraw = True
+985.9334 	EXP 	llDel_T: autoDraw = True
+987.7271 	DATA 	Keypress: left
+987.7560 	EXP 	preguntaT: autoDraw = False
+987.7560 	EXP 	ssAm_T: autoDraw = False
+987.7560 	EXP 	ssDel_T: autoDraw = False
+987.7560 	EXP 	llAm_T: autoDraw = False
+987.7560 	EXP 	llDel_T: autoDraw = False
+987.7560 	EXP 	textfbT: text = 'Elegiste no esperar'
+987.7560 	EXP 	textfbT: autoDraw = True
+990.7408 	EXP 	New trial (rep=0, index=13): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 90)])
+990.7774 	EXP 	textfbT: autoDraw = False
+990.7774 	EXP 	textfbT: autoDraw = False
+990.7774 	EXP 	ssAm_T: text = u'$5 mil'
+990.7774 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+990.7774 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+990.7774 	EXP 	llAm_T: text = u'$150 mil'
+990.7774 	EXP 	llAm_T: pos = array([0.5, 0.1])
+990.7774 	EXP 	llDel_T: text = u'en 90 d\xedas'
+990.7774 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+990.7774 	EXP 	preguntaT: autoDraw = True
+990.7774 	EXP 	ssAm_T: autoDraw = True
+990.7774 	EXP 	ssDel_T: autoDraw = True
+990.7774 	EXP 	llAm_T: autoDraw = True
+990.7774 	EXP 	llDel_T: autoDraw = True
+993.8389 	DATA 	Keypress: right
+993.8662 	EXP 	preguntaT: autoDraw = False
+993.8662 	EXP 	ssAm_T: autoDraw = False
+993.8662 	EXP 	ssDel_T: autoDraw = False
+993.8662 	EXP 	llAm_T: autoDraw = False
+993.8662 	EXP 	llDel_T: autoDraw = False
+993.8662 	EXP 	textfbT: text = 'Elegiste esperar'
+993.8662 	EXP 	textfbT: autoDraw = True
+996.8394 	EXP 	New trial (rep=0, index=14): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 59.0), (u'll_del', 9)])
+996.8826 	EXP 	textfbT: autoDraw = False
+996.8826 	EXP 	textfbT: autoDraw = False
+996.8826 	EXP 	ssAm_T: text = u'$10 mil'
+996.8826 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+996.8826 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+996.8826 	EXP 	llAm_T: text = u'$59 mil'
+996.8826 	EXP 	llAm_T: pos = array([0.5, 0.1])
+996.8826 	EXP 	llDel_T: text = u'en 9 d\xedas'
+996.8826 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+996.8826 	EXP 	preguntaT: autoDraw = True
+996.8826 	EXP 	ssAm_T: autoDraw = True
+996.8826 	EXP 	ssDel_T: autoDraw = True
+996.8826 	EXP 	llAm_T: autoDraw = True
+996.8826 	EXP 	llDel_T: autoDraw = True
+998.5917 	DATA 	Keypress: left
+998.6343 	EXP 	preguntaT: autoDraw = False
+998.6343 	EXP 	ssAm_T: autoDraw = False
+998.6343 	EXP 	ssDel_T: autoDraw = False
+998.6343 	EXP 	llAm_T: autoDraw = False
+998.6343 	EXP 	llDel_T: autoDraw = False
+998.6343 	EXP 	textfbT: text = 'Elegiste no esperar'
+998.6343 	EXP 	textfbT: autoDraw = True
+1001.6024 	EXP 	New trial (rep=0, index=15): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 125.0), (u'll_del', 31)])
+1001.6267 	EXP 	textfbT: autoDraw = False
+1001.6267 	EXP 	textfbT: autoDraw = False
+1001.6267 	EXP 	ssAm_T: text = u'$25 mil'
+1001.6267 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1001.6267 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1001.6267 	EXP 	llAm_T: text = u'$125 mil'
+1001.6267 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1001.6267 	EXP 	llDel_T: text = u'en 31 d\xedas'
+1001.6267 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1001.6267 	EXP 	preguntaT: autoDraw = True
+1001.6267 	EXP 	ssAm_T: autoDraw = True
+1001.6267 	EXP 	ssDel_T: autoDraw = True
+1001.6267 	EXP 	llAm_T: autoDraw = True
+1001.6267 	EXP 	llDel_T: autoDraw = True
+1003.3020 	DATA 	Keypress: right
+1003.3194 	EXP 	preguntaT: autoDraw = False
+1003.3194 	EXP 	ssAm_T: autoDraw = False
+1003.3194 	EXP 	ssDel_T: autoDraw = False
+1003.3194 	EXP 	llAm_T: autoDraw = False
+1003.3194 	EXP 	llDel_T: autoDraw = False
+1003.3194 	EXP 	textfbT: text = 'Elegiste esperar'
+1003.3194 	EXP 	textfbT: autoDraw = True
+1006.3044 	EXP 	New trial (rep=0, index=16): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 61.0), (u'll_del', 150)])
+1006.3493 	EXP 	textfbT: autoDraw = False
+1006.3493 	EXP 	textfbT: autoDraw = False
+1006.3493 	EXP 	ssAm_T: text = u'$10 mil'
+1006.3493 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1006.3493 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1006.3493 	EXP 	llAm_T: text = u'$61 mil'
+1006.3493 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1006.3493 	EXP 	llDel_T: text = u'en 150 d\xedas'
+1006.3493 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1006.3493 	EXP 	preguntaT: autoDraw = True
+1006.3493 	EXP 	ssAm_T: autoDraw = True
+1006.3493 	EXP 	ssDel_T: autoDraw = True
+1006.3493 	EXP 	llAm_T: autoDraw = True
+1006.3493 	EXP 	llDel_T: autoDraw = True
+1008.5526 	DATA 	Keypress: left
+1008.5809 	EXP 	preguntaT: autoDraw = False
+1008.5809 	EXP 	ssAm_T: autoDraw = False
+1008.5809 	EXP 	ssDel_T: autoDraw = False
+1008.5809 	EXP 	llAm_T: autoDraw = False
+1008.5809 	EXP 	llDel_T: autoDraw = False
+1008.5809 	EXP 	textfbT: text = 'Elegiste no esperar'
+1008.5809 	EXP 	textfbT: autoDraw = True
+1011.5535 	EXP 	New trial (rep=0, index=17): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 5)])
+1011.5967 	EXP 	textfbT: autoDraw = False
+1011.5967 	EXP 	textfbT: autoDraw = False
+1011.5967 	EXP 	ssAm_T: text = u'$25 mil'
+1011.5967 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1011.5967 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1011.5967 	EXP 	llAm_T: text = u'$35 mil'
+1011.5967 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1011.5967 	EXP 	llDel_T: text = u'en 5 d\xedas'
+1011.5967 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1011.5967 	EXP 	preguntaT: autoDraw = True
+1011.5967 	EXP 	ssAm_T: autoDraw = True
+1011.5967 	EXP 	ssDel_T: autoDraw = True
+1011.5967 	EXP 	llAm_T: autoDraw = True
+1011.5967 	EXP 	llDel_T: autoDraw = True
+1014.3388 	DATA 	Keypress: left
+1014.3676 	EXP 	preguntaT: autoDraw = False
+1014.3676 	EXP 	ssAm_T: autoDraw = False
+1014.3676 	EXP 	ssDel_T: autoDraw = False
+1014.3676 	EXP 	llAm_T: autoDraw = False
+1014.3676 	EXP 	llDel_T: autoDraw = False
+1014.3676 	EXP 	textfbT: text = 'Elegiste no esperar'
+1014.3676 	EXP 	textfbT: autoDraw = True
+1017.3523 	EXP 	New trial (rep=0, index=18): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 125.0), (u'll_del', 4)])
+1017.3903 	EXP 	textfbT: autoDraw = False
+1017.3903 	EXP 	textfbT: autoDraw = False
+1017.3903 	EXP 	ssAm_T: text = u'$25 mil'
+1017.3903 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1017.3903 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1017.3903 	EXP 	llAm_T: text = u'$125 mil'
+1017.3903 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1017.3903 	EXP 	llDel_T: text = u'en 4 d\xedas'
+1017.3903 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1017.3903 	EXP 	preguntaT: autoDraw = True
+1017.3903 	EXP 	ssAm_T: autoDraw = True
+1017.3903 	EXP 	ssDel_T: autoDraw = True
+1017.3903 	EXP 	llAm_T: autoDraw = True
+1017.3903 	EXP 	llDel_T: autoDraw = True
+1020.1180 	DATA 	Keypress: left
+1020.1448 	EXP 	preguntaT: autoDraw = False
+1020.1448 	EXP 	ssAm_T: autoDraw = False
+1020.1448 	EXP 	ssDel_T: autoDraw = False
+1020.1448 	EXP 	llAm_T: autoDraw = False
+1020.1448 	EXP 	llDel_T: autoDraw = False
+1020.1448 	EXP 	textfbT: text = 'Elegiste esperar'
+1020.1448 	EXP 	textfbT: autoDraw = True
+1023.1179 	EXP 	New trial (rep=0, index=19): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 11)])
+1023.1557 	EXP 	textfbT: autoDraw = False
+1023.1557 	EXP 	textfbT: autoDraw = False
+1023.1557 	EXP 	ssAm_T: text = u'$25 mil'
+1023.1557 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1023.1557 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1023.1557 	EXP 	llAm_T: text = u'$55 mil'
+1023.1557 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1023.1557 	EXP 	llDel_T: text = u'en 11 d\xedas'
+1023.1557 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1023.1557 	EXP 	preguntaT: autoDraw = True
+1023.1557 	EXP 	ssAm_T: autoDraw = True
+1023.1557 	EXP 	ssDel_T: autoDraw = True
+1023.1557 	EXP 	llAm_T: autoDraw = True
+1023.1557 	EXP 	llDel_T: autoDraw = True
+1029.4639 	DATA 	Keypress: left
+1029.4807 	EXP 	preguntaT: autoDraw = False
+1029.4807 	EXP 	ssAm_T: autoDraw = False
+1029.4807 	EXP 	ssDel_T: autoDraw = False
+1029.4807 	EXP 	llAm_T: autoDraw = False
+1029.4807 	EXP 	llDel_T: autoDraw = False
+1029.4807 	EXP 	textfbT: text = 'Elegiste no esperar'
+1029.4807 	EXP 	textfbT: autoDraw = True
+1032.4662 	EXP 	New trial (rep=0, index=20): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 56.0), (u'll_del', 89)])
+1032.5078 	EXP 	textfbT: autoDraw = False
+1032.5078 	EXP 	textfbT: autoDraw = False
+1032.5078 	EXP 	ssAm_T: text = u'$5 mil'
+1032.5078 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1032.5078 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1032.5078 	EXP 	llAm_T: text = u'$56 mil'
+1032.5078 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1032.5078 	EXP 	llDel_T: text = u'en 89 d\xedas'
+1032.5078 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1032.5078 	EXP 	preguntaT: autoDraw = True
+1032.5078 	EXP 	ssAm_T: autoDraw = True
+1032.5078 	EXP 	ssDel_T: autoDraw = True
+1032.5078 	EXP 	llAm_T: autoDraw = True
+1032.5078 	EXP 	llDel_T: autoDraw = True
+1037.3808 	DATA 	Keypress: right
+1037.3965 	EXP 	preguntaT: autoDraw = False
+1037.3965 	EXP 	ssAm_T: autoDraw = False
+1037.3965 	EXP 	ssDel_T: autoDraw = False
+1037.3965 	EXP 	llAm_T: autoDraw = False
+1037.3965 	EXP 	llDel_T: autoDraw = False
+1037.3965 	EXP 	textfbT: text = 'Elegiste no esperar'
+1037.3965 	EXP 	textfbT: autoDraw = True
+1040.3814 	EXP 	New trial (rep=0, index=21): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 36.0), (u'll_del', 61)])
+1040.4170 	EXP 	textfbT: autoDraw = False
+1040.4170 	EXP 	textfbT: autoDraw = False
+1040.4170 	EXP 	ssAm_T: text = u'$5 mil'
+1040.4170 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1040.4170 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1040.4170 	EXP 	llAm_T: text = u'$36 mil'
+1040.4170 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1040.4170 	EXP 	llDel_T: text = u'en 61 d\xedas'
+1040.4170 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1040.4170 	EXP 	preguntaT: autoDraw = True
+1040.4170 	EXP 	ssAm_T: autoDraw = True
+1040.4170 	EXP 	ssDel_T: autoDraw = True
+1040.4170 	EXP 	llAm_T: autoDraw = True
+1040.4170 	EXP 	llDel_T: autoDraw = True
+1047.6951 	DATA 	Keypress: left
+1047.7110 	EXP 	preguntaT: autoDraw = False
+1047.7110 	EXP 	ssAm_T: autoDraw = False
+1047.7110 	EXP 	ssDel_T: autoDraw = False
+1047.7110 	EXP 	llAm_T: autoDraw = False
+1047.7110 	EXP 	llDel_T: autoDraw = False
+1047.7110 	EXP 	textfbT: text = 'Elegiste no esperar'
+1047.7110 	EXP 	textfbT: autoDraw = True
+1050.6960 	EXP 	New trial (rep=0, index=22): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 151.0), (u'll_del', 11)])
+1050.7387 	EXP 	textfbT: autoDraw = False
+1050.7387 	EXP 	textfbT: autoDraw = False
+1050.7387 	EXP 	ssAm_T: text = u'$10 mil'
+1050.7387 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1050.7387 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1050.7387 	EXP 	llAm_T: text = u'$151 mil'
+1050.7387 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1050.7387 	EXP 	llDel_T: text = u'en 11 d\xedas'
+1050.7387 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1050.7387 	EXP 	preguntaT: autoDraw = True
+1050.7387 	EXP 	ssAm_T: autoDraw = True
+1050.7387 	EXP 	ssDel_T: autoDraw = True
+1050.7387 	EXP 	llAm_T: autoDraw = True
+1050.7387 	EXP 	llDel_T: autoDraw = True
+1051.9622 	DATA 	Keypress: left
+1051.9906 	EXP 	preguntaT: autoDraw = False
+1051.9906 	EXP 	ssAm_T: autoDraw = False
+1051.9906 	EXP 	ssDel_T: autoDraw = False
+1051.9906 	EXP 	llAm_T: autoDraw = False
+1051.9906 	EXP 	llDel_T: autoDraw = False
+1051.9906 	EXP 	textfbT: text = 'Elegiste esperar'
+1051.9906 	EXP 	textfbT: autoDraw = True
+1054.9618 	EXP 	New trial (rep=0, index=23): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 15.0), (u'll_del', 91)])
+1055.0024 	EXP 	textfbT: autoDraw = False
+1055.0024 	EXP 	textfbT: autoDraw = False
+1055.0024 	EXP 	ssAm_T: text = u'$5 mil'
+1055.0024 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1055.0024 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1055.0024 	EXP 	llAm_T: text = u'$15 mil'
+1055.0024 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1055.0024 	EXP 	llDel_T: text = u'en 91 d\xedas'
+1055.0024 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1055.0024 	EXP 	preguntaT: autoDraw = True
+1055.0024 	EXP 	ssAm_T: autoDraw = True
+1055.0024 	EXP 	ssDel_T: autoDraw = True
+1055.0024 	EXP 	llAm_T: autoDraw = True
+1055.0024 	EXP 	llDel_T: autoDraw = True
+1057.3436 	DATA 	Keypress: right
+1057.3730 	EXP 	preguntaT: autoDraw = False
+1057.3730 	EXP 	ssAm_T: autoDraw = False
+1057.3730 	EXP 	ssDel_T: autoDraw = False
+1057.3730 	EXP 	llAm_T: autoDraw = False
+1057.3730 	EXP 	llDel_T: autoDraw = False
+1057.3730 	EXP 	textfbT: text = 'Elegiste no esperar'
+1057.3730 	EXP 	textfbT: autoDraw = True
+1060.3439 	EXP 	New trial (rep=0, index=24): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 21.0), (u'll_del', 31)])
+1060.3844 	EXP 	textfbT: autoDraw = False
+1060.3844 	EXP 	textfbT: autoDraw = False
+1060.3844 	EXP 	ssAm_T: text = u'$10 mil'
+1060.3844 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1060.3844 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1060.3844 	EXP 	llAm_T: text = u'$21 mil'
+1060.3844 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1060.3844 	EXP 	llDel_T: text = u'en 31 d\xedas'
+1060.3844 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1060.3844 	EXP 	preguntaT: autoDraw = True
+1060.3844 	EXP 	ssAm_T: autoDraw = True
+1060.3844 	EXP 	ssDel_T: autoDraw = True
+1060.3844 	EXP 	llAm_T: autoDraw = True
+1060.3844 	EXP 	llDel_T: autoDraw = True
+1062.2592 	DATA 	Keypress: right
+1062.2750 	EXP 	preguntaT: autoDraw = False
+1062.2750 	EXP 	ssAm_T: autoDraw = False
+1062.2750 	EXP 	ssDel_T: autoDraw = False
+1062.2750 	EXP 	llAm_T: autoDraw = False
+1062.2750 	EXP 	llDel_T: autoDraw = False
+1062.2750 	EXP 	textfbT: text = 'Elegiste no esperar'
+1062.2750 	EXP 	textfbT: autoDraw = True
+1065.2597 	EXP 	New trial (rep=0, index=25): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 16.0), (u'll_del', 4)])
+1065.3011 	EXP 	textfbT: autoDraw = False
+1065.3011 	EXP 	textfbT: autoDraw = False
+1065.3011 	EXP 	ssAm_T: text = u'$5 mil'
+1065.3011 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1065.3011 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1065.3011 	EXP 	llAm_T: text = u'$16 mil'
+1065.3011 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1065.3011 	EXP 	llDel_T: text = u'en 4 d\xedas'
+1065.3011 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1065.3011 	EXP 	preguntaT: autoDraw = True
+1065.3011 	EXP 	ssAm_T: autoDraw = True
+1065.3011 	EXP 	ssDel_T: autoDraw = True
+1065.3011 	EXP 	llAm_T: autoDraw = True
+1065.3011 	EXP 	llDel_T: autoDraw = True
+1071.3233 	DATA 	Keypress: left
+1071.3388 	EXP 	preguntaT: autoDraw = False
+1071.3388 	EXP 	ssAm_T: autoDraw = False
+1071.3388 	EXP 	ssDel_T: autoDraw = False
+1071.3388 	EXP 	llAm_T: autoDraw = False
+1071.3388 	EXP 	llDel_T: autoDraw = False
+1071.3388 	EXP 	textfbT: text = 'Elegiste no esperar'
+1071.3388 	EXP 	textfbT: autoDraw = True
+1074.3247 	EXP 	New trial (rep=0, index=26): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 61.0), (u'll_del', 89)])
+1074.3648 	EXP 	textfbT: autoDraw = False
+1074.3648 	EXP 	textfbT: autoDraw = False
+1074.3648 	EXP 	ssAm_T: text = u'$10 mil'
+1074.3648 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1074.3648 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1074.3648 	EXP 	llAm_T: text = u'$61 mil'
+1074.3648 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1074.3648 	EXP 	llDel_T: text = u'en 89 d\xedas'
+1074.3648 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1074.3648 	EXP 	preguntaT: autoDraw = True
+1074.3648 	EXP 	ssAm_T: autoDraw = True
+1074.3648 	EXP 	ssDel_T: autoDraw = True
+1074.3648 	EXP 	llAm_T: autoDraw = True
+1074.3648 	EXP 	llDel_T: autoDraw = True
+1092.3535 	DATA 	Keypress: left
+1092.3694 	EXP 	preguntaT: autoDraw = False
+1092.3694 	EXP 	ssAm_T: autoDraw = False
+1092.3694 	EXP 	ssDel_T: autoDraw = False
+1092.3694 	EXP 	llAm_T: autoDraw = False
+1092.3694 	EXP 	llDel_T: autoDraw = False
+1092.3694 	EXP 	textfbT: text = 'Elegiste no esperar'
+1092.3694 	EXP 	textfbT: autoDraw = True
+1095.3541 	EXP 	New trial (rep=0, index=27): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 4)])
+1095.3973 	EXP 	textfbT: autoDraw = False
+1095.3973 	EXP 	textfbT: autoDraw = False
+1095.3973 	EXP 	ssAm_T: text = u'$25 mil'
+1095.3973 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1095.3973 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1095.3973 	EXP 	llAm_T: text = u'$150 mil'
+1095.3973 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1095.3973 	EXP 	llDel_T: text = u'en 4 d\xedas'
+1095.3973 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1095.3973 	EXP 	preguntaT: autoDraw = True
+1095.3973 	EXP 	ssAm_T: autoDraw = True
+1095.3973 	EXP 	ssDel_T: autoDraw = True
+1095.3973 	EXP 	llAm_T: autoDraw = True
+1095.3973 	EXP 	llDel_T: autoDraw = True
+1097.1028 	DATA 	Keypress: right
+1097.1343 	EXP 	preguntaT: autoDraw = False
+1097.1343 	EXP 	ssAm_T: autoDraw = False
+1097.1343 	EXP 	ssDel_T: autoDraw = False
+1097.1343 	EXP 	llAm_T: autoDraw = False
+1097.1343 	EXP 	llDel_T: autoDraw = False
+1097.1343 	EXP 	textfbT: text = 'Elegiste esperar'
+1097.1343 	EXP 	textfbT: autoDraw = True
+1100.1033 	EXP 	New trial (rep=0, index=28): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 61)])
+1100.1328 	EXP 	textfbT: autoDraw = False
+1100.1328 	EXP 	textfbT: autoDraw = False
+1100.1328 	EXP 	ssAm_T: text = u'$25 mil'
+1100.1328 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1100.1328 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1100.1328 	EXP 	llAm_T: text = u'$150 mil'
+1100.1328 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1100.1328 	EXP 	llDel_T: text = u'en 61 d\xedas'
+1100.1328 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1100.1328 	EXP 	preguntaT: autoDraw = True
+1100.1328 	EXP 	ssAm_T: autoDraw = True
+1100.1328 	EXP 	ssDel_T: autoDraw = True
+1100.1328 	EXP 	llAm_T: autoDraw = True
+1100.1328 	EXP 	llDel_T: autoDraw = True
+1101.6499 	DATA 	Keypress: left
+1101.6670 	EXP 	preguntaT: autoDraw = False
+1101.6670 	EXP 	ssAm_T: autoDraw = False
+1101.6670 	EXP 	ssDel_T: autoDraw = False
+1101.6670 	EXP 	llAm_T: autoDraw = False
+1101.6670 	EXP 	llDel_T: autoDraw = False
+1101.6670 	EXP 	textfbT: text = 'Elegiste no esperar'
+1101.6670 	EXP 	textfbT: autoDraw = True
+1104.6523 	EXP 	New trial (rep=0, index=29): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 40.0), (u'll_del', 91)])
+1104.6971 	EXP 	textfbT: autoDraw = False
+1104.6971 	EXP 	textfbT: autoDraw = False
+1104.6971 	EXP 	ssAm_T: text = u'$10 mil'
+1104.6971 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1104.6971 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1104.6971 	EXP 	llAm_T: text = u'$40 mil'
+1104.6971 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1104.6971 	EXP 	llDel_T: text = u'en 91 d\xedas'
+1104.6971 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1104.6971 	EXP 	preguntaT: autoDraw = True
+1104.6971 	EXP 	ssAm_T: autoDraw = True
+1104.6971 	EXP 	ssDel_T: autoDraw = True
+1104.6971 	EXP 	llAm_T: autoDraw = True
+1104.6971 	EXP 	llDel_T: autoDraw = True
+1109.4373 	DATA 	Keypress: left
+1109.4668 	EXP 	preguntaT: autoDraw = False
+1109.4668 	EXP 	ssAm_T: autoDraw = False
+1109.4668 	EXP 	ssDel_T: autoDraw = False
+1109.4668 	EXP 	llAm_T: autoDraw = False
+1109.4668 	EXP 	llDel_T: autoDraw = False
+1109.4668 	EXP 	textfbT: text = 'Elegiste no esperar'
+1109.4668 	EXP 	textfbT: autoDraw = True
+1112.4509 	EXP 	New trial (rep=0, index=30): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 151)])
+1112.4945 	EXP 	textfbT: autoDraw = False
+1112.4945 	EXP 	textfbT: autoDraw = False
+1112.4945 	EXP 	ssAm_T: text = u'$25 mil'
+1112.4945 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1112.4945 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1112.4945 	EXP 	llAm_T: text = u'$55 mil'
+1112.4945 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1112.4945 	EXP 	llDel_T: text = u'en 151 d\xedas'
+1112.4945 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1112.4945 	EXP 	preguntaT: autoDraw = True
+1112.4945 	EXP 	ssAm_T: autoDraw = True
+1112.4945 	EXP 	ssDel_T: autoDraw = True
+1112.4945 	EXP 	llAm_T: autoDraw = True
+1112.4945 	EXP 	llDel_T: autoDraw = True
+1114.3861 	DATA 	Keypress: right
+1114.4158 	EXP 	preguntaT: autoDraw = False
+1114.4158 	EXP 	ssAm_T: autoDraw = False
+1114.4158 	EXP 	ssDel_T: autoDraw = False
+1114.4158 	EXP 	llAm_T: autoDraw = False
+1114.4158 	EXP 	llDel_T: autoDraw = False
+1114.4158 	EXP 	textfbT: text = 'Elegiste no esperar'
+1114.4158 	EXP 	textfbT: autoDraw = True
+1117.3998 	EXP 	New trial (rep=0, index=31): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 14.0), (u'll_del', 149)])
+1117.4388 	EXP 	textfbT: autoDraw = False
+1117.4388 	EXP 	textfbT: autoDraw = False
+1117.4388 	EXP 	ssAm_T: text = u'$5 mil'
+1117.4388 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1117.4388 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1117.4388 	EXP 	llAm_T: text = u'$14 mil'
+1117.4388 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1117.4388 	EXP 	llDel_T: text = u'en 149 d\xedas'
+1117.4388 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1117.4388 	EXP 	preguntaT: autoDraw = True
+1117.4388 	EXP 	ssAm_T: autoDraw = True
+1117.4388 	EXP 	ssDel_T: autoDraw = True
+1117.4388 	EXP 	llAm_T: autoDraw = True
+1117.4388 	EXP 	llDel_T: autoDraw = True
+1120.5149 	DATA 	Keypress: right
+1120.5313 	EXP 	preguntaT: autoDraw = False
+1120.5313 	EXP 	ssAm_T: autoDraw = False
+1120.5313 	EXP 	ssDel_T: autoDraw = False
+1120.5313 	EXP 	llAm_T: autoDraw = False
+1120.5313 	EXP 	llDel_T: autoDraw = False
+1120.5313 	EXP 	textfbT: text = 'Elegiste no esperar'
+1120.5313 	EXP 	textfbT: autoDraw = True
+1123.5154 	EXP 	New trial (rep=0, index=32): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 6)])
+1123.5517 	EXP 	textfbT: autoDraw = False
+1123.5517 	EXP 	textfbT: autoDraw = False
+1123.5517 	EXP 	ssAm_T: text = u'$5 mil'
+1123.5517 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1123.5517 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1123.5517 	EXP 	llAm_T: text = u'$35 mil'
+1123.5517 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1123.5517 	EXP 	llDel_T: text = u'en 6 d\xedas'
+1123.5517 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1123.5517 	EXP 	preguntaT: autoDraw = True
+1123.5517 	EXP 	ssAm_T: autoDraw = True
+1123.5517 	EXP 	ssDel_T: autoDraw = True
+1123.5517 	EXP 	llAm_T: autoDraw = True
+1123.5517 	EXP 	llDel_T: autoDraw = True
+1129.7334 	DATA 	Keypress: left
+1129.7750 	EXP 	preguntaT: autoDraw = False
+1129.7750 	EXP 	ssAm_T: autoDraw = False
+1129.7750 	EXP 	ssDel_T: autoDraw = False
+1129.7750 	EXP 	llAm_T: autoDraw = False
+1129.7750 	EXP 	llDel_T: autoDraw = False
+1129.7750 	EXP 	textfbT: text = 'Elegiste esperar'
+1129.7750 	EXP 	textfbT: autoDraw = True
+1132.7471 	EXP 	New trial (rep=0, index=33): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 111.0), (u'll_del', 30)])
+1132.7889 	EXP 	textfbT: autoDraw = False
+1132.7889 	EXP 	textfbT: autoDraw = False
+1132.7889 	EXP 	ssAm_T: text = u'$10 mil'
+1132.7889 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1132.7889 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1132.7889 	EXP 	llAm_T: text = u'$111 mil'
+1132.7889 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1132.7889 	EXP 	llDel_T: text = u'en 30 d\xedas'
+1132.7889 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1132.7889 	EXP 	preguntaT: autoDraw = True
+1132.7889 	EXP 	ssAm_T: autoDraw = True
+1132.7889 	EXP 	ssDel_T: autoDraw = True
+1132.7889 	EXP 	llAm_T: autoDraw = True
+1132.7889 	EXP 	llDel_T: autoDraw = True
+1134.1456 	DATA 	Keypress: right
+1134.1613 	EXP 	preguntaT: autoDraw = False
+1134.1613 	EXP 	ssAm_T: autoDraw = False
+1134.1613 	EXP 	ssDel_T: autoDraw = False
+1134.1613 	EXP 	llAm_T: autoDraw = False
+1134.1613 	EXP 	llDel_T: autoDraw = False
+1134.1613 	EXP 	textfbT: text = 'Elegiste esperar'
+1134.1613 	EXP 	textfbT: autoDraw = True
+1137.1462 	EXP 	New trial (rep=0, index=34): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 109.0), (u'll_del', 5)])
+1137.1824 	EXP 	textfbT: autoDraw = False
+1137.1824 	EXP 	textfbT: autoDraw = False
+1137.1824 	EXP 	ssAm_T: text = u'$10 mil'
+1137.1824 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1137.1824 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1137.1824 	EXP 	llAm_T: text = u'$109 mil'
+1137.1824 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1137.1824 	EXP 	llDel_T: text = u'en 5 d\xedas'
+1137.1824 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1137.1824 	EXP 	preguntaT: autoDraw = True
+1137.1824 	EXP 	ssAm_T: autoDraw = True
+1137.1824 	EXP 	ssDel_T: autoDraw = True
+1137.1824 	EXP 	llAm_T: autoDraw = True
+1137.1824 	EXP 	llDel_T: autoDraw = True
+1147.0467 	DATA 	Keypress: right
+1147.0756 	EXP 	preguntaT: autoDraw = False
+1147.0756 	EXP 	ssAm_T: autoDraw = False
+1147.0756 	EXP 	ssDel_T: autoDraw = False
+1147.0756 	EXP 	llAm_T: autoDraw = False
+1147.0756 	EXP 	llDel_T: autoDraw = False
+1147.0756 	EXP 	textfbT: text = 'Elegiste esperar'
+1147.0756 	EXP 	textfbT: autoDraw = True
+1150.0605 	EXP 	New trial (rep=0, index=35): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 29)])
+1150.1031 	EXP 	textfbT: autoDraw = False
+1150.1031 	EXP 	textfbT: autoDraw = False
+1150.1031 	EXP 	ssAm_T: text = u'$25 mil'
+1150.1031 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1150.1031 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1150.1031 	EXP 	llAm_T: text = u'$150 mil'
+1150.1031 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1150.1031 	EXP 	llDel_T: text = u'en 29 d\xedas'
+1150.1031 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1150.1031 	EXP 	preguntaT: autoDraw = True
+1150.1031 	EXP 	ssAm_T: autoDraw = True
+1150.1031 	EXP 	ssDel_T: autoDraw = True
+1150.1031 	EXP 	llAm_T: autoDraw = True
+1150.1031 	EXP 	llDel_T: autoDraw = True
+1152.8908 	DATA 	Keypress: right
+1152.9073 	EXP 	preguntaT: autoDraw = False
+1152.9073 	EXP 	ssAm_T: autoDraw = False
+1152.9073 	EXP 	ssDel_T: autoDraw = False
+1152.9073 	EXP 	llAm_T: autoDraw = False
+1152.9073 	EXP 	llDel_T: autoDraw = False
+1152.9073 	EXP 	textfbT: text = 'Elegiste esperar'
+1152.9073 	EXP 	textfbT: autoDraw = True
+1155.8925 	EXP 	New trial (rep=0, index=36): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 75.0), (u'll_del', 10)])
+1155.9309 	EXP 	textfbT: autoDraw = False
+1155.9309 	EXP 	textfbT: autoDraw = False
+1155.9309 	EXP 	ssAm_T: text = u'$25 mil'
+1155.9309 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1155.9309 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1155.9309 	EXP 	llAm_T: text = u'$75 mil'
+1155.9309 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1155.9309 	EXP 	llDel_T: text = u'en 10 d\xedas'
+1155.9309 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1155.9309 	EXP 	preguntaT: autoDraw = True
+1155.9309 	EXP 	ssAm_T: autoDraw = True
+1155.9309 	EXP 	ssDel_T: autoDraw = True
+1155.9309 	EXP 	llAm_T: autoDraw = True
+1155.9309 	EXP 	llDel_T: autoDraw = True
+1159.3407 	DATA 	Keypress: right
+1159.3564 	EXP 	preguntaT: autoDraw = False
+1159.3564 	EXP 	ssAm_T: autoDraw = False
+1159.3564 	EXP 	ssDel_T: autoDraw = False
+1159.3564 	EXP 	llAm_T: autoDraw = False
+1159.3564 	EXP 	llDel_T: autoDraw = False
+1159.3564 	EXP 	textfbT: text = 'Elegiste esperar'
+1159.3564 	EXP 	textfbT: autoDraw = True
+1162.3412 	EXP 	New trial (rep=0, index=37): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 56.0), (u'll_del', 29)])
+1162.3837 	EXP 	textfbT: autoDraw = False
+1162.3837 	EXP 	textfbT: autoDraw = False
+1162.3837 	EXP 	ssAm_T: text = u'$5 mil'
+1162.3837 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1162.3837 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1162.3837 	EXP 	llAm_T: text = u'$56 mil'
+1162.3837 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1162.3837 	EXP 	llDel_T: text = u'en 29 d\xedas'
+1162.3837 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1162.3837 	EXP 	preguntaT: autoDraw = True
+1162.3837 	EXP 	ssAm_T: autoDraw = True
+1162.3837 	EXP 	ssDel_T: autoDraw = True
+1162.3837 	EXP 	llAm_T: autoDraw = True
+1162.3837 	EXP 	llDel_T: autoDraw = True
+1167.0559 	DATA 	Keypress: left
+1167.0717 	EXP 	preguntaT: autoDraw = False
+1167.0717 	EXP 	ssAm_T: autoDraw = False
+1167.0717 	EXP 	ssDel_T: autoDraw = False
+1167.0717 	EXP 	llAm_T: autoDraw = False
+1167.0717 	EXP 	llDel_T: autoDraw = False
+1167.0717 	EXP 	textfbT: text = 'Elegiste esperar'
+1167.0717 	EXP 	textfbT: autoDraw = True
+1170.0565 	EXP 	New trial (rep=0, index=38): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 149.0), (u'll_del', 89)])
+1170.0992 	EXP 	textfbT: autoDraw = False
+1170.0992 	EXP 	textfbT: autoDraw = False
+1170.0992 	EXP 	ssAm_T: text = u'$10 mil'
+1170.0992 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1170.0992 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1170.0992 	EXP 	llAm_T: text = u'$149 mil'
+1170.0992 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1170.0992 	EXP 	llDel_T: text = u'en 89 d\xedas'
+1170.0992 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1170.0992 	EXP 	preguntaT: autoDraw = True
+1170.0992 	EXP 	ssAm_T: autoDraw = True
+1170.0992 	EXP 	ssDel_T: autoDraw = True
+1170.0992 	EXP 	llAm_T: autoDraw = True
+1170.0992 	EXP 	llDel_T: autoDraw = True
+1173.6380 	DATA 	Keypress: right
+1173.6678 	EXP 	preguntaT: autoDraw = False
+1173.6678 	EXP 	ssAm_T: autoDraw = False
+1173.6678 	EXP 	ssDel_T: autoDraw = False
+1173.6678 	EXP 	llAm_T: autoDraw = False
+1173.6678 	EXP 	llDel_T: autoDraw = False
+1173.6678 	EXP 	textfbT: text = 'Elegiste no esperar'
+1173.6678 	EXP 	textfbT: autoDraw = True
+1176.6386 	EXP 	New trial (rep=0, index=39): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 39.0), (u'll_del', 150)])
+1176.6766 	EXP 	textfbT: autoDraw = False
+1176.6766 	EXP 	textfbT: autoDraw = False
+1176.6766 	EXP 	ssAm_T: text = u'$10 mil'
+1176.6766 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1176.6766 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1176.6766 	EXP 	llAm_T: text = u'$39 mil'
+1176.6766 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1176.6766 	EXP 	llDel_T: text = u'en 150 d\xedas'
+1176.6766 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1176.6766 	EXP 	preguntaT: autoDraw = True
+1176.6766 	EXP 	ssAm_T: autoDraw = True
+1176.6766 	EXP 	ssDel_T: autoDraw = True
+1176.6766 	EXP 	llAm_T: autoDraw = True
+1176.6766 	EXP 	llDel_T: autoDraw = True
+1178.9567 	DATA 	Keypress: right
+1178.9860 	EXP 	preguntaT: autoDraw = False
+1178.9860 	EXP 	ssAm_T: autoDraw = False
+1178.9860 	EXP 	ssDel_T: autoDraw = False
+1178.9860 	EXP 	llAm_T: autoDraw = False
+1178.9860 	EXP 	llDel_T: autoDraw = False
+1178.9860 	EXP 	textfbT: text = 'Elegiste no esperar'
+1178.9860 	EXP 	textfbT: autoDraw = True
+1181.9707 	EXP 	New trial (rep=0, index=40): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 30)])
+1182.0148 	EXP 	textfbT: autoDraw = False
+1182.0148 	EXP 	textfbT: autoDraw = False
+1182.0148 	EXP 	ssAm_T: text = u'$25 mil'
+1182.0148 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1182.0148 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1182.0148 	EXP 	llAm_T: text = u'$35 mil'
+1182.0148 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1182.0148 	EXP 	llDel_T: text = u'en 30 d\xedas'
+1182.0148 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1182.0148 	EXP 	preguntaT: autoDraw = True
+1182.0148 	EXP 	ssAm_T: autoDraw = True
+1182.0148 	EXP 	ssDel_T: autoDraw = True
+1182.0148 	EXP 	llAm_T: autoDraw = True
+1182.0148 	EXP 	llDel_T: autoDraw = True
+1186.1524 	DATA 	Keypress: right
+1186.1682 	EXP 	preguntaT: autoDraw = False
+1186.1682 	EXP 	ssAm_T: autoDraw = False
+1186.1682 	EXP 	ssDel_T: autoDraw = False
+1186.1682 	EXP 	llAm_T: autoDraw = False
+1186.1682 	EXP 	llDel_T: autoDraw = False
+1186.1682 	EXP 	textfbT: text = 'Elegiste no esperar'
+1186.1682 	EXP 	textfbT: autoDraw = True
+1189.1530 	EXP 	New trial (rep=0, index=41): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 56.0), (u'll_del', 9)])
+1189.1957 	EXP 	textfbT: autoDraw = False
+1189.1957 	EXP 	textfbT: autoDraw = False
+1189.1957 	EXP 	ssAm_T: text = u'$5 mil'
+1189.1957 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1189.1957 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1189.1957 	EXP 	llAm_T: text = u'$56 mil'
+1189.1957 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1189.1957 	EXP 	llDel_T: text = u'en 9 d\xedas'
+1189.1957 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1189.1957 	EXP 	preguntaT: autoDraw = True
+1189.1957 	EXP 	ssAm_T: autoDraw = True
+1189.1957 	EXP 	ssDel_T: autoDraw = True
+1189.1957 	EXP 	llAm_T: autoDraw = True
+1189.1957 	EXP 	llDel_T: autoDraw = True
+1192.2548 	DATA 	Keypress: left
+1192.2958 	EXP 	preguntaT: autoDraw = False
+1192.2958 	EXP 	ssAm_T: autoDraw = False
+1192.2958 	EXP 	ssDel_T: autoDraw = False
+1192.2958 	EXP 	llAm_T: autoDraw = False
+1192.2958 	EXP 	llDel_T: autoDraw = False
+1192.2958 	EXP 	textfbT: text = 'Elegiste esperar'
+1192.2958 	EXP 	textfbT: autoDraw = True
+1195.2658 	EXP 	New trial (rep=0, index=42): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 150)])
+1195.2886 	EXP 	textfbT: autoDraw = False
+1195.2886 	EXP 	textfbT: autoDraw = False
+1195.2886 	EXP 	ssAm_T: text = u'$25 mil'
+1195.2886 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1195.2886 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1195.2886 	EXP 	llAm_T: text = u'$150 mil'
+1195.2886 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1195.2886 	EXP 	llDel_T: text = u'en 150 d\xedas'
+1195.2886 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1195.2886 	EXP 	preguntaT: autoDraw = True
+1195.2886 	EXP 	ssAm_T: autoDraw = True
+1195.2886 	EXP 	ssDel_T: autoDraw = True
+1195.2886 	EXP 	llAm_T: autoDraw = True
+1195.2886 	EXP 	llDel_T: autoDraw = True
+1197.7836 	DATA 	Keypress: left
+1197.8162 	EXP 	preguntaT: autoDraw = False
+1197.8162 	EXP 	ssAm_T: autoDraw = False
+1197.8162 	EXP 	ssDel_T: autoDraw = False
+1197.8162 	EXP 	llAm_T: autoDraw = False
+1197.8162 	EXP 	llDel_T: autoDraw = False
+1197.8162 	EXP 	textfbT: text = 'Elegiste no esperar'
+1197.8162 	EXP 	textfbT: autoDraw = True
+1200.7840 	EXP 	New trial (rep=0, index=43): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 20.0), (u'll_del', 90)])
+1200.8285 	EXP 	textfbT: autoDraw = False
+1200.8285 	EXP 	textfbT: autoDraw = False
+1200.8285 	EXP 	ssAm_T: text = u'$10 mil'
+1200.8285 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1200.8285 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1200.8285 	EXP 	llAm_T: text = u'$20 mil'
+1200.8285 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1200.8285 	EXP 	llDel_T: text = u'en 90 d\xedas'
+1200.8285 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1200.8285 	EXP 	preguntaT: autoDraw = True
+1200.8285 	EXP 	ssAm_T: autoDraw = True
+1200.8285 	EXP 	ssDel_T: autoDraw = True
+1200.8285 	EXP 	llAm_T: autoDraw = True
+1200.8285 	EXP 	llDel_T: autoDraw = True
+1202.0828 	DATA 	Keypress: right
+1202.0985 	EXP 	preguntaT: autoDraw = False
+1202.0985 	EXP 	ssAm_T: autoDraw = False
+1202.0985 	EXP 	ssDel_T: autoDraw = False
+1202.0985 	EXP 	llAm_T: autoDraw = False
+1202.0985 	EXP 	llDel_T: autoDraw = False
+1202.0985 	EXP 	textfbT: text = 'Elegiste no esperar'
+1202.0985 	EXP 	textfbT: autoDraw = True
+1205.0832 	EXP 	New trial (rep=0, index=44): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 149.0), (u'll_del', 59)])
+1205.1280 	EXP 	textfbT: autoDraw = False
+1205.1280 	EXP 	textfbT: autoDraw = False
+1205.1280 	EXP 	ssAm_T: text = u'$5 mil'
+1205.1280 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1205.1280 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1205.1280 	EXP 	llAm_T: text = u'$149 mil'
+1205.1280 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1205.1280 	EXP 	llDel_T: text = u'en 59 d\xedas'
+1205.1280 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1205.1280 	EXP 	preguntaT: autoDraw = True
+1205.1280 	EXP 	ssAm_T: autoDraw = True
+1205.1280 	EXP 	ssDel_T: autoDraw = True
+1205.1280 	EXP 	llAm_T: autoDraw = True
+1205.1280 	EXP 	llDel_T: autoDraw = True
+1210.5316 	DATA 	Keypress: right
+1210.5469 	EXP 	preguntaT: autoDraw = False
+1210.5469 	EXP 	ssAm_T: autoDraw = False
+1210.5469 	EXP 	ssDel_T: autoDraw = False
+1210.5469 	EXP 	llAm_T: autoDraw = False
+1210.5469 	EXP 	llDel_T: autoDraw = False
+1210.5469 	EXP 	textfbT: text = 'Elegiste no esperar'
+1210.5469 	EXP 	textfbT: autoDraw = True
+1213.5315 	EXP 	New trial (rep=0, index=45): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 111.0), (u'll_del', 10)])
+1213.5729 	EXP 	textfbT: autoDraw = False
+1213.5729 	EXP 	textfbT: autoDraw = False
+1213.5729 	EXP 	ssAm_T: text = u'$10 mil'
+1213.5729 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1213.5729 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1213.5729 	EXP 	llAm_T: text = u'$111 mil'
+1213.5729 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1213.5729 	EXP 	llDel_T: text = u'en 10 d\xedas'
+1213.5729 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1213.5729 	EXP 	preguntaT: autoDraw = True
+1213.5729 	EXP 	ssAm_T: autoDraw = True
+1213.5729 	EXP 	ssDel_T: autoDraw = True
+1213.5729 	EXP 	llAm_T: autoDraw = True
+1213.5729 	EXP 	llDel_T: autoDraw = True
+1214.6469 	DATA 	Keypress: right
+1214.6751 	EXP 	preguntaT: autoDraw = False
+1214.6751 	EXP 	ssAm_T: autoDraw = False
+1214.6751 	EXP 	ssDel_T: autoDraw = False
+1214.6751 	EXP 	llAm_T: autoDraw = False
+1214.6751 	EXP 	llDel_T: autoDraw = False
+1214.6751 	EXP 	textfbT: text = 'Elegiste esperar'
+1214.6751 	EXP 	textfbT: autoDraw = True
+1217.6474 	EXP 	New trial (rep=0, index=46): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 90)])
+1217.6926 	EXP 	textfbT: autoDraw = False
+1217.6926 	EXP 	textfbT: autoDraw = False
+1217.6926 	EXP 	ssAm_T: text = u'$25 mil'
+1217.6926 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1217.6926 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1217.6926 	EXP 	llAm_T: text = u'$35 mil'
+1217.6926 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1217.6926 	EXP 	llDel_T: text = u'en 90 d\xedas'
+1217.6926 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1217.6926 	EXP 	preguntaT: autoDraw = True
+1217.6926 	EXP 	ssAm_T: autoDraw = True
+1217.6926 	EXP 	ssDel_T: autoDraw = True
+1217.6926 	EXP 	llAm_T: autoDraw = True
+1217.6926 	EXP 	llDel_T: autoDraw = True
+1220.3960 	DATA 	Keypress: left
+1220.4302 	EXP 	preguntaT: autoDraw = False
+1220.4302 	EXP 	ssAm_T: autoDraw = False
+1220.4302 	EXP 	ssDel_T: autoDraw = False
+1220.4302 	EXP 	llAm_T: autoDraw = False
+1220.4302 	EXP 	llDel_T: autoDraw = False
+1220.4302 	EXP 	textfbT: text = 'Elegiste no esperar'
+1220.4302 	EXP 	textfbT: autoDraw = True
+1223.3964 	EXP 	New trial (rep=0, index=47): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 14.0), (u'll_del', 31)])
+1223.4384 	EXP 	textfbT: autoDraw = False
+1223.4384 	EXP 	textfbT: autoDraw = False
+1223.4384 	EXP 	ssAm_T: text = u'$5 mil'
+1223.4384 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1223.4384 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1223.4384 	EXP 	llAm_T: text = u'$14 mil'
+1223.4384 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1223.4384 	EXP 	llDel_T: text = u'en 31 d\xedas'
+1223.4384 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1223.4384 	EXP 	preguntaT: autoDraw = True
+1223.4384 	EXP 	ssAm_T: autoDraw = True
+1223.4384 	EXP 	ssDel_T: autoDraw = True
+1223.4384 	EXP 	llAm_T: autoDraw = True
+1223.4384 	EXP 	llDel_T: autoDraw = True
+1229.6615 	DATA 	Keypress: right
+1229.6771 	EXP 	preguntaT: autoDraw = False
+1229.6771 	EXP 	ssAm_T: autoDraw = False
+1229.6771 	EXP 	ssDel_T: autoDraw = False
+1229.6771 	EXP 	llAm_T: autoDraw = False
+1229.6771 	EXP 	llDel_T: autoDraw = False
+1229.6771 	EXP 	textfbT: text = 'Elegiste no esperar'
+1229.6771 	EXP 	textfbT: autoDraw = True
+1232.6613 	EXP 	New trial (rep=0, index=48): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 56.0), (u'll_del', 60)])
+1232.6972 	EXP 	textfbT: autoDraw = False
+1232.6972 	EXP 	textfbT: autoDraw = False
+1232.6972 	EXP 	ssAm_T: text = u'$5 mil'
+1232.6972 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1232.6972 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1232.6972 	EXP 	llAm_T: text = u'$56 mil'
+1232.6972 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1232.6972 	EXP 	llDel_T: text = u'en 60 d\xedas'
+1232.6972 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1232.6972 	EXP 	preguntaT: autoDraw = True
+1232.6972 	EXP 	ssAm_T: autoDraw = True
+1232.6972 	EXP 	ssDel_T: autoDraw = True
+1232.6972 	EXP 	llAm_T: autoDraw = True
+1232.6972 	EXP 	llDel_T: autoDraw = True
+1234.5753 	DATA 	Keypress: right
+1234.5922 	EXP 	preguntaT: autoDraw = False
+1234.5922 	EXP 	ssAm_T: autoDraw = False
+1234.5922 	EXP 	ssDel_T: autoDraw = False
+1234.5922 	EXP 	llAm_T: autoDraw = False
+1234.5922 	EXP 	llDel_T: autoDraw = False
+1234.5922 	EXP 	textfbT: text = 'Elegiste no esperar'
+1234.5922 	EXP 	textfbT: autoDraw = True
+1237.5770 	EXP 	New trial (rep=0, index=49): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 125.0), (u'll_del', 59)])
+1237.6184 	EXP 	textfbT: autoDraw = False
+1237.6184 	EXP 	textfbT: autoDraw = False
+1237.6184 	EXP 	ssAm_T: text = u'$25 mil'
+1237.6184 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1237.6184 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1237.6184 	EXP 	llAm_T: text = u'$125 mil'
+1237.6184 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1237.6184 	EXP 	llDel_T: text = u'en 59 d\xedas'
+1237.6184 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1237.6184 	EXP 	preguntaT: autoDraw = True
+1237.6184 	EXP 	ssAm_T: autoDraw = True
+1237.6184 	EXP 	ssDel_T: autoDraw = True
+1237.6184 	EXP 	llAm_T: autoDraw = True
+1237.6184 	EXP 	llDel_T: autoDraw = True
+1241.8079 	DATA 	Keypress: right
+1241.8240 	EXP 	preguntaT: autoDraw = False
+1241.8240 	EXP 	ssAm_T: autoDraw = False
+1241.8240 	EXP 	ssDel_T: autoDraw = False
+1241.8240 	EXP 	llAm_T: autoDraw = False
+1241.8240 	EXP 	llDel_T: autoDraw = False
+1241.8240 	EXP 	textfbT: text = 'Elegiste no esperar'
+1241.8240 	EXP 	textfbT: autoDraw = True
+1244.8090 	EXP 	New trial (rep=0, index=50): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 36.0), (u'll_del', 9)])
+1244.8514 	EXP 	textfbT: autoDraw = False
+1244.8514 	EXP 	textfbT: autoDraw = False
+1244.8514 	EXP 	ssAm_T: text = u'$5 mil'
+1244.8514 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1244.8514 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1244.8514 	EXP 	llAm_T: text = u'$36 mil'
+1244.8514 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1244.8514 	EXP 	llDel_T: text = u'en 9 d\xedas'
+1244.8514 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1244.8514 	EXP 	preguntaT: autoDraw = True
+1244.8514 	EXP 	ssAm_T: autoDraw = True
+1244.8514 	EXP 	ssDel_T: autoDraw = True
+1244.8514 	EXP 	llAm_T: autoDraw = True
+1244.8514 	EXP 	llDel_T: autoDraw = True
+1249.1575 	DATA 	Keypress: right
+1249.1859 	EXP 	preguntaT: autoDraw = False
+1249.1859 	EXP 	ssAm_T: autoDraw = False
+1249.1859 	EXP 	ssDel_T: autoDraw = False
+1249.1859 	EXP 	llAm_T: autoDraw = False
+1249.1859 	EXP 	llDel_T: autoDraw = False
+1249.1859 	EXP 	textfbT: text = 'Elegiste esperar'
+1249.1859 	EXP 	textfbT: autoDraw = True
+1252.1575 	EXP 	New trial (rep=0, index=51): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 30)])
+1252.1987 	EXP 	textfbT: autoDraw = False
+1252.1987 	EXP 	textfbT: autoDraw = False
+1252.1987 	EXP 	ssAm_T: text = u'$10 mil'
+1252.1987 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1252.1987 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1252.1987 	EXP 	llAm_T: text = u'$150 mil'
+1252.1987 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1252.1987 	EXP 	llDel_T: text = u'en 30 d\xedas'
+1252.1987 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1252.1987 	EXP 	preguntaT: autoDraw = True
+1252.1987 	EXP 	ssAm_T: autoDraw = True
+1252.1987 	EXP 	ssDel_T: autoDraw = True
+1252.1987 	EXP 	llAm_T: autoDraw = True
+1252.1987 	EXP 	llDel_T: autoDraw = True
+1254.0727 	DATA 	Keypress: right
+1254.0891 	EXP 	preguntaT: autoDraw = False
+1254.0891 	EXP 	ssAm_T: autoDraw = False
+1254.0891 	EXP 	ssDel_T: autoDraw = False
+1254.0891 	EXP 	llAm_T: autoDraw = False
+1254.0891 	EXP 	llDel_T: autoDraw = False
+1254.0891 	EXP 	textfbT: text = 'Elegiste esperar'
+1254.0891 	EXP 	textfbT: autoDraw = True
+1257.0733 	EXP 	New trial (rep=0, index=52): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 39.0), (u'll_del', 59)])
+1257.1112 	EXP 	textfbT: autoDraw = False
+1257.1112 	EXP 	textfbT: autoDraw = False
+1257.1112 	EXP 	ssAm_T: text = u'$10 mil'
+1257.1112 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1257.1112 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1257.1112 	EXP 	llAm_T: text = u'$39 mil'
+1257.1112 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1257.1112 	EXP 	llDel_T: text = u'en 59 d\xedas'
+1257.1112 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1257.1112 	EXP 	preguntaT: autoDraw = True
+1257.1112 	EXP 	ssAm_T: autoDraw = True
+1257.1112 	EXP 	ssDel_T: autoDraw = True
+1257.1112 	EXP 	llAm_T: autoDraw = True
+1257.1112 	EXP 	llDel_T: autoDraw = True
+1261.8379 	DATA 	Keypress: left
+1261.8675 	EXP 	preguntaT: autoDraw = False
+1261.8675 	EXP 	ssAm_T: autoDraw = False
+1261.8675 	EXP 	ssDel_T: autoDraw = False
+1261.8675 	EXP 	llAm_T: autoDraw = False
+1261.8675 	EXP 	llDel_T: autoDraw = False
+1261.8675 	EXP 	textfbT: text = 'Elegiste no esperar'
+1261.8675 	EXP 	textfbT: autoDraw = True
+1264.8380 	EXP 	New trial (rep=0, index=53): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 60)])
+1264.8724 	EXP 	textfbT: autoDraw = False
+1264.8724 	EXP 	textfbT: autoDraw = False
+1264.8724 	EXP 	ssAm_T: text = u'$25 mil'
+1264.8724 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1264.8724 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1264.8724 	EXP 	llAm_T: text = u'$35 mil'
+1264.8724 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1264.8724 	EXP 	llDel_T: text = u'en 60 d\xedas'
+1264.8724 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1264.8724 	EXP 	preguntaT: autoDraw = True
+1264.8724 	EXP 	ssAm_T: autoDraw = True
+1264.8724 	EXP 	ssDel_T: autoDraw = True
+1264.8724 	EXP 	llAm_T: autoDraw = True
+1264.8724 	EXP 	llDel_T: autoDraw = True
+1266.8539 	DATA 	Keypress: left
+1266.8862 	EXP 	preguntaT: autoDraw = False
+1266.8862 	EXP 	ssAm_T: autoDraw = False
+1266.8862 	EXP 	ssDel_T: autoDraw = False
+1266.8862 	EXP 	llAm_T: autoDraw = False
+1266.8862 	EXP 	llDel_T: autoDraw = False
+1266.8862 	EXP 	textfbT: text = 'Elegiste no esperar'
+1266.8862 	EXP 	textfbT: autoDraw = True
+1269.8707 	EXP 	New trial (rep=0, index=54): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 9)])
+1269.9067 	EXP 	textfbT: autoDraw = False
+1269.9067 	EXP 	textfbT: autoDraw = False
+1269.9067 	EXP 	ssAm_T: text = u'$25 mil'
+1269.9067 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1269.9067 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1269.9067 	EXP 	llAm_T: text = u'$150 mil'
+1269.9067 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1269.9067 	EXP 	llDel_T: text = u'en 9 d\xedas'
+1269.9067 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1269.9067 	EXP 	preguntaT: autoDraw = True
+1269.9067 	EXP 	ssAm_T: autoDraw = True
+1269.9067 	EXP 	ssDel_T: autoDraw = True
+1269.9067 	EXP 	llAm_T: autoDraw = True
+1269.9067 	EXP 	llDel_T: autoDraw = True
+1270.9862 	DATA 	Keypress: left
+1271.0155 	EXP 	preguntaT: autoDraw = False
+1271.0155 	EXP 	ssAm_T: autoDraw = False
+1271.0155 	EXP 	ssDel_T: autoDraw = False
+1271.0155 	EXP 	llAm_T: autoDraw = False
+1271.0155 	EXP 	llDel_T: autoDraw = False
+1271.0155 	EXP 	textfbT: text = 'Elegiste esperar'
+1271.0155 	EXP 	textfbT: autoDraw = True
+1273.9867 	EXP 	New trial (rep=0, index=55): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 75.0), (u'll_del', 90)])
+1274.0219 	EXP 	textfbT: autoDraw = False
+1274.0219 	EXP 	textfbT: autoDraw = False
+1274.0219 	EXP 	ssAm_T: text = u'$25 mil'
+1274.0219 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1274.0219 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1274.0219 	EXP 	llAm_T: text = u'$75 mil'
+1274.0219 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1274.0219 	EXP 	llDel_T: text = u'en 90 d\xedas'
+1274.0219 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1274.0219 	EXP 	preguntaT: autoDraw = True
+1274.0219 	EXP 	ssAm_T: autoDraw = True
+1274.0219 	EXP 	ssDel_T: autoDraw = True
+1274.0219 	EXP 	llAm_T: autoDraw = True
+1274.0219 	EXP 	llDel_T: autoDraw = True
+1277.8052 	DATA 	Keypress: left
+1277.8473 	EXP 	preguntaT: autoDraw = False
+1277.8473 	EXP 	ssAm_T: autoDraw = False
+1277.8473 	EXP 	ssDel_T: autoDraw = False
+1277.8473 	EXP 	llAm_T: autoDraw = False
+1277.8473 	EXP 	llDel_T: autoDraw = False
+1277.8473 	EXP 	textfbT: text = 'Elegiste no esperar'
+1277.8473 	EXP 	textfbT: autoDraw = True
+1280.8187 	EXP 	New trial (rep=0, index=56): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 10.01), (u'll_del', 150)])
+1280.8630 	EXP 	textfbT: autoDraw = False
+1280.8630 	EXP 	textfbT: autoDraw = False
+1280.8630 	EXP 	ssAm_T: text = u'$10 mil'
+1280.8630 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1280.8630 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1280.8630 	EXP 	llAm_T: text = u'$10 mil'
+1280.8630 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1280.8630 	EXP 	llDel_T: text = u'en 150 d\xedas'
+1280.8630 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1280.8630 	EXP 	preguntaT: autoDraw = True
+1280.8630 	EXP 	ssAm_T: autoDraw = True
+1280.8630 	EXP 	ssDel_T: autoDraw = True
+1280.8630 	EXP 	llAm_T: autoDraw = True
+1280.8630 	EXP 	llDel_T: autoDraw = True
+1284.6496 	DATA 	Keypress: left
+1284.6657 	EXP 	preguntaT: autoDraw = False
+1284.6657 	EXP 	ssAm_T: autoDraw = False
+1284.6657 	EXP 	ssDel_T: autoDraw = False
+1284.6657 	EXP 	llAm_T: autoDraw = False
+1284.6657 	EXP 	llDel_T: autoDraw = False
+1284.6657 	EXP 	textfbT: text = 'Elegiste no esperar'
+1284.6657 	EXP 	textfbT: autoDraw = True
+1287.6519 	EXP 	New trial (rep=0, index=57): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 61.0), (u'll_del', 4)])
+1287.6868 	EXP 	textfbT: autoDraw = False
+1287.6868 	EXP 	textfbT: autoDraw = False
+1287.6868 	EXP 	ssAm_T: text = u'$10 mil'
+1287.6868 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1287.6868 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1287.6868 	EXP 	llAm_T: text = u'$61 mil'
+1287.6868 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1287.6868 	EXP 	llDel_T: text = u'en 4 d\xedas'
+1287.6868 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1287.6868 	EXP 	preguntaT: autoDraw = True
+1287.6868 	EXP 	ssAm_T: autoDraw = True
+1287.6868 	EXP 	ssDel_T: autoDraw = True
+1287.6868 	EXP 	llAm_T: autoDraw = True
+1287.6868 	EXP 	llDel_T: autoDraw = True
+1292.5993 	DATA 	Keypress: left
+1292.6301 	EXP 	preguntaT: autoDraw = False
+1292.6301 	EXP 	ssAm_T: autoDraw = False
+1292.6301 	EXP 	ssDel_T: autoDraw = False
+1292.6301 	EXP 	llAm_T: autoDraw = False
+1292.6301 	EXP 	llDel_T: autoDraw = False
+1292.6301 	EXP 	textfbT: text = 'Elegiste esperar'
+1292.6301 	EXP 	textfbT: autoDraw = True
+1295.5993 	EXP 	New trial (rep=0, index=58): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 31)])
+1295.6417 	EXP 	textfbT: autoDraw = False
+1295.6417 	EXP 	textfbT: autoDraw = False
+1295.6417 	EXP 	ssAm_T: text = u'$5 mil'
+1295.6417 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1295.6417 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1295.6417 	EXP 	llAm_T: text = u'$35 mil'
+1295.6417 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1295.6417 	EXP 	llDel_T: text = u'en 31 d\xedas'
+1295.6417 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1295.6417 	EXP 	preguntaT: autoDraw = True
+1295.6417 	EXP 	ssAm_T: autoDraw = True
+1295.6417 	EXP 	ssDel_T: autoDraw = True
+1295.6417 	EXP 	llAm_T: autoDraw = True
+1295.6417 	EXP 	llDel_T: autoDraw = True
+1302.3635 	DATA 	Keypress: right
+1302.3932 	EXP 	preguntaT: autoDraw = False
+1302.3932 	EXP 	ssAm_T: autoDraw = False
+1302.3932 	EXP 	ssDel_T: autoDraw = False
+1302.3932 	EXP 	llAm_T: autoDraw = False
+1302.3932 	EXP 	llDel_T: autoDraw = False
+1302.3932 	EXP 	textfbT: text = 'Elegiste no esperar'
+1302.3932 	EXP 	textfbT: autoDraw = True
+1305.3646 	EXP 	New trial (rep=0, index=59): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 104.0), (u'll_del', 10)])
+1305.4019 	EXP 	textfbT: autoDraw = False
+1305.4019 	EXP 	textfbT: autoDraw = False
+1305.4019 	EXP 	ssAm_T: text = u'$5 mil'
+1305.4019 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1305.4019 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1305.4019 	EXP 	llAm_T: text = u'$104 mil'
+1305.4019 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1305.4019 	EXP 	llDel_T: text = u'en 10 d\xedas'
+1305.4019 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1305.4019 	EXP 	preguntaT: autoDraw = True
+1305.4019 	EXP 	ssAm_T: autoDraw = True
+1305.4019 	EXP 	ssDel_T: autoDraw = True
+1305.4019 	EXP 	llAm_T: autoDraw = True
+1305.4019 	EXP 	llDel_T: autoDraw = True
+1306.6805 	DATA 	Keypress: left
+1306.7107 	EXP 	preguntaT: autoDraw = False
+1306.7107 	EXP 	ssAm_T: autoDraw = False
+1306.7107 	EXP 	ssDel_T: autoDraw = False
+1306.7107 	EXP 	llAm_T: autoDraw = False
+1306.7107 	EXP 	llDel_T: autoDraw = False
+1306.7107 	EXP 	textfbT: text = 'Elegiste esperar'
+1306.7107 	EXP 	textfbT: autoDraw = True
+1309.6799 	EXP 	New trial (rep=0, index=60): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 149.0), (u'll_del', 61)])
+1309.7237 	EXP 	textfbT: autoDraw = False
+1309.7237 	EXP 	textfbT: autoDraw = False
+1309.7237 	EXP 	ssAm_T: text = u'$10 mil'
+1309.7237 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1309.7237 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1309.7237 	EXP 	llAm_T: text = u'$149 mil'
+1309.7237 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1309.7237 	EXP 	llDel_T: text = u'en 61 d\xedas'
+1309.7237 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1309.7237 	EXP 	preguntaT: autoDraw = True
+1309.7237 	EXP 	ssAm_T: autoDraw = True
+1309.7237 	EXP 	ssDel_T: autoDraw = True
+1309.7237 	EXP 	llAm_T: autoDraw = True
+1309.7237 	EXP 	llDel_T: autoDraw = True
+1312.5116 	DATA 	Keypress: right
+1312.5422 	EXP 	preguntaT: autoDraw = False
+1312.5422 	EXP 	ssAm_T: autoDraw = False
+1312.5422 	EXP 	ssDel_T: autoDraw = False
+1312.5422 	EXP 	llAm_T: autoDraw = False
+1312.5422 	EXP 	llDel_T: autoDraw = False
+1312.5422 	EXP 	textfbT: text = 'Elegiste no esperar'
+1312.5422 	EXP 	textfbT: autoDraw = True
+1315.5122 	EXP 	New trial (rep=0, index=61): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 106.0), (u'll_del', 152)])
+1315.5538 	EXP 	textfbT: autoDraw = False
+1315.5538 	EXP 	textfbT: autoDraw = False
+1315.5538 	EXP 	ssAm_T: text = u'$5 mil'
+1315.5538 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1315.5538 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1315.5538 	EXP 	llAm_T: text = u'$106 mil'
+1315.5538 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1315.5538 	EXP 	llDel_T: text = u'en 152 d\xedas'
+1315.5538 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1315.5538 	EXP 	preguntaT: autoDraw = True
+1315.5538 	EXP 	ssAm_T: autoDraw = True
+1315.5538 	EXP 	ssDel_T: autoDraw = True
+1315.5538 	EXP 	llAm_T: autoDraw = True
+1315.5538 	EXP 	llDel_T: autoDraw = True
+1317.6442 	DATA 	Keypress: right
+1317.6598 	EXP 	preguntaT: autoDraw = False
+1317.6598 	EXP 	ssAm_T: autoDraw = False
+1317.6598 	EXP 	ssDel_T: autoDraw = False
+1317.6598 	EXP 	llAm_T: autoDraw = False
+1317.6598 	EXP 	llDel_T: autoDraw = False
+1317.6598 	EXP 	textfbT: text = 'Elegiste no esperar'
+1317.6598 	EXP 	textfbT: autoDraw = True
+1320.6445 	EXP 	New trial (rep=0, index=62): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 39.0), (u'll_del', 29)])
+1320.6873 	EXP 	textfbT: autoDraw = False
+1320.6873 	EXP 	textfbT: autoDraw = False
+1320.6873 	EXP 	ssAm_T: text = u'$10 mil'
+1320.6873 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1320.6873 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1320.6873 	EXP 	llAm_T: text = u'$39 mil'
+1320.6873 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1320.6873 	EXP 	llDel_T: text = u'en 29 d\xedas'
+1320.6873 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1320.6873 	EXP 	preguntaT: autoDraw = True
+1320.6873 	EXP 	ssAm_T: autoDraw = True
+1320.6873 	EXP 	ssDel_T: autoDraw = True
+1320.6873 	EXP 	llAm_T: autoDraw = True
+1320.6873 	EXP 	llDel_T: autoDraw = True
+1324.8090 	DATA 	Keypress: right
+1324.8254 	EXP 	preguntaT: autoDraw = False
+1324.8254 	EXP 	ssAm_T: autoDraw = False
+1324.8254 	EXP 	ssDel_T: autoDraw = False
+1324.8254 	EXP 	llAm_T: autoDraw = False
+1324.8254 	EXP 	llDel_T: autoDraw = False
+1324.8254 	EXP 	textfbT: text = 'Elegiste no esperar'
+1324.8254 	EXP 	textfbT: autoDraw = True
+1327.8099 	EXP 	New trial (rep=0, index=63): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 75.0), (u'll_del', 151)])
+1327.8547 	EXP 	textfbT: autoDraw = False
+1327.8547 	EXP 	textfbT: autoDraw = False
+1327.8547 	EXP 	ssAm_T: text = u'$25 mil'
+1327.8547 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1327.8547 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1327.8547 	EXP 	llAm_T: text = u'$75 mil'
+1327.8547 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1327.8547 	EXP 	llDel_T: text = u'en 151 d\xedas'
+1327.8547 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1327.8547 	EXP 	preguntaT: autoDraw = True
+1327.8547 	EXP 	ssAm_T: autoDraw = True
+1327.8547 	EXP 	ssDel_T: autoDraw = True
+1327.8547 	EXP 	llAm_T: autoDraw = True
+1327.8547 	EXP 	llDel_T: autoDraw = True
+1329.5920 	DATA 	Keypress: right
+1329.6239 	EXP 	preguntaT: autoDraw = False
+1329.6239 	EXP 	ssAm_T: autoDraw = False
+1329.6239 	EXP 	ssDel_T: autoDraw = False
+1329.6239 	EXP 	llAm_T: autoDraw = False
+1329.6239 	EXP 	llDel_T: autoDraw = False
+1329.6239 	EXP 	textfbT: text = 'Elegiste no esperar'
+1329.6239 	EXP 	textfbT: autoDraw = True
+1332.6090 	EXP 	New trial (rep=0, index=64): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 110.0), (u'll_del', 60)])
+1332.6527 	EXP 	textfbT: autoDraw = False
+1332.6527 	EXP 	textfbT: autoDraw = False
+1332.6527 	EXP 	ssAm_T: text = u'$10 mil'
+1332.6527 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1332.6527 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1332.6527 	EXP 	llAm_T: text = u'$110 mil'
+1332.6527 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1332.6527 	EXP 	llDel_T: text = u'en 60 d\xedas'
+1332.6527 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1332.6527 	EXP 	preguntaT: autoDraw = True
+1332.6527 	EXP 	ssAm_T: autoDraw = True
+1332.6527 	EXP 	ssDel_T: autoDraw = True
+1332.6527 	EXP 	llAm_T: autoDraw = True
+1332.6527 	EXP 	llDel_T: autoDraw = True
+1335.9576 	DATA 	Keypress: right
+1335.9736 	EXP 	preguntaT: autoDraw = False
+1335.9736 	EXP 	ssAm_T: autoDraw = False
+1335.9736 	EXP 	ssDel_T: autoDraw = False
+1335.9736 	EXP 	llAm_T: autoDraw = False
+1335.9736 	EXP 	llDel_T: autoDraw = False
+1335.9736 	EXP 	textfbT: text = 'Elegiste no esperar'
+1335.9736 	EXP 	textfbT: autoDraw = True
+1338.9576 	EXP 	New trial (rep=0, index=65): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 150)])
+1339.0441 	EXP 	textfbT: autoDraw = False
+1339.0441 	EXP 	textfbT: autoDraw = False
+1339.0441 	EXP 	ssAm_T: text = u'$25 mil'
+1339.0441 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1339.0441 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1339.0441 	EXP 	llAm_T: text = u'$35 mil'
+1339.0441 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1339.0441 	EXP 	llDel_T: text = u'en 150 d\xedas'
+1339.0441 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1339.0441 	EXP 	preguntaT: autoDraw = True
+1339.0441 	EXP 	ssAm_T: autoDraw = True
+1339.0441 	EXP 	ssDel_T: autoDraw = True
+1339.0441 	EXP 	llAm_T: autoDraw = True
+1339.0441 	EXP 	llDel_T: autoDraw = True
+1340.9597 	DATA 	Keypress: right
+1340.9887 	EXP 	preguntaT: autoDraw = False
+1340.9887 	EXP 	ssAm_T: autoDraw = False
+1340.9887 	EXP 	ssDel_T: autoDraw = False
+1340.9887 	EXP 	llAm_T: autoDraw = False
+1340.9887 	EXP 	llDel_T: autoDraw = False
+1340.9887 	EXP 	textfbT: text = 'Elegiste no esperar'
+1340.9887 	EXP 	textfbT: autoDraw = True
+1343.9735 	EXP 	New trial (rep=0, index=66): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 60.0), (u'll_del', 29)])
+1344.0098 	EXP 	textfbT: autoDraw = False
+1344.0098 	EXP 	textfbT: autoDraw = False
+1344.0098 	EXP 	ssAm_T: text = u'$10 mil'
+1344.0098 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1344.0098 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1344.0098 	EXP 	llAm_T: text = u'$60 mil'
+1344.0098 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1344.0098 	EXP 	llDel_T: text = u'en 29 d\xedas'
+1344.0098 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1344.0098 	EXP 	preguntaT: autoDraw = True
+1344.0098 	EXP 	ssAm_T: autoDraw = True
+1344.0098 	EXP 	ssDel_T: autoDraw = True
+1344.0098 	EXP 	llAm_T: autoDraw = True
+1344.0098 	EXP 	llDel_T: autoDraw = True
+1346.0720 	DATA 	Keypress: left
+1346.0877 	EXP 	preguntaT: autoDraw = False
+1346.0877 	EXP 	ssAm_T: autoDraw = False
+1346.0877 	EXP 	ssDel_T: autoDraw = False
+1346.0877 	EXP 	llAm_T: autoDraw = False
+1346.0877 	EXP 	llDel_T: autoDraw = False
+1346.0877 	EXP 	textfbT: text = 'Elegiste no esperar'
+1346.0877 	EXP 	textfbT: autoDraw = True
+1349.0725 	EXP 	New trial (rep=0, index=67): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 150)])
+1349.1175 	EXP 	textfbT: autoDraw = False
+1349.1175 	EXP 	textfbT: autoDraw = False
+1349.1175 	EXP 	ssAm_T: text = u'$5 mil'
+1349.1175 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1349.1175 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1349.1175 	EXP 	llAm_T: text = u'$35 mil'
+1349.1175 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1349.1175 	EXP 	llDel_T: text = u'en 150 d\xedas'
+1349.1175 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1349.1175 	EXP 	preguntaT: autoDraw = True
+1349.1175 	EXP 	ssAm_T: autoDraw = True
+1349.1175 	EXP 	ssDel_T: autoDraw = True
+1349.1175 	EXP 	llAm_T: autoDraw = True
+1349.1175 	EXP 	llDel_T: autoDraw = True
+1350.3217 	DATA 	Keypress: right
+1350.3375 	EXP 	preguntaT: autoDraw = False
+1350.3375 	EXP 	ssAm_T: autoDraw = False
+1350.3375 	EXP 	ssDel_T: autoDraw = False
+1350.3375 	EXP 	llAm_T: autoDraw = False
+1350.3375 	EXP 	llDel_T: autoDraw = False
+1350.3375 	EXP 	textfbT: text = 'Elegiste no esperar'
+1350.3375 	EXP 	textfbT: autoDraw = True
+1353.3213 	EXP 	New trial (rep=0, index=68): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 75.0), (u'll_del', 5)])
+1353.3659 	EXP 	textfbT: autoDraw = False
+1353.3659 	EXP 	textfbT: autoDraw = False
+1353.3659 	EXP 	ssAm_T: text = u'$25 mil'
+1353.3659 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1353.3659 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1353.3659 	EXP 	llAm_T: text = u'$75 mil'
+1353.3659 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1353.3659 	EXP 	llDel_T: text = u'en 5 d\xedas'
+1353.3659 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1353.3659 	EXP 	preguntaT: autoDraw = True
+1353.3659 	EXP 	ssAm_T: autoDraw = True
+1353.3659 	EXP 	ssDel_T: autoDraw = True
+1353.3659 	EXP 	llAm_T: autoDraw = True
+1353.3659 	EXP 	llDel_T: autoDraw = True
+1355.6535 	DATA 	Keypress: right
+1355.6848 	EXP 	preguntaT: autoDraw = False
+1355.6848 	EXP 	ssAm_T: autoDraw = False
+1355.6848 	EXP 	ssDel_T: autoDraw = False
+1355.6848 	EXP 	llAm_T: autoDraw = False
+1355.6848 	EXP 	llDel_T: autoDraw = False
+1355.6848 	EXP 	textfbT: text = 'Elegiste esperar'
+1355.6848 	EXP 	textfbT: autoDraw = True
+1358.6538 	EXP 	New trial (rep=0, index=69): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 75.0), (u'll_del', 31)])
+1358.6826 	EXP 	textfbT: autoDraw = False
+1358.6826 	EXP 	textfbT: autoDraw = False
+1358.6826 	EXP 	ssAm_T: text = u'$25 mil'
+1358.6826 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1358.6826 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1358.6826 	EXP 	llAm_T: text = u'$75 mil'
+1358.6826 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1358.6826 	EXP 	llDel_T: text = u'en 31 d\xedas'
+1358.6826 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1358.6826 	EXP 	preguntaT: autoDraw = True
+1358.6826 	EXP 	ssAm_T: autoDraw = True
+1358.6826 	EXP 	ssDel_T: autoDraw = True
+1358.6826 	EXP 	llAm_T: autoDraw = True
+1358.6826 	EXP 	llDel_T: autoDraw = True
+1360.0864 	DATA 	Keypress: right
+1360.1171 	EXP 	preguntaT: autoDraw = False
+1360.1171 	EXP 	ssAm_T: autoDraw = False
+1360.1171 	EXP 	ssDel_T: autoDraw = False
+1360.1171 	EXP 	llAm_T: autoDraw = False
+1360.1171 	EXP 	llDel_T: autoDraw = False
+1360.1171 	EXP 	textfbT: text = 'Elegiste no esperar'
+1360.1171 	EXP 	textfbT: autoDraw = True
+1363.0864 	EXP 	New trial (rep=0, index=70): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 19.0), (u'll_del', 11)])
+1363.1274 	EXP 	textfbT: autoDraw = False
+1363.1274 	EXP 	textfbT: autoDraw = False
+1363.1274 	EXP 	ssAm_T: text = u'$10 mil'
+1363.1274 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1363.1274 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1363.1274 	EXP 	llAm_T: text = u'$19 mil'
+1363.1274 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1363.1274 	EXP 	llDel_T: text = u'en 11 d\xedas'
+1363.1274 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1363.1274 	EXP 	preguntaT: autoDraw = True
+1363.1274 	EXP 	ssAm_T: autoDraw = True
+1363.1274 	EXP 	ssDel_T: autoDraw = True
+1363.1274 	EXP 	llAm_T: autoDraw = True
+1363.1274 	EXP 	llDel_T: autoDraw = True
+1374.4005 	DATA 	Keypress: right
+1374.4162 	EXP 	preguntaT: autoDraw = False
+1374.4162 	EXP 	ssAm_T: autoDraw = False
+1374.4162 	EXP 	ssDel_T: autoDraw = False
+1374.4162 	EXP 	llAm_T: autoDraw = False
+1374.4162 	EXP 	llDel_T: autoDraw = False
+1374.4162 	EXP 	textfbT: text = 'Elegiste no esperar'
+1374.4162 	EXP 	textfbT: autoDraw = True
+1377.4007 	EXP 	New trial (rep=0, index=71): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 151)])
+1377.4439 	EXP 	textfbT: autoDraw = False
+1377.4439 	EXP 	textfbT: autoDraw = False
+1377.4439 	EXP 	ssAm_T: text = u'$5 mil'
+1377.4439 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1377.4439 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1377.4439 	EXP 	llAm_T: text = u'$55 mil'
+1377.4439 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1377.4439 	EXP 	llDel_T: text = u'en 151 d\xedas'
+1377.4439 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1377.4439 	EXP 	preguntaT: autoDraw = True
+1377.4439 	EXP 	ssAm_T: autoDraw = True
+1377.4439 	EXP 	ssDel_T: autoDraw = True
+1377.4439 	EXP 	llAm_T: autoDraw = True
+1377.4439 	EXP 	llDel_T: autoDraw = True
+1378.7694 	DATA 	Keypress: right
+1378.7983 	EXP 	preguntaT: autoDraw = False
+1378.7983 	EXP 	ssAm_T: autoDraw = False
+1378.7983 	EXP 	ssDel_T: autoDraw = False
+1378.7983 	EXP 	llAm_T: autoDraw = False
+1378.7983 	EXP 	llDel_T: autoDraw = False
+1378.7983 	EXP 	textfbT: text = 'Elegiste no esperar'
+1378.7983 	EXP 	textfbT: autoDraw = True
+1381.7828 	EXP 	New trial (rep=0, index=72): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 30)])
+1381.8208 	EXP 	textfbT: autoDraw = False
+1381.8208 	EXP 	textfbT: autoDraw = False
+1381.8208 	EXP 	ssAm_T: text = u'$25 mil'
+1381.8208 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1381.8208 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1381.8208 	EXP 	llAm_T: text = u'$55 mil'
+1381.8208 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1381.8208 	EXP 	llDel_T: text = u'en 30 d\xedas'
+1381.8208 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1381.8208 	EXP 	preguntaT: autoDraw = True
+1381.8208 	EXP 	ssAm_T: autoDraw = True
+1381.8208 	EXP 	ssDel_T: autoDraw = True
+1381.8208 	EXP 	llAm_T: autoDraw = True
+1381.8208 	EXP 	llDel_T: autoDraw = True
+1383.3148 	DATA 	Keypress: right
+1383.3306 	EXP 	preguntaT: autoDraw = False
+1383.3306 	EXP 	ssAm_T: autoDraw = False
+1383.3306 	EXP 	ssDel_T: autoDraw = False
+1383.3306 	EXP 	llAm_T: autoDraw = False
+1383.3306 	EXP 	llDel_T: autoDraw = False
+1383.3306 	EXP 	textfbT: text = 'Elegiste no esperar'
+1383.3306 	EXP 	textfbT: autoDraw = True
+1386.3154 	EXP 	New trial (rep=0, index=73): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 125.0), (u'll_del', 9)])
+1386.3371 	EXP 	textfbT: autoDraw = False
+1386.3371 	EXP 	textfbT: autoDraw = False
+1386.3371 	EXP 	ssAm_T: text = u'$25 mil'
+1386.3371 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1386.3371 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1386.3371 	EXP 	llAm_T: text = u'$125 mil'
+1386.3371 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1386.3371 	EXP 	llDel_T: text = u'en 9 d\xedas'
+1386.3371 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1386.3371 	EXP 	preguntaT: autoDraw = True
+1386.3371 	EXP 	ssAm_T: autoDraw = True
+1386.3371 	EXP 	ssDel_T: autoDraw = True
+1386.3371 	EXP 	llAm_T: autoDraw = True
+1386.3371 	EXP 	llDel_T: autoDraw = True
+1390.9308 	DATA 	Keypress: right
+1390.9469 	EXP 	preguntaT: autoDraw = False
+1390.9469 	EXP 	ssAm_T: autoDraw = False
+1390.9469 	EXP 	ssDel_T: autoDraw = False
+1390.9469 	EXP 	llAm_T: autoDraw = False
+1390.9469 	EXP 	llDel_T: autoDraw = False
+1390.9469 	EXP 	textfbT: text = 'Elegiste esperar'
+1390.9469 	EXP 	textfbT: autoDraw = True
+1393.9307 	EXP 	New trial (rep=0, index=74): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 90)])
+1393.9657 	EXP 	textfbT: autoDraw = False
+1393.9657 	EXP 	textfbT: autoDraw = False
+1393.9657 	EXP 	ssAm_T: text = u'$25 mil'
+1393.9657 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1393.9657 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1393.9657 	EXP 	llAm_T: text = u'$55 mil'
+1393.9657 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1393.9657 	EXP 	llDel_T: text = u'en 90 d\xedas'
+1393.9657 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1393.9657 	EXP 	preguntaT: autoDraw = True
+1393.9657 	EXP 	ssAm_T: autoDraw = True
+1393.9657 	EXP 	ssDel_T: autoDraw = True
+1393.9657 	EXP 	llAm_T: autoDraw = True
+1393.9657 	EXP 	llDel_T: autoDraw = True
+1396.9623 	DATA 	Keypress: left
+1396.9938 	EXP 	preguntaT: autoDraw = False
+1396.9938 	EXP 	ssAm_T: autoDraw = False
+1396.9938 	EXP 	ssDel_T: autoDraw = False
+1396.9938 	EXP 	llAm_T: autoDraw = False
+1396.9938 	EXP 	llDel_T: autoDraw = False
+1396.9938 	EXP 	textfbT: text = 'Elegiste no esperar'
+1396.9938 	EXP 	textfbT: autoDraw = True
+1399.9629 	EXP 	New trial (rep=0, index=75): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 6)])
+1399.9787 	EXP 	textfbT: autoDraw = False
+1399.9787 	EXP 	textfbT: autoDraw = False
+1399.9787 	EXP 	ssAm_T: text = u'$25 mil'
+1399.9787 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1399.9787 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1399.9787 	EXP 	llAm_T: text = u'$55 mil'
+1399.9787 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1399.9787 	EXP 	llDel_T: text = u'en 6 d\xedas'
+1399.9787 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1399.9787 	EXP 	preguntaT: autoDraw = True
+1399.9787 	EXP 	ssAm_T: autoDraw = True
+1399.9787 	EXP 	ssDel_T: autoDraw = True
+1399.9787 	EXP 	llAm_T: autoDraw = True
+1399.9787 	EXP 	llDel_T: autoDraw = True
+1407.9767 	DATA 	Keypress: right
+1407.9926 	EXP 	preguntaT: autoDraw = False
+1407.9926 	EXP 	ssAm_T: autoDraw = False
+1407.9926 	EXP 	ssDel_T: autoDraw = False
+1407.9926 	EXP 	llAm_T: autoDraw = False
+1407.9926 	EXP 	llDel_T: autoDraw = False
+1407.9926 	EXP 	textfbT: text = 'Elegiste no esperar'
+1407.9926 	EXP 	textfbT: autoDraw = True
+1408.1940 	DATA 	Keypress: right
+1410.9767 	EXP 	New trial (rep=0, index=76): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 125.0), (u'll_del', 89)])
+1410.9980 	EXP 	textfbT: autoDraw = False
+1410.9980 	EXP 	textfbT: autoDraw = False
+1410.9980 	EXP 	ssAm_T: text = u'$25 mil'
+1410.9980 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1410.9980 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1410.9980 	EXP 	llAm_T: text = u'$125 mil'
+1410.9980 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1410.9980 	EXP 	llDel_T: text = u'en 89 d\xedas'
+1410.9980 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1410.9980 	EXP 	preguntaT: autoDraw = True
+1410.9980 	EXP 	ssAm_T: autoDraw = True
+1410.9980 	EXP 	ssDel_T: autoDraw = True
+1410.9980 	EXP 	llAm_T: autoDraw = True
+1410.9980 	EXP 	llDel_T: autoDraw = True
+1412.6265 	DATA 	Keypress: right
+1412.6418 	EXP 	preguntaT: autoDraw = False
+1412.6418 	EXP 	ssAm_T: autoDraw = False
+1412.6418 	EXP 	ssDel_T: autoDraw = False
+1412.6418 	EXP 	llAm_T: autoDraw = False
+1412.6418 	EXP 	llDel_T: autoDraw = False
+1412.6418 	EXP 	textfbT: text = 'Elegiste no esperar'
+1412.6418 	EXP 	textfbT: autoDraw = True
+1415.6264 	EXP 	New trial (rep=0, index=77): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 20.0), (u'll_del', 59)])
+1415.6644 	EXP 	textfbT: autoDraw = False
+1415.6644 	EXP 	textfbT: autoDraw = False
+1415.6644 	EXP 	ssAm_T: text = u'$10 mil'
+1415.6644 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1415.6644 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1415.6644 	EXP 	llAm_T: text = u'$20 mil'
+1415.6644 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1415.6644 	EXP 	llDel_T: text = u'en 59 d\xedas'
+1415.6644 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1415.6644 	EXP 	preguntaT: autoDraw = True
+1415.6644 	EXP 	ssAm_T: autoDraw = True
+1415.6644 	EXP 	ssDel_T: autoDraw = True
+1415.6644 	EXP 	llAm_T: autoDraw = True
+1415.6644 	EXP 	llDel_T: autoDraw = True
+1416.9583 	DATA 	Keypress: right
+1416.9742 	EXP 	preguntaT: autoDraw = False
+1416.9742 	EXP 	ssAm_T: autoDraw = False
+1416.9742 	EXP 	ssDel_T: autoDraw = False
+1416.9742 	EXP 	llAm_T: autoDraw = False
+1416.9742 	EXP 	llDel_T: autoDraw = False
+1416.9742 	EXP 	textfbT: text = 'Elegiste no esperar'
+1416.9742 	EXP 	textfbT: autoDraw = True
+1419.9571 	EXP 	New trial (rep=0, index=78): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 15.0), (u'll_del', 11)])
+1419.9801 	EXP 	textfbT: autoDraw = False
+1419.9801 	EXP 	textfbT: autoDraw = False
+1419.9801 	EXP 	ssAm_T: text = u'$5 mil'
+1419.9801 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1419.9801 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1419.9801 	EXP 	llAm_T: text = u'$15 mil'
+1419.9801 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1419.9801 	EXP 	llDel_T: text = u'en 11 d\xedas'
+1419.9801 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1419.9801 	EXP 	preguntaT: autoDraw = True
+1419.9801 	EXP 	ssAm_T: autoDraw = True
+1419.9801 	EXP 	ssDel_T: autoDraw = True
+1419.9801 	EXP 	llAm_T: autoDraw = True
+1419.9801 	EXP 	llDel_T: autoDraw = True
+1422.3276 	DATA 	Keypress: right
+1422.3565 	EXP 	preguntaT: autoDraw = False
+1422.3565 	EXP 	ssAm_T: autoDraw = False
+1422.3565 	EXP 	ssDel_T: autoDraw = False
+1422.3565 	EXP 	llAm_T: autoDraw = False
+1422.3565 	EXP 	llDel_T: autoDraw = False
+1422.3565 	EXP 	textfbT: text = 'Elegiste no esperar'
+1422.3565 	EXP 	textfbT: autoDraw = True
+1425.3411 	EXP 	New trial (rep=0, index=79): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 105.0), (u'll_del', 60)])
+1425.3781 	EXP 	textfbT: autoDraw = False
+1425.3781 	EXP 	textfbT: autoDraw = False
+1425.3781 	EXP 	ssAm_T: text = u'$5 mil'
+1425.3781 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1425.3781 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1425.3781 	EXP 	llAm_T: text = u'$105 mil'
+1425.3781 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1425.3781 	EXP 	llDel_T: text = u'en 60 d\xedas'
+1425.3781 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1425.3781 	EXP 	preguntaT: autoDraw = True
+1425.3781 	EXP 	ssAm_T: autoDraw = True
+1425.3781 	EXP 	ssDel_T: autoDraw = True
+1425.3781 	EXP 	llAm_T: autoDraw = True
+1425.3781 	EXP 	llDel_T: autoDraw = True
+1435.7550 	DATA 	Keypress: left
+1435.7706 	EXP 	preguntaT: autoDraw = False
+1435.7706 	EXP 	ssAm_T: autoDraw = False
+1435.7706 	EXP 	ssDel_T: autoDraw = False
+1435.7706 	EXP 	llAm_T: autoDraw = False
+1435.7706 	EXP 	llDel_T: autoDraw = False
+1435.7706 	EXP 	textfbT: text = 'Elegiste no esperar'
+1435.7706 	EXP 	textfbT: autoDraw = True
+1438.7556 	EXP 	New trial (rep=0, index=80): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 150.0), (u'll_del', 89)])
+1438.7994 	EXP 	textfbT: autoDraw = False
+1438.7994 	EXP 	textfbT: autoDraw = False
+1438.7994 	EXP 	ssAm_T: text = u'$25 mil'
+1438.7994 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1438.7994 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1438.7994 	EXP 	llAm_T: text = u'$150 mil'
+1438.7994 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1438.7994 	EXP 	llDel_T: text = u'en 89 d\xedas'
+1438.7994 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1438.7994 	EXP 	preguntaT: autoDraw = True
+1438.7994 	EXP 	ssAm_T: autoDraw = True
+1438.7994 	EXP 	ssDel_T: autoDraw = True
+1438.7994 	EXP 	llAm_T: autoDraw = True
+1438.7994 	EXP 	llDel_T: autoDraw = True
+1440.8706 	DATA 	Keypress: left
+1440.8871 	EXP 	preguntaT: autoDraw = False
+1440.8871 	EXP 	ssAm_T: autoDraw = False
+1440.8871 	EXP 	ssDel_T: autoDraw = False
+1440.8871 	EXP 	llAm_T: autoDraw = False
+1440.8871 	EXP 	llDel_T: autoDraw = False
+1440.8871 	EXP 	textfbT: text = 'Elegiste no esperar'
+1440.8871 	EXP 	textfbT: autoDraw = True
+1443.8712 	EXP 	New trial (rep=0, index=81): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 20.0), (u'll_del', 5)])
+1443.9138 	EXP 	textfbT: autoDraw = False
+1443.9138 	EXP 	textfbT: autoDraw = False
+1443.9138 	EXP 	ssAm_T: text = u'$10 mil'
+1443.9138 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1443.9138 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1443.9138 	EXP 	llAm_T: text = u'$20 mil'
+1443.9138 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1443.9138 	EXP 	llDel_T: text = u'en 5 d\xedas'
+1443.9138 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1443.9138 	EXP 	preguntaT: autoDraw = True
+1443.9138 	EXP 	ssAm_T: autoDraw = True
+1443.9138 	EXP 	ssDel_T: autoDraw = True
+1443.9138 	EXP 	llAm_T: autoDraw = True
+1443.9138 	EXP 	llDel_T: autoDraw = True
+1449.8849 	DATA 	Keypress: left
+1449.9013 	EXP 	preguntaT: autoDraw = False
+1449.9013 	EXP 	ssAm_T: autoDraw = False
+1449.9013 	EXP 	ssDel_T: autoDraw = False
+1449.9013 	EXP 	llAm_T: autoDraw = False
+1449.9013 	EXP 	llDel_T: autoDraw = False
+1449.9013 	EXP 	textfbT: text = 'Elegiste no esperar'
+1449.9013 	EXP 	textfbT: autoDraw = True
+1452.8862 	EXP 	New trial (rep=0, index=82): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 40.0), (u'll_del', 10)])
+1452.9228 	EXP 	textfbT: autoDraw = False
+1452.9228 	EXP 	textfbT: autoDraw = False
+1452.9228 	EXP 	ssAm_T: text = u'$10 mil'
+1452.9228 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1452.9228 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1452.9228 	EXP 	llAm_T: text = u'$40 mil'
+1452.9228 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1452.9228 	EXP 	llDel_T: text = u'en 10 d\xedas'
+1452.9228 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1452.9228 	EXP 	preguntaT: autoDraw = True
+1452.9228 	EXP 	ssAm_T: autoDraw = True
+1452.9228 	EXP 	ssDel_T: autoDraw = True
+1452.9228 	EXP 	llAm_T: autoDraw = True
+1452.9228 	EXP 	llDel_T: autoDraw = True
+1455.3679 	DATA 	Keypress: right
+1455.3941 	EXP 	preguntaT: autoDraw = False
+1455.3941 	EXP 	ssAm_T: autoDraw = False
+1455.3941 	EXP 	ssDel_T: autoDraw = False
+1455.3941 	EXP 	llAm_T: autoDraw = False
+1455.3941 	EXP 	llDel_T: autoDraw = False
+1455.3941 	EXP 	textfbT: text = 'Elegiste esperar'
+1455.3941 	EXP 	textfbT: autoDraw = True
+1458.3683 	EXP 	New trial (rep=0, index=83): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 109.0), (u'll_del', 149)])
+1458.4040 	EXP 	textfbT: autoDraw = False
+1458.4040 	EXP 	textfbT: autoDraw = False
+1458.4040 	EXP 	ssAm_T: text = u'$10 mil'
+1458.4040 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1458.4040 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1458.4040 	EXP 	llAm_T: text = u'$109 mil'
+1458.4040 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1458.4040 	EXP 	llDel_T: text = u'en 149 d\xedas'
+1458.4040 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1458.4040 	EXP 	preguntaT: autoDraw = True
+1458.4040 	EXP 	ssAm_T: autoDraw = True
+1458.4040 	EXP 	ssDel_T: autoDraw = True
+1458.4040 	EXP 	llAm_T: autoDraw = True
+1458.4040 	EXP 	llDel_T: autoDraw = True
+1460.3002 	DATA 	Keypress: right
+1460.3296 	EXP 	preguntaT: autoDraw = False
+1460.3296 	EXP 	ssAm_T: autoDraw = False
+1460.3296 	EXP 	ssDel_T: autoDraw = False
+1460.3296 	EXP 	llAm_T: autoDraw = False
+1460.3296 	EXP 	llDel_T: autoDraw = False
+1460.3296 	EXP 	textfbT: text = 'Elegiste no esperar'
+1460.3296 	EXP 	textfbT: autoDraw = True
+1463.3007 	EXP 	New trial (rep=0, index=84): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 15.0), (u'll_del', 61)])
+1463.3392 	EXP 	textfbT: autoDraw = False
+1463.3392 	EXP 	textfbT: autoDraw = False
+1463.3392 	EXP 	ssAm_T: text = u'$5 mil'
+1463.3392 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1463.3392 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1463.3392 	EXP 	llAm_T: text = u'$15 mil'
+1463.3392 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1463.3392 	EXP 	llDel_T: text = u'en 61 d\xedas'
+1463.3392 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1463.3392 	EXP 	preguntaT: autoDraw = True
+1463.3392 	EXP 	ssAm_T: autoDraw = True
+1463.3392 	EXP 	ssDel_T: autoDraw = True
+1463.3392 	EXP 	llAm_T: autoDraw = True
+1463.3392 	EXP 	llDel_T: autoDraw = True
+1466.5155 	DATA 	Keypress: right
+1466.5322 	EXP 	preguntaT: autoDraw = False
+1466.5322 	EXP 	ssAm_T: autoDraw = False
+1466.5322 	EXP 	ssDel_T: autoDraw = False
+1466.5322 	EXP 	llAm_T: autoDraw = False
+1466.5322 	EXP 	llDel_T: autoDraw = False
+1466.5322 	EXP 	textfbT: text = 'Elegiste no esperar'
+1466.5322 	EXP 	textfbT: autoDraw = True
+1469.5163 	EXP 	New trial (rep=0, index=85): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 35.0), (u'll_del', 11)])
+1469.5575 	EXP 	textfbT: autoDraw = False
+1469.5575 	EXP 	textfbT: autoDraw = False
+1469.5575 	EXP 	ssAm_T: text = u'$25 mil'
+1469.5575 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1469.5575 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1469.5575 	EXP 	llAm_T: text = u'$35 mil'
+1469.5575 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1469.5575 	EXP 	llDel_T: text = u'en 11 d\xedas'
+1469.5575 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1469.5575 	EXP 	preguntaT: autoDraw = True
+1469.5575 	EXP 	ssAm_T: autoDraw = True
+1469.5575 	EXP 	ssDel_T: autoDraw = True
+1469.5575 	EXP 	llAm_T: autoDraw = True
+1469.5575 	EXP 	llDel_T: autoDraw = True
+1471.1814 	DATA 	Keypress: right
+1471.1973 	EXP 	preguntaT: autoDraw = False
+1471.1973 	EXP 	ssAm_T: autoDraw = False
+1471.1973 	EXP 	ssDel_T: autoDraw = False
+1471.1973 	EXP 	llAm_T: autoDraw = False
+1471.1973 	EXP 	llDel_T: autoDraw = False
+1471.1973 	EXP 	textfbT: text = 'Elegiste no esperar'
+1471.1973 	EXP 	textfbT: autoDraw = True
+1474.1821 	EXP 	New trial (rep=0, index=86): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 75.0), (u'll_del', 59)])
+1474.2176 	EXP 	textfbT: autoDraw = False
+1474.2176 	EXP 	textfbT: autoDraw = False
+1474.2176 	EXP 	ssAm_T: text = u'$25 mil'
+1474.2176 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1474.2176 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1474.2176 	EXP 	llAm_T: text = u'$75 mil'
+1474.2176 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1474.2176 	EXP 	llDel_T: text = u'en 59 d\xedas'
+1474.2176 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1474.2176 	EXP 	preguntaT: autoDraw = True
+1474.2176 	EXP 	ssAm_T: autoDraw = True
+1474.2176 	EXP 	ssDel_T: autoDraw = True
+1474.2176 	EXP 	llAm_T: autoDraw = True
+1474.2176 	EXP 	llDel_T: autoDraw = True
+1476.0638 	DATA 	Keypress: right
+1476.0797 	EXP 	preguntaT: autoDraw = False
+1476.0797 	EXP 	ssAm_T: autoDraw = False
+1476.0797 	EXP 	ssDel_T: autoDraw = False
+1476.0797 	EXP 	llAm_T: autoDraw = False
+1476.0797 	EXP 	llDel_T: autoDraw = False
+1476.0797 	EXP 	textfbT: text = 'Elegiste no esperar'
+1476.0797 	EXP 	textfbT: autoDraw = True
+1479.0645 	EXP 	New trial (rep=0, index=87): OrderedDict([(u'ss_am', 25), (u'ss_del', 0), (u'll_am', 55.0), (u'll_del', 60)])
+1479.1029 	EXP 	textfbT: autoDraw = False
+1479.1029 	EXP 	textfbT: autoDraw = False
+1479.1029 	EXP 	ssAm_T: text = u'$25 mil'
+1479.1029 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1479.1029 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1479.1029 	EXP 	llAm_T: text = u'$55 mil'
+1479.1029 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1479.1029 	EXP 	llDel_T: text = u'en 60 d\xedas'
+1479.1029 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1479.1029 	EXP 	preguntaT: autoDraw = True
+1479.1029 	EXP 	ssAm_T: autoDraw = True
+1479.1029 	EXP 	ssDel_T: autoDraw = True
+1479.1029 	EXP 	llAm_T: autoDraw = True
+1479.1029 	EXP 	llDel_T: autoDraw = True
+1480.4137 	DATA 	Keypress: right
+1480.4294 	EXP 	preguntaT: autoDraw = False
+1480.4294 	EXP 	ssAm_T: autoDraw = False
+1480.4294 	EXP 	ssDel_T: autoDraw = False
+1480.4294 	EXP 	llAm_T: autoDraw = False
+1480.4294 	EXP 	llDel_T: autoDraw = False
+1480.4294 	EXP 	textfbT: text = 'Elegiste no esperar'
+1480.4294 	EXP 	textfbT: autoDraw = True
+1483.4135 	EXP 	New trial (rep=0, index=88): OrderedDict([(u'ss_am', 10), (u'ss_del', 0), (u'll_am', 110.0), (u'll_del', 90)])
+1483.4525 	EXP 	textfbT: autoDraw = False
+1483.4525 	EXP 	textfbT: autoDraw = False
+1483.4525 	EXP 	ssAm_T: text = u'$10 mil'
+1483.4525 	EXP 	ssAm_T: pos = array([-0.5,  0.1])
+1483.4525 	EXP 	ssDel_T: pos = array([-0.5, -0.1])
+1483.4525 	EXP 	llAm_T: text = u'$110 mil'
+1483.4525 	EXP 	llAm_T: pos = array([0.5, 0.1])
+1483.4525 	EXP 	llDel_T: text = u'en 90 d\xedas'
+1483.4525 	EXP 	llDel_T: pos = array([ 0.5, -0.1])
+1483.4525 	EXP 	preguntaT: autoDraw = True
+1483.4525 	EXP 	ssAm_T: autoDraw = True
+1483.4525 	EXP 	ssDel_T: autoDraw = True
+1483.4525 	EXP 	llAm_T: autoDraw = True
+1483.4525 	EXP 	llDel_T: autoDraw = True
+1484.7957 	DATA 	Keypress: left
+1484.8113 	EXP 	preguntaT: autoDraw = False
+1484.8113 	EXP 	ssAm_T: autoDraw = False
+1484.8113 	EXP 	ssDel_T: autoDraw = False
+1484.8113 	EXP 	llAm_T: autoDraw = False
+1484.8113 	EXP 	llDel_T: autoDraw = False
+1484.8113 	EXP 	textfbT: text = 'Elegiste no esperar'
+1484.8113 	EXP 	textfbT: autoDraw = True
+1487.7961 	EXP 	New trial (rep=0, index=89): OrderedDict([(u'ss_am', 5), (u'ss_del', 0), (u'll_am', 54.0), (u'll_del', 5)])
+1487.8377 	EXP 	textfbT: autoDraw = False
+1487.8377 	EXP 	textfbT: autoDraw = False
+1487.8377 	EXP 	ssAm_T: text = u'$5 mil'
+1487.8377 	EXP 	ssAm_T: pos = array([0.5, 0.1])
+1487.8377 	EXP 	ssDel_T: pos = array([ 0.5, -0.1])
+1487.8377 	EXP 	llAm_T: text = u'$54 mil'
+1487.8377 	EXP 	llAm_T: pos = array([-0.5,  0.1])
+1487.8377 	EXP 	llDel_T: text = u'en 5 d\xedas'
+1487.8377 	EXP 	llDel_T: pos = array([-0.5, -0.1])
+1487.8377 	EXP 	preguntaT: autoDraw = True
+1487.8377 	EXP 	ssAm_T: autoDraw = True
+1487.8377 	EXP 	ssDel_T: autoDraw = True
+1487.8377 	EXP 	llAm_T: autoDraw = True
+1487.8377 	EXP 	llDel_T: autoDraw = True
+1491.1275 	DATA 	Keypress: left
+1491.1583 	EXP 	preguntaT: autoDraw = False
+1491.1583 	EXP 	ssAm_T: autoDraw = False
+1491.1583 	EXP 	ssDel_T: autoDraw = False
+1491.1583 	EXP 	llAm_T: autoDraw = False
+1491.1583 	EXP 	llDel_T: autoDraw = False
+1491.1583 	EXP 	textfbT: text = 'Elegiste esperar'
+1491.1583 	EXP 	textfbT: autoDraw = True
+1494.1434 	EXP 	textfbT: autoDraw = False
+1494.1434 	EXP 	textfbT: autoDraw = False
+1494.1434 	EXP 	Gracias: autoDraw = True
+1514.2237 	DATA 	Keypress: space
+1514.4892 	EXP 	window1: mouseVisible = True

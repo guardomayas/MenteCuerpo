@@ -1,0 +1,2737 @@
+0.21399999999999997	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1366,615] )
+5.601999999999999	DATA	Keydown: 9
+5.9159999999999995	DATA	Keydown: 6
+45.67	EXP	Created intro1 = TextStim( name=intro1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4749114742123984,"y":-0.2048780487804878,"~, text=A continuación vas a completar una tarea computari~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.676	EXP	Created intro2 = TextStim( name=intro2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4995188643292683,"y":-0.1878048780487805,"~, text=Todas las decisiones que tendrás que tomar serán e~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.67700000000001	EXP	Created intro2_2 = TextStim( name=intro2_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4904939977134146,"y":-0.17073170731707318,~, text=Aunque estas decisiones son hipotéticas, te pedimo~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.68000000000001	EXP	Created Intro2_3 = TextStim( name=Intro2_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.49325695503048783,"y":-0.13658536585365855~, text=Si escoges la opción de la izquierda oprime la fle~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.681000000000004	EXP	Created intro3 = TextStim( name=intro3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.4062885067327236,"y":0.2658536585365854,"w~, text=Por ejemplo, ¿qué preferirías?, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.685	EXP	Created ss_am = TextStim( name=ss_am, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[-0.5,0.1], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.6218464176829268,"y":0.05447154471544716,"~, text=$5.000, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.686	EXP	Created ss_del = TextStim( name=ss_del, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[-0.5,-0.1], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.5642300241361788,"y":-0.14552845528455285,~, text=hoy, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.687000000000005	EXP	Created ll_am = TextStim( name=ll_am, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0.5,0.1], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":0.35599791984247964,"y":0.05447154471544716,"~, text=$10.000, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.688	EXP	Created ll_del = TextStim( name=ll_del, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0.5,-0.1], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":0.33609867251016257,"y":-0.14552845528455285,~, text=en 7 días, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.689	EXP	Created Intro4 = TextStim( name=Intro4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4782309927591463,"y":-0.03414634146341464,~, text=Hagamos unos ensayos de práctica, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.690000000000005	EXP	Created pregunta = TextStim( name=pregunta, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.22906146786077236,"y":0.2658536585365854,"~, text=¿qué preferirías?, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.691	EXP	Created ssAm_P = TextStim( name=ssAm_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.19488813198678862,"y":-0.04552845528455285~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.692	EXP	Created ssDel_P = TextStim( name=ssDel_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.06423002413617886,"y":-0.04552845528455285~, text=hoy, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.693000000000005	EXP	Created llAm_P = TextStim( name=llAm_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":-0.19488813198678862,"y":-0.04552845528455285~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.694	EXP	Created llDel_P = TextStim( name=llDel_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":-0.19488813198678862,"y":-0.04552845528455285~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.695	EXP	Created feedbackP = TextStim( name=feedbackP, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.1471604261941057,"y":-0.03414634146341464,~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.696000000000005	EXP	Created comienzo = TextStim( name=comienzo, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.49666460238821136,"y":-0.13658536585365855~, text=Ahora sí vamos a empezar con la tarea. Recuerda qu~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.697	EXP	Created preguntaT = TextStim( name=preguntaT, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.22906146786077236,"y":0.2658536585365854,"~, text=¿qué preferirías?, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.698	EXP	Created ssAm_T = TextStim( name=ssAm_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.19488813198678862,"y":-0.04552845528455285~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.699000000000005	EXP	Created ssDel_T = TextStim( name=ssDel_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.06423002413617886,"y":-0.04552845528455285~, text=hoy, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.699000000000005	EXP	Created llAm_T = TextStim( name=llAm_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":-0.19488813198678862,"y":-0.04552845528455285~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.7	EXP	Created llDel_T = TextStim( name=llDel_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":-0.19488813198678862,"y":-0.04552845528455285~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.701	EXP	Created textfbT = TextStim( name=textfbT, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.1471604261941057,"y":-0.03414634146341464,~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.702000000000005	EXP	Created Gracias = TextStim( name=Gracias, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.40292492378048783,"y":-0.1024390243902439,~, text=Terminaste!
+
+Muchas gracias por participar!, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+45.789	EXP	intro1: units = height
+45.789	EXP	intro1: pos = [0,0]
+45.789	EXP	intro1: size = undefined
+45.789	EXP	intro1: ori = null
+45.789	EXP	intro1: opacity = 1
+45.789	EXP	intro1: depth = null
+45.789	EXP	intro1: clipMask = null
+45.789	EXP	intro1: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	intro1: text = A continuación vas a completar una tarea computarizada en la que tomarás una serie de decisiones.
+
+Presiona la barra de espacio para continuar.
+45.789	EXP	intro1: alignHoriz = center
+45.789	EXP	intro1: alignVert = center
+45.789	EXP	intro1: flipHoriz = null
+45.789	EXP	intro1: flipVert = null
+45.789	EXP	intro1: font = Arial
+45.789	EXP	intro1: height = 0.06
+45.789	EXP	intro1: wrapWidth = 1
+45.789	EXP	intro1: bold = null
+45.789	EXP	intro1: italic = null
+45.789	EXP	intro1: color = #FFFFFF
+45.789	EXP	intro1: contrast = 1
+45.789	EXP	intro2: units = height
+45.789	EXP	intro2: pos = [0,0]
+45.789	EXP	intro2: size = undefined
+45.789	EXP	intro2: ori = null
+45.789	EXP	intro2: opacity = 1
+45.789	EXP	intro2: depth = null
+45.789	EXP	intro2: clipMask = null
+45.789	EXP	intro2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	intro2: text = Todas las decisiones que tendrás que tomar serán elecciones entre dos opciones de recompensas monetarias que podrías recibir: una opción de dinero que obtendrías hoy contra una opción de dinero que obtendrías en el futuro. 
+
+En cada pregunta, las cantidades de dinero ofrecido y el número de días que habría que esperar en el futuro cambiarán. 
+
+En cada pregunta, la opción inmediata y la  opción futura cambiarán de lado en la pantalla, así que debes poner atención para responder con el teclado cuál es tu preferencia.
+45.789	EXP	intro2: alignHoriz = center
+45.789	EXP	intro2: alignVert = center
+45.789	EXP	intro2: flipHoriz = null
+45.789	EXP	intro2: flipVert = null
+45.789	EXP	intro2: font = Arial
+45.789	EXP	intro2: height = 0.03
+45.789	EXP	intro2: wrapWidth = 1
+45.789	EXP	intro2: bold = null
+45.789	EXP	intro2: italic = null
+45.789	EXP	intro2: color = #FFFFFF
+45.789	EXP	intro2: contrast = 1
+45.789	EXP	intro2_2: units = height
+45.789	EXP	intro2_2: pos = [0,0]
+45.789	EXP	intro2_2: size = undefined
+45.789	EXP	intro2_2: ori = null
+45.789	EXP	intro2_2: opacity = 1
+45.789	EXP	intro2_2: depth = null
+45.789	EXP	intro2_2: clipMask = null
+45.789	EXP	intro2_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	intro2_2: text = Aunque estas decisiones son hipotéticas, te pedimos que hagas cada elección con honestidad, es decir, que respondas cuál es tu verdadera preferencia tal y como si fuéramos a darte el dinero que escogiste en la fecha en la que escogiste.
+
+Es muy importante que sepas que en esta tarea NO HAY respuestas correctas o incorrectas, cada pregunta es sobre TU preferencia, así que tus respuestas pueden ser muy distintas de las de otra persona. Por este motivo, te recomendamos que contestes con sinceridad para que tus respuestas reflejen tus preferencias únicas.
+45.789	EXP	intro2_2: alignHoriz = center
+45.789	EXP	intro2_2: alignVert = center
+45.789	EXP	intro2_2: flipHoriz = null
+45.789	EXP	intro2_2: flipVert = null
+45.789	EXP	intro2_2: font = Arial
+45.789	EXP	intro2_2: height = 0.03
+45.789	EXP	intro2_2: wrapWidth = 1
+45.789	EXP	intro2_2: bold = null
+45.789	EXP	intro2_2: italic = null
+45.789	EXP	intro2_2: color = #FFFFFF
+45.789	EXP	intro2_2: contrast = 1
+45.789	EXP	Intro2_3: units = height
+45.789	EXP	Intro2_3: pos = [0,0]
+45.789	EXP	Intro2_3: size = undefined
+45.789	EXP	Intro2_3: ori = null
+45.789	EXP	Intro2_3: opacity = 1
+45.789	EXP	Intro2_3: depth = null
+45.789	EXP	Intro2_3: clipMask = null
+45.789	EXP	Intro2_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	Intro2_3: text = Si escoges la opción de la izquierda oprime la flecha hacia la izquierda, si escoges la opción de la derecha oprime la flecha hacia la derecha
+45.789	EXP	Intro2_3: alignHoriz = center
+45.789	EXP	Intro2_3: alignVert = center
+45.789	EXP	Intro2_3: flipHoriz = null
+45.789	EXP	Intro2_3: flipVert = null
+45.789	EXP	Intro2_3: font = Arial
+45.789	EXP	Intro2_3: height = 0.06
+45.789	EXP	Intro2_3: wrapWidth = 1
+45.789	EXP	Intro2_3: bold = null
+45.789	EXP	Intro2_3: italic = null
+45.789	EXP	Intro2_3: color = #FFFFFF
+45.789	EXP	Intro2_3: contrast = 1
+45.789	EXP	intro3: units = height
+45.789	EXP	intro3: pos = [0,0.3]
+45.789	EXP	intro3: size = undefined
+45.789	EXP	intro3: ori = null
+45.789	EXP	intro3: opacity = 1
+45.789	EXP	intro3: depth = -1
+45.789	EXP	intro3: clipMask = null
+45.789	EXP	intro3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	intro3: text = Por ejemplo, ¿qué preferirías?
+45.789	EXP	intro3: alignHoriz = center
+45.789	EXP	intro3: alignVert = center
+45.789	EXP	intro3: flipHoriz = null
+45.789	EXP	intro3: flipVert = null
+45.789	EXP	intro3: font = Arial
+45.789	EXP	intro3: height = 0.06
+45.789	EXP	intro3: wrapWidth = 1
+45.789	EXP	intro3: bold = null
+45.789	EXP	intro3: italic = null
+45.789	EXP	intro3: color = #FFFFFF
+45.789	EXP	intro3: contrast = 1
+45.789	EXP	ss_am: units = height
+45.789	EXP	ss_am: pos = [-0.5,0.1]
+45.789	EXP	ss_am: size = undefined
+45.789	EXP	ss_am: ori = null
+45.789	EXP	ss_am: opacity = 1
+45.789	EXP	ss_am: depth = -2
+45.789	EXP	ss_am: clipMask = null
+45.789	EXP	ss_am: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ss_am: text = $5.000
+45.789	EXP	ss_am: alignHoriz = center
+45.789	EXP	ss_am: alignVert = center
+45.789	EXP	ss_am: flipHoriz = null
+45.789	EXP	ss_am: flipVert = null
+45.789	EXP	ss_am: font = Arial
+45.789	EXP	ss_am: height = 0.08
+45.789	EXP	ss_am: wrapWidth = 1
+45.789	EXP	ss_am: bold = null
+45.789	EXP	ss_am: italic = null
+45.789	EXP	ss_am: color = #FFFFFF
+45.789	EXP	ss_am: contrast = 1
+45.789	EXP	ss_del: units = height
+45.789	EXP	ss_del: pos = [-0.5,-0.1]
+45.789	EXP	ss_del: size = undefined
+45.789	EXP	ss_del: ori = null
+45.789	EXP	ss_del: opacity = 1
+45.789	EXP	ss_del: depth = -3
+45.789	EXP	ss_del: clipMask = null
+45.789	EXP	ss_del: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ss_del: text = hoy
+45.789	EXP	ss_del: alignHoriz = center
+45.789	EXP	ss_del: alignVert = center
+45.789	EXP	ss_del: flipHoriz = null
+45.789	EXP	ss_del: flipVert = null
+45.789	EXP	ss_del: font = Arial
+45.789	EXP	ss_del: height = 0.08
+45.789	EXP	ss_del: wrapWidth = 1
+45.789	EXP	ss_del: bold = null
+45.789	EXP	ss_del: italic = null
+45.789	EXP	ss_del: color = #FFFFFF
+45.789	EXP	ss_del: contrast = 1
+45.789	EXP	ll_am: units = height
+45.789	EXP	ll_am: pos = [0.5,0.1]
+45.789	EXP	ll_am: size = undefined
+45.789	EXP	ll_am: ori = null
+45.789	EXP	ll_am: opacity = 1
+45.789	EXP	ll_am: depth = -4
+45.789	EXP	ll_am: clipMask = null
+45.789	EXP	ll_am: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ll_am: text = $10.000
+45.789	EXP	ll_am: alignHoriz = center
+45.789	EXP	ll_am: alignVert = center
+45.789	EXP	ll_am: flipHoriz = null
+45.789	EXP	ll_am: flipVert = null
+45.789	EXP	ll_am: font = Arial
+45.789	EXP	ll_am: height = 0.08
+45.789	EXP	ll_am: wrapWidth = 1
+45.789	EXP	ll_am: bold = null
+45.789	EXP	ll_am: italic = null
+45.789	EXP	ll_am: color = #FFFFFF
+45.789	EXP	ll_am: contrast = 1
+45.789	EXP	ll_del: units = height
+45.789	EXP	ll_del: pos = [0.5,-0.1]
+45.789	EXP	ll_del: size = undefined
+45.789	EXP	ll_del: ori = null
+45.789	EXP	ll_del: opacity = 1
+45.789	EXP	ll_del: depth = -5
+45.789	EXP	ll_del: clipMask = null
+45.789	EXP	ll_del: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ll_del: text = en 7 días
+45.789	EXP	ll_del: alignHoriz = center
+45.789	EXP	ll_del: alignVert = center
+45.789	EXP	ll_del: flipHoriz = null
+45.789	EXP	ll_del: flipVert = null
+45.789	EXP	ll_del: font = Arial
+45.789	EXP	ll_del: height = 0.08
+45.789	EXP	ll_del: wrapWidth = 1
+45.789	EXP	ll_del: bold = null
+45.789	EXP	ll_del: italic = null
+45.789	EXP	ll_del: color = #FFFFFF
+45.789	EXP	ll_del: contrast = 1
+45.789	EXP	Intro4: units = height
+45.789	EXP	Intro4: pos = [0,0]
+45.789	EXP	Intro4: size = undefined
+45.789	EXP	Intro4: ori = null
+45.789	EXP	Intro4: opacity = 1
+45.789	EXP	Intro4: depth = null
+45.789	EXP	Intro4: clipMask = null
+45.789	EXP	Intro4: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	Intro4: text = Hagamos unos ensayos de práctica
+45.789	EXP	Intro4: alignHoriz = center
+45.789	EXP	Intro4: alignVert = center
+45.789	EXP	Intro4: flipHoriz = null
+45.789	EXP	Intro4: flipVert = null
+45.789	EXP	Intro4: font = Arial
+45.789	EXP	Intro4: height = 0.06
+45.789	EXP	Intro4: wrapWidth = 1
+45.789	EXP	Intro4: bold = null
+45.789	EXP	Intro4: italic = null
+45.789	EXP	Intro4: color = #FFFFFF
+45.789	EXP	Intro4: contrast = 1
+45.789	EXP	pregunta: units = height
+45.789	EXP	pregunta: pos = [0,0.3]
+45.789	EXP	pregunta: size = undefined
+45.789	EXP	pregunta: ori = null
+45.789	EXP	pregunta: opacity = 1
+45.789	EXP	pregunta: depth = -1
+45.789	EXP	pregunta: clipMask = null
+45.789	EXP	pregunta: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	pregunta: text = ¿qué preferirías?
+45.789	EXP	pregunta: alignHoriz = center
+45.789	EXP	pregunta: alignVert = center
+45.789	EXP	pregunta: flipHoriz = null
+45.789	EXP	pregunta: flipVert = null
+45.789	EXP	pregunta: font = Arial
+45.789	EXP	pregunta: height = 0.06
+45.789	EXP	pregunta: wrapWidth = 1
+45.789	EXP	pregunta: bold = null
+45.789	EXP	pregunta: italic = null
+45.789	EXP	pregunta: color = #FFFFFF
+45.789	EXP	pregunta: contrast = 1
+45.789	EXP	ssAm_P: units = height
+45.789	EXP	ssAm_P: pos = [0,0]
+45.789	EXP	ssAm_P: size = undefined
+45.789	EXP	ssAm_P: ori = null
+45.789	EXP	ssAm_P: opacity = 1
+45.789	EXP	ssAm_P: depth = -2
+45.789	EXP	ssAm_P: clipMask = null
+45.789	EXP	ssAm_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ssAm_P: text = default text
+45.789	EXP	ssAm_P: alignHoriz = center
+45.789	EXP	ssAm_P: alignVert = center
+45.789	EXP	ssAm_P: flipHoriz = null
+45.789	EXP	ssAm_P: flipVert = null
+45.789	EXP	ssAm_P: font = Arial
+45.789	EXP	ssAm_P: height = 0.08
+45.789	EXP	ssAm_P: wrapWidth = 1
+45.789	EXP	ssAm_P: bold = null
+45.789	EXP	ssAm_P: italic = null
+45.789	EXP	ssAm_P: color = #FFFFFF
+45.789	EXP	ssAm_P: contrast = 1
+45.789	EXP	ssDel_P: units = height
+45.789	EXP	ssDel_P: pos = [0,0]
+45.789	EXP	ssDel_P: size = undefined
+45.789	EXP	ssDel_P: ori = null
+45.789	EXP	ssDel_P: opacity = 1
+45.789	EXP	ssDel_P: depth = -3
+45.789	EXP	ssDel_P: clipMask = null
+45.789	EXP	ssDel_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ssDel_P: text = hoy
+45.789	EXP	ssDel_P: alignHoriz = center
+45.789	EXP	ssDel_P: alignVert = center
+45.789	EXP	ssDel_P: flipHoriz = null
+45.789	EXP	ssDel_P: flipVert = null
+45.789	EXP	ssDel_P: font = Arial
+45.789	EXP	ssDel_P: height = 0.08
+45.789	EXP	ssDel_P: wrapWidth = 1
+45.789	EXP	ssDel_P: bold = null
+45.789	EXP	ssDel_P: italic = null
+45.789	EXP	ssDel_P: color = #FFFFFF
+45.789	EXP	ssDel_P: contrast = 1
+45.789	EXP	llAm_P: units = height
+45.789	EXP	llAm_P: pos = [0,0]
+45.789	EXP	llAm_P: size = undefined
+45.789	EXP	llAm_P: ori = null
+45.789	EXP	llAm_P: opacity = 1
+45.789	EXP	llAm_P: depth = -4
+45.789	EXP	llAm_P: clipMask = null
+45.789	EXP	llAm_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	llAm_P: text = default text
+45.789	EXP	llAm_P: alignHoriz = center
+45.789	EXP	llAm_P: alignVert = center
+45.789	EXP	llAm_P: flipHoriz = null
+45.789	EXP	llAm_P: flipVert = null
+45.789	EXP	llAm_P: font = Arial
+45.789	EXP	llAm_P: height = 0.08
+45.789	EXP	llAm_P: wrapWidth = 1
+45.789	EXP	llAm_P: bold = null
+45.789	EXP	llAm_P: italic = null
+45.789	EXP	llAm_P: color = #FFFFFF
+45.789	EXP	llAm_P: contrast = 1
+45.789	EXP	llDel_P: units = height
+45.789	EXP	llDel_P: pos = [0,0]
+45.789	EXP	llDel_P: size = undefined
+45.789	EXP	llDel_P: ori = null
+45.789	EXP	llDel_P: opacity = 1
+45.789	EXP	llDel_P: depth = -5
+45.789	EXP	llDel_P: clipMask = null
+45.789	EXP	llDel_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	llDel_P: text = default text
+45.789	EXP	llDel_P: alignHoriz = center
+45.789	EXP	llDel_P: alignVert = center
+45.789	EXP	llDel_P: flipHoriz = null
+45.789	EXP	llDel_P: flipVert = null
+45.789	EXP	llDel_P: font = Arial
+45.789	EXP	llDel_P: height = 0.08
+45.789	EXP	llDel_P: wrapWidth = 1
+45.789	EXP	llDel_P: bold = null
+45.789	EXP	llDel_P: italic = null
+45.789	EXP	llDel_P: color = #FFFFFF
+45.789	EXP	llDel_P: contrast = 1
+45.789	EXP	feedbackP: units = height
+45.789	EXP	feedbackP: pos = [0,0]
+45.789	EXP	feedbackP: size = undefined
+45.789	EXP	feedbackP: ori = null
+45.789	EXP	feedbackP: opacity = 1
+45.789	EXP	feedbackP: depth = -1
+45.789	EXP	feedbackP: clipMask = null
+45.789	EXP	feedbackP: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	feedbackP: text = default text
+45.789	EXP	feedbackP: alignHoriz = center
+45.789	EXP	feedbackP: alignVert = center
+45.789	EXP	feedbackP: flipHoriz = null
+45.789	EXP	feedbackP: flipVert = null
+45.789	EXP	feedbackP: font = Arial
+45.789	EXP	feedbackP: height = 0.06
+45.789	EXP	feedbackP: wrapWidth = 1
+45.789	EXP	feedbackP: bold = null
+45.789	EXP	feedbackP: italic = null
+45.789	EXP	feedbackP: color = #FFFFFF
+45.789	EXP	feedbackP: contrast = 1
+45.789	EXP	comienzo: units = height
+45.789	EXP	comienzo: pos = [0,0]
+45.789	EXP	comienzo: size = undefined
+45.789	EXP	comienzo: ori = null
+45.789	EXP	comienzo: opacity = 1
+45.789	EXP	comienzo: depth = null
+45.789	EXP	comienzo: clipMask = null
+45.789	EXP	comienzo: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	comienzo: text = Ahora sí vamos a empezar con la tarea. Recuerda que debes contestar todas las preguntas. Tienes 20 segundos por cada pregunta. 
+45.789	EXP	comienzo: alignHoriz = center
+45.789	EXP	comienzo: alignVert = center
+45.789	EXP	comienzo: flipHoriz = null
+45.789	EXP	comienzo: flipVert = null
+45.789	EXP	comienzo: font = Arial
+45.789	EXP	comienzo: height = 0.06
+45.789	EXP	comienzo: wrapWidth = 1
+45.789	EXP	comienzo: bold = null
+45.789	EXP	comienzo: italic = null
+45.789	EXP	comienzo: color = #FFFFFF
+45.789	EXP	comienzo: contrast = 1
+45.789	EXP	preguntaT: units = height
+45.789	EXP	preguntaT: pos = [0,0.3]
+45.789	EXP	preguntaT: size = undefined
+45.789	EXP	preguntaT: ori = null
+45.789	EXP	preguntaT: opacity = 1
+45.789	EXP	preguntaT: depth = -1
+45.789	EXP	preguntaT: clipMask = null
+45.789	EXP	preguntaT: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	preguntaT: text = ¿qué preferirías?
+45.789	EXP	preguntaT: alignHoriz = center
+45.789	EXP	preguntaT: alignVert = center
+45.789	EXP	preguntaT: flipHoriz = null
+45.789	EXP	preguntaT: flipVert = null
+45.789	EXP	preguntaT: font = Arial
+45.789	EXP	preguntaT: height = 0.06
+45.789	EXP	preguntaT: wrapWidth = 1
+45.789	EXP	preguntaT: bold = null
+45.789	EXP	preguntaT: italic = null
+45.789	EXP	preguntaT: color = #FFFFFF
+45.789	EXP	preguntaT: contrast = 1
+45.789	EXP	ssAm_T: units = height
+45.789	EXP	ssAm_T: pos = [0,0]
+45.789	EXP	ssAm_T: size = undefined
+45.789	EXP	ssAm_T: ori = null
+45.789	EXP	ssAm_T: opacity = 1
+45.789	EXP	ssAm_T: depth = -2
+45.789	EXP	ssAm_T: clipMask = null
+45.789	EXP	ssAm_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ssAm_T: text = default text
+45.789	EXP	ssAm_T: alignHoriz = center
+45.789	EXP	ssAm_T: alignVert = center
+45.789	EXP	ssAm_T: flipHoriz = null
+45.789	EXP	ssAm_T: flipVert = null
+45.789	EXP	ssAm_T: font = Arial
+45.789	EXP	ssAm_T: height = 0.08
+45.789	EXP	ssAm_T: wrapWidth = 1
+45.789	EXP	ssAm_T: bold = null
+45.789	EXP	ssAm_T: italic = null
+45.789	EXP	ssAm_T: color = #FFFFFF
+45.789	EXP	ssAm_T: contrast = 1
+45.789	EXP	ssDel_T: units = height
+45.789	EXP	ssDel_T: pos = [0,0]
+45.789	EXP	ssDel_T: size = undefined
+45.789	EXP	ssDel_T: ori = null
+45.789	EXP	ssDel_T: opacity = 1
+45.789	EXP	ssDel_T: depth = -3
+45.789	EXP	ssDel_T: clipMask = null
+45.789	EXP	ssDel_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	ssDel_T: text = hoy
+45.789	EXP	ssDel_T: alignHoriz = center
+45.789	EXP	ssDel_T: alignVert = center
+45.789	EXP	ssDel_T: flipHoriz = null
+45.789	EXP	ssDel_T: flipVert = null
+45.789	EXP	ssDel_T: font = Arial
+45.789	EXP	ssDel_T: height = 0.08
+45.789	EXP	ssDel_T: wrapWidth = 1
+45.789	EXP	ssDel_T: bold = null
+45.789	EXP	ssDel_T: italic = null
+45.789	EXP	ssDel_T: color = #FFFFFF
+45.789	EXP	ssDel_T: contrast = 1
+45.789	EXP	llAm_T: units = height
+45.789	EXP	llAm_T: pos = [0,0]
+45.789	EXP	llAm_T: size = undefined
+45.789	EXP	llAm_T: ori = null
+45.789	EXP	llAm_T: opacity = 1
+45.789	EXP	llAm_T: depth = -4
+45.789	EXP	llAm_T: clipMask = null
+45.789	EXP	llAm_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	llAm_T: text = default text
+45.789	EXP	llAm_T: alignHoriz = center
+45.789	EXP	llAm_T: alignVert = center
+45.789	EXP	llAm_T: flipHoriz = null
+45.789	EXP	llAm_T: flipVert = null
+45.789	EXP	llAm_T: font = Arial
+45.789	EXP	llAm_T: height = 0.08
+45.789	EXP	llAm_T: wrapWidth = 1
+45.789	EXP	llAm_T: bold = null
+45.789	EXP	llAm_T: italic = null
+45.789	EXP	llAm_T: color = #FFFFFF
+45.789	EXP	llAm_T: contrast = 1
+45.789	EXP	llDel_T: units = height
+45.789	EXP	llDel_T: pos = [0,0]
+45.789	EXP	llDel_T: size = undefined
+45.789	EXP	llDel_T: ori = null
+45.789	EXP	llDel_T: opacity = 1
+45.789	EXP	llDel_T: depth = -5
+45.789	EXP	llDel_T: clipMask = null
+45.789	EXP	llDel_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	llDel_T: text = default text
+45.789	EXP	llDel_T: alignHoriz = center
+45.789	EXP	llDel_T: alignVert = center
+45.789	EXP	llDel_T: flipHoriz = null
+45.789	EXP	llDel_T: flipVert = null
+45.789	EXP	llDel_T: font = Arial
+45.789	EXP	llDel_T: height = 0.08
+45.789	EXP	llDel_T: wrapWidth = 1
+45.789	EXP	llDel_T: bold = null
+45.789	EXP	llDel_T: italic = null
+45.789	EXP	llDel_T: color = #FFFFFF
+45.789	EXP	llDel_T: contrast = 1
+45.789	EXP	textfbT: units = height
+45.789	EXP	textfbT: pos = [0,0]
+45.789	EXP	textfbT: size = undefined
+45.789	EXP	textfbT: ori = null
+45.789	EXP	textfbT: opacity = 1
+45.789	EXP	textfbT: depth = -1
+45.789	EXP	textfbT: clipMask = null
+45.789	EXP	textfbT: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	textfbT: text = default text
+45.789	EXP	textfbT: alignHoriz = center
+45.789	EXP	textfbT: alignVert = center
+45.789	EXP	textfbT: flipHoriz = null
+45.789	EXP	textfbT: flipVert = null
+45.789	EXP	textfbT: font = Arial
+45.789	EXP	textfbT: height = 0.06
+45.789	EXP	textfbT: wrapWidth = 1
+45.789	EXP	textfbT: bold = null
+45.789	EXP	textfbT: italic = null
+45.789	EXP	textfbT: color = #FFFFFF
+45.789	EXP	textfbT: contrast = 1
+45.789	EXP	Gracias: units = height
+45.789	EXP	Gracias: pos = [0,0]
+45.789	EXP	Gracias: size = undefined
+45.789	EXP	Gracias: ori = null
+45.789	EXP	Gracias: opacity = 1
+45.789	EXP	Gracias: depth = null
+45.789	EXP	Gracias: clipMask = null
+45.789	EXP	Gracias: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+45.789	EXP	Gracias: text = Terminaste!
+
+Muchas gracias por participar!
+45.789	EXP	Gracias: alignHoriz = center
+45.789	EXP	Gracias: alignVert = center
+45.789	EXP	Gracias: flipHoriz = null
+45.789	EXP	Gracias: flipVert = null
+45.789	EXP	Gracias: font = Arial
+45.789	EXP	Gracias: height = 0.06
+45.789	EXP	Gracias: wrapWidth = 1
+45.789	EXP	Gracias: bold = null
+45.789	EXP	Gracias: italic = null
+45.789	EXP	Gracias: color = #FFFFFF
+45.789	EXP	Gracias: contrast = 1
+45.789	EXP	intro1: autoDraw = true
+49.955000000000005	DATA	Keydown:  
+49.975	EXP	intro1: autoDraw = null
+49.975	EXP	intro2: autoDraw = true
+62.067	DATA	Keydown:  
+62.082	EXP	intro2: autoDraw = null
+62.082	EXP	intro2_2: autoDraw = true
+66.803	DATA	Keydown: ArrowLeft
+94.047	DATA	Keydown:  
+94.065	EXP	intro2_2: autoDraw = null
+94.065	EXP	Intro2_3: autoDraw = true
+105.169	DATA	Keydown:  
+105.19399999999999	EXP	Intro2_3: autoDraw = null
+105.19399999999999	EXP	intro3: autoDraw = true
+105.19399999999999	EXP	ss_am: autoDraw = true
+105.19399999999999	EXP	ss_del: autoDraw = true
+105.19399999999999	EXP	ll_am: autoDraw = true
+105.19399999999999	EXP	ll_del: autoDraw = true
+117.738	DATA	Keydown: ArrowRight
+117.751	EXP	intro3: autoDraw = null
+117.751	EXP	ss_am: autoDraw = null
+117.751	EXP	ss_del: autoDraw = null
+117.751	EXP	ll_am: autoDraw = null
+117.751	EXP	ll_del: autoDraw = null
+117.751	EXP	Intro4: autoDraw = true
+121.8	DATA	Keydown:  
+121.863	EXP	Intro4: autoDraw = null
+121.863	EXP	ssAm_P: pos = [-0.5,0.1]
+121.863	EXP	ssAm_P: text = $25000
+121.863	EXP	ssDel_P: pos = [-0.5,-0.1]
+121.863	EXP	llAm_P: pos = [0.5,0.1]
+121.863	EXP	llAm_P: text = $35000
+121.863	EXP	llDel_P: pos = [0.5,-0.1]
+121.863	EXP	llDel_P: text = en 150 días
+121.863	EXP	pregunta: autoDraw = true
+121.863	EXP	ssAm_P: autoDraw = true
+121.863	EXP	ssDel_P: autoDraw = true
+121.863	EXP	llAm_P: autoDraw = true
+121.863	EXP	llDel_P: autoDraw = true
+128.75900000000001	DATA	Keydown: ArrowLeft
+128.77700000000002	EXP	pregunta: autoDraw = null
+128.77700000000002	EXP	ssAm_P: autoDraw = null
+128.77700000000002	EXP	ssDel_P: autoDraw = null
+128.77700000000002	EXP	llAm_P: autoDraw = null
+128.77700000000002	EXP	llDel_P: autoDraw = null
+128.77700000000002	EXP	feedbackP: text = Elegiste no esperar
+128.77700000000002	EXP	feedbackP: autoDraw = true
+131.787	EXP	feedbackP: autoDraw = null
+131.787	EXP	feedbackP: autoDraw = null
+131.787	EXP	ssAm_P: pos = [-0.5,0.1]
+131.787	EXP	ssAm_P: text = $10000
+131.787	EXP	ssDel_P: pos = [-0.5,-0.1]
+131.787	EXP	llAm_P: pos = [0.5,0.1]
+131.787	EXP	llAm_P: text = $109000
+131.787	EXP	llDel_P: pos = [0.5,-0.1]
+131.787	EXP	llDel_P: text = en 9 días
+131.787	EXP	pregunta: autoDraw = true
+131.787	EXP	ssAm_P: autoDraw = true
+131.787	EXP	ssDel_P: autoDraw = true
+131.787	EXP	llAm_P: autoDraw = true
+131.787	EXP	llDel_P: autoDraw = true
+136.913	DATA	Keydown: ArrowRight
+136.92600000000002	EXP	pregunta: autoDraw = null
+136.92600000000002	EXP	ssAm_P: autoDraw = null
+136.92600000000002	EXP	ssDel_P: autoDraw = null
+136.92600000000002	EXP	llAm_P: autoDraw = null
+136.92600000000002	EXP	llDel_P: autoDraw = null
+136.92600000000002	EXP	feedbackP: text = Elegiste esperar
+136.92600000000002	EXP	feedbackP: autoDraw = true
+139.935	EXP	feedbackP: autoDraw = null
+139.935	EXP	feedbackP: autoDraw = null
+139.935	EXP	ssAm_P: pos = [0.5,0.1]
+139.935	EXP	ssAm_P: text = $10000
+139.935	EXP	ssDel_P: pos = [0.5,-0.1]
+139.935	EXP	llAm_P: pos = [-0.5,0.1]
+139.935	EXP	llAm_P: text = $19000
+139.935	EXP	llDel_P: pos = [-0.5,-0.1]
+139.935	EXP	llDel_P: text = en 89 días
+139.935	EXP	pregunta: autoDraw = true
+139.935	EXP	ssAm_P: autoDraw = true
+139.935	EXP	ssDel_P: autoDraw = true
+139.935	EXP	llAm_P: autoDraw = true
+139.935	EXP	llDel_P: autoDraw = true
+144.77800000000002	DATA	Keydown: ArrowRight
+144.79500000000002	EXP	pregunta: autoDraw = null
+144.79500000000002	EXP	ssAm_P: autoDraw = null
+144.79500000000002	EXP	ssDel_P: autoDraw = null
+144.79500000000002	EXP	llAm_P: autoDraw = null
+144.79500000000002	EXP	llDel_P: autoDraw = null
+144.79500000000002	EXP	feedbackP: text = Elegiste no esperar
+144.79500000000002	EXP	feedbackP: autoDraw = true
+147.80100000000002	EXP	feedbackP: autoDraw = null
+147.80100000000002	EXP	feedbackP: autoDraw = null
+147.80100000000002	EXP	comienzo: autoDraw = true
+156.76700000000005	DATA	Keydown:  
+171.80800000000002	DATA	Keydown:  
+200.621	DATA	Keydown: g
+200.66600000000003	EXP	comienzo: autoDraw = null
+200.66600000000003	EXP	ssAm_T: pos = [0.5,0.1]
+200.66600000000003	EXP	ssAm_T: text = $10000
+200.66600000000003	EXP	ssDel_T: pos = [0.5,-0.1]
+200.66600000000003	EXP	llAm_T: pos = [-0.5,0.1]
+200.66600000000003	EXP	llAm_T: text = $150000
+200.66600000000003	EXP	llDel_T: pos = [-0.5,-0.1]
+200.66600000000003	EXP	llDel_T: text = en 5 días
+200.66600000000003	EXP	preguntaT: autoDraw = true
+200.66600000000003	EXP	ssAm_T: autoDraw = true
+200.66600000000003	EXP	ssDel_T: autoDraw = true
+200.66600000000003	EXP	llAm_T: autoDraw = true
+200.66600000000003	EXP	llDel_T: autoDraw = true
+204.169	DATA	Keydown: ArrowLeft
+204.17600000000002	EXP	preguntaT: autoDraw = null
+204.17600000000002	EXP	ssAm_T: autoDraw = null
+204.17600000000002	EXP	ssDel_T: autoDraw = null
+204.17600000000002	EXP	llAm_T: autoDraw = null
+204.17600000000002	EXP	llDel_T: autoDraw = null
+204.17600000000002	EXP	textfbT: text = Elegiste esperar
+204.17600000000002	EXP	textfbT: autoDraw = true
+207.185	EXP	textfbT: autoDraw = null
+207.185	EXP	textfbT: autoDraw = null
+207.185	EXP	ssAm_T: pos = [-0.5,0.1]
+207.185	EXP	ssAm_T: text = $5000
+207.185	EXP	ssDel_T: pos = [-0.5,-0.1]
+207.185	EXP	llAm_T: pos = [0.5,0.1]
+207.185	EXP	llAm_T: text = $150000
+207.185	EXP	llDel_T: pos = [0.5,-0.1]
+207.185	EXP	llDel_T: text = en 90 días
+207.185	EXP	preguntaT: autoDraw = true
+207.185	EXP	ssAm_T: autoDraw = true
+207.185	EXP	ssDel_T: autoDraw = true
+207.185	EXP	llAm_T: autoDraw = true
+207.185	EXP	llDel_T: autoDraw = true
+211.854	DATA	Keydown: ArrowRight
+211.859	EXP	preguntaT: autoDraw = null
+211.859	EXP	ssAm_T: autoDraw = null
+211.859	EXP	ssDel_T: autoDraw = null
+211.859	EXP	llAm_T: autoDraw = null
+211.859	EXP	llDel_T: autoDraw = null
+211.859	EXP	textfbT: text = Elegiste esperar
+211.859	EXP	textfbT: autoDraw = true
+214.86800000000002	EXP	textfbT: autoDraw = null
+214.86800000000002	EXP	textfbT: autoDraw = null
+214.86800000000002	EXP	ssAm_T: pos = [0.5,0.1]
+214.86800000000002	EXP	ssAm_T: text = $10000
+214.86800000000002	EXP	ssDel_T: pos = [0.5,-0.1]
+214.86800000000002	EXP	llAm_T: pos = [-0.5,0.1]
+214.86800000000002	EXP	llAm_T: text = $110000
+214.86800000000002	EXP	llDel_T: pos = [-0.5,-0.1]
+214.86800000000002	EXP	llDel_T: text = en 90 días
+214.86800000000002	EXP	preguntaT: autoDraw = true
+214.86800000000002	EXP	ssAm_T: autoDraw = true
+214.86800000000002	EXP	ssDel_T: autoDraw = true
+214.86800000000002	EXP	llAm_T: autoDraw = true
+214.86800000000002	EXP	llDel_T: autoDraw = true
+219.531	DATA	Keydown: ArrowLeft
+219.542	EXP	preguntaT: autoDraw = null
+219.542	EXP	ssAm_T: autoDraw = null
+219.542	EXP	ssDel_T: autoDraw = null
+219.542	EXP	llAm_T: autoDraw = null
+219.542	EXP	llDel_T: autoDraw = null
+219.542	EXP	textfbT: text = Elegiste esperar
+219.542	EXP	textfbT: autoDraw = true
+222.554	EXP	textfbT: autoDraw = null
+222.554	EXP	textfbT: autoDraw = null
+222.554	EXP	ssAm_T: pos = [0.5,0.1]
+222.554	EXP	ssAm_T: text = $5000
+222.554	EXP	ssDel_T: pos = [0.5,-0.1]
+222.554	EXP	llAm_T: pos = [-0.5,0.1]
+222.554	EXP	llAm_T: text = $36000
+222.554	EXP	llDel_T: pos = [-0.5,-0.1]
+222.554	EXP	llDel_T: text = en 9 días
+222.554	EXP	preguntaT: autoDraw = true
+222.554	EXP	ssAm_T: autoDraw = true
+222.554	EXP	ssDel_T: autoDraw = true
+222.554	EXP	llAm_T: autoDraw = true
+222.554	EXP	llDel_T: autoDraw = true
+225.536	DATA	Keydown: ArrowLeft
+225.543	EXP	preguntaT: autoDraw = null
+225.543	EXP	ssAm_T: autoDraw = null
+225.543	EXP	ssDel_T: autoDraw = null
+225.543	EXP	llAm_T: autoDraw = null
+225.543	EXP	llDel_T: autoDraw = null
+225.543	EXP	textfbT: text = Elegiste esperar
+225.543	EXP	textfbT: autoDraw = true
+228.555	EXP	textfbT: autoDraw = null
+228.555	EXP	textfbT: autoDraw = null
+228.555	EXP	ssAm_T: pos = [-0.5,0.1]
+228.555	EXP	ssAm_T: text = $10000
+228.555	EXP	ssDel_T: pos = [-0.5,-0.1]
+228.555	EXP	llAm_T: pos = [0.5,0.1]
+228.555	EXP	llAm_T: text = $40000
+228.555	EXP	llDel_T: pos = [0.5,-0.1]
+228.555	EXP	llDel_T: text = en 91 días
+228.555	EXP	preguntaT: autoDraw = true
+228.555	EXP	ssAm_T: autoDraw = true
+228.555	EXP	ssDel_T: autoDraw = true
+228.555	EXP	llAm_T: autoDraw = true
+228.555	EXP	llDel_T: autoDraw = true
+235.76600000000002	DATA	Keydown: ArrowLeft
+235.77800000000002	EXP	preguntaT: autoDraw = null
+235.77800000000002	EXP	ssAm_T: autoDraw = null
+235.77800000000002	EXP	ssDel_T: autoDraw = null
+235.77800000000002	EXP	llAm_T: autoDraw = null
+235.77800000000002	EXP	llDel_T: autoDraw = null
+235.77800000000002	EXP	textfbT: text = Elegiste no esperar
+235.77800000000002	EXP	textfbT: autoDraw = true
+238.787	EXP	textfbT: autoDraw = null
+238.787	EXP	textfbT: autoDraw = null
+238.787	EXP	ssAm_T: pos = [0.5,0.1]
+238.787	EXP	ssAm_T: text = $5000
+238.787	EXP	ssDel_T: pos = [0.5,-0.1]
+238.787	EXP	llAm_T: pos = [-0.5,0.1]
+238.787	EXP	llAm_T: text = $14000
+238.787	EXP	llDel_T: pos = [-0.5,-0.1]
+238.787	EXP	llDel_T: text = en 31 días
+238.787	EXP	preguntaT: autoDraw = true
+238.787	EXP	ssAm_T: autoDraw = true
+238.787	EXP	ssDel_T: autoDraw = true
+238.787	EXP	llAm_T: autoDraw = true
+238.787	EXP	llDel_T: autoDraw = true
+242.542	DATA	Keydown: ArrowRight
+242.55800000000002	EXP	preguntaT: autoDraw = null
+242.55800000000002	EXP	ssAm_T: autoDraw = null
+242.55800000000002	EXP	ssDel_T: autoDraw = null
+242.55800000000002	EXP	llAm_T: autoDraw = null
+242.55800000000002	EXP	llDel_T: autoDraw = null
+242.55800000000002	EXP	textfbT: text = Elegiste no esperar
+242.55800000000002	EXP	textfbT: autoDraw = true
+245.568	EXP	textfbT: autoDraw = null
+245.568	EXP	textfbT: autoDraw = null
+245.568	EXP	ssAm_T: pos = [-0.5,0.1]
+245.568	EXP	ssAm_T: text = $5000
+245.568	EXP	ssDel_T: pos = [-0.5,-0.1]
+245.568	EXP	llAm_T: pos = [0.5,0.1]
+245.568	EXP	llAm_T: text = $151000
+245.568	EXP	llDel_T: pos = [0.5,-0.1]
+245.568	EXP	llDel_T: text = en 150 días
+245.568	EXP	preguntaT: autoDraw = true
+245.568	EXP	ssAm_T: autoDraw = true
+245.568	EXP	ssDel_T: autoDraw = true
+245.568	EXP	llAm_T: autoDraw = true
+245.568	EXP	llDel_T: autoDraw = true
+254.183	DATA	Keydown: ArrowRight
+254.19400000000002	EXP	preguntaT: autoDraw = null
+254.19400000000002	EXP	ssAm_T: autoDraw = null
+254.19400000000002	EXP	ssDel_T: autoDraw = null
+254.19400000000002	EXP	llAm_T: autoDraw = null
+254.19400000000002	EXP	llDel_T: autoDraw = null
+254.19400000000002	EXP	textfbT: text = Elegiste esperar
+254.19400000000002	EXP	textfbT: autoDraw = true
+257.20500000000004	EXP	textfbT: autoDraw = null
+257.20500000000004	EXP	textfbT: autoDraw = null
+257.20500000000004	EXP	ssAm_T: pos = [-0.5,0.1]
+257.20500000000004	EXP	ssAm_T: text = $25000
+257.20500000000004	EXP	ssDel_T: pos = [-0.5,-0.1]
+257.20500000000004	EXP	llAm_T: pos = [0.5,0.1]
+257.20500000000004	EXP	llAm_T: text = $75000
+257.20500000000004	EXP	llDel_T: pos = [0.5,-0.1]
+257.20500000000004	EXP	llDel_T: text = en 90 días
+257.20500000000004	EXP	preguntaT: autoDraw = true
+257.20500000000004	EXP	ssAm_T: autoDraw = true
+257.20500000000004	EXP	ssDel_T: autoDraw = true
+257.20500000000004	EXP	llAm_T: autoDraw = true
+257.20500000000004	EXP	llDel_T: autoDraw = true
+261.91700000000003	DATA	Keydown: ArrowRight
+261.92400000000004	EXP	preguntaT: autoDraw = null
+261.92400000000004	EXP	ssAm_T: autoDraw = null
+261.92400000000004	EXP	ssDel_T: autoDraw = null
+261.92400000000004	EXP	llAm_T: autoDraw = null
+261.92400000000004	EXP	llDel_T: autoDraw = null
+261.92400000000004	EXP	textfbT: text = Elegiste esperar
+261.92400000000004	EXP	textfbT: autoDraw = true
+264.93600000000004	EXP	textfbT: autoDraw = null
+264.93600000000004	EXP	textfbT: autoDraw = null
+264.93600000000004	EXP	ssAm_T: pos = [0.5,0.1]
+264.93600000000004	EXP	ssAm_T: text = $10000
+264.93600000000004	EXP	ssDel_T: pos = [0.5,-0.1]
+264.93600000000004	EXP	llAm_T: pos = [-0.5,0.1]
+264.93600000000004	EXP	llAm_T: text = $60000
+264.93600000000004	EXP	llDel_T: pos = [-0.5,-0.1]
+264.93600000000004	EXP	llDel_T: text = en 29 días
+264.93600000000004	EXP	preguntaT: autoDraw = true
+264.93600000000004	EXP	ssAm_T: autoDraw = true
+264.93600000000004	EXP	ssDel_T: autoDraw = true
+264.93600000000004	EXP	llAm_T: autoDraw = true
+264.93600000000004	EXP	llDel_T: autoDraw = true
+267.809	DATA	Keydown: ArrowLeft
+267.824	EXP	preguntaT: autoDraw = null
+267.824	EXP	ssAm_T: autoDraw = null
+267.824	EXP	ssDel_T: autoDraw = null
+267.824	EXP	llAm_T: autoDraw = null
+267.824	EXP	llDel_T: autoDraw = null
+267.824	EXP	textfbT: text = Elegiste esperar
+267.824	EXP	textfbT: autoDraw = true
+270.837	EXP	textfbT: autoDraw = null
+270.837	EXP	textfbT: autoDraw = null
+270.837	EXP	ssAm_T: pos = [0.5,0.1]
+270.837	EXP	ssAm_T: text = $25000
+270.837	EXP	ssDel_T: pos = [0.5,-0.1]
+270.837	EXP	llAm_T: pos = [-0.5,0.1]
+270.837	EXP	llAm_T: text = $75000
+270.837	EXP	llDel_T: pos = [-0.5,-0.1]
+270.837	EXP	llDel_T: text = en 59 días
+270.837	EXP	preguntaT: autoDraw = true
+270.837	EXP	ssAm_T: autoDraw = true
+270.837	EXP	ssDel_T: autoDraw = true
+270.837	EXP	llAm_T: autoDraw = true
+270.837	EXP	llDel_T: autoDraw = true
+273.36	DATA	Keydown: ArrowLeft
+273.374	EXP	preguntaT: autoDraw = null
+273.374	EXP	ssAm_T: autoDraw = null
+273.374	EXP	ssDel_T: autoDraw = null
+273.374	EXP	llAm_T: autoDraw = null
+273.374	EXP	llDel_T: autoDraw = null
+273.374	EXP	textfbT: text = Elegiste esperar
+273.374	EXP	textfbT: autoDraw = true
+276.38800000000003	EXP	textfbT: autoDraw = null
+276.38800000000003	EXP	textfbT: autoDraw = null
+276.38800000000003	EXP	ssAm_T: pos = [0.5,0.1]
+276.38800000000003	EXP	ssAm_T: text = $5000
+276.38800000000003	EXP	ssDel_T: pos = [0.5,-0.1]
+276.38800000000003	EXP	llAm_T: pos = [-0.5,0.1]
+276.38800000000003	EXP	llAm_T: text = $104000
+276.38800000000003	EXP	llDel_T: pos = [-0.5,-0.1]
+276.38800000000003	EXP	llDel_T: text = en 10 días
+276.38800000000003	EXP	preguntaT: autoDraw = true
+276.38800000000003	EXP	ssAm_T: autoDraw = true
+276.38800000000003	EXP	ssDel_T: autoDraw = true
+276.38800000000003	EXP	llAm_T: autoDraw = true
+276.38800000000003	EXP	llDel_T: autoDraw = true
+280.934	DATA	Keydown: ArrowLeft
+280.942	EXP	preguntaT: autoDraw = null
+280.942	EXP	ssAm_T: autoDraw = null
+280.942	EXP	ssDel_T: autoDraw = null
+280.942	EXP	llAm_T: autoDraw = null
+280.942	EXP	llDel_T: autoDraw = null
+280.942	EXP	textfbT: text = Elegiste esperar
+280.942	EXP	textfbT: autoDraw = true
+283.951	EXP	textfbT: autoDraw = null
+283.951	EXP	textfbT: autoDraw = null
+283.951	EXP	ssAm_T: pos = [0.5,0.1]
+283.951	EXP	ssAm_T: text = $5000
+283.951	EXP	ssDel_T: pos = [0.5,-0.1]
+283.951	EXP	llAm_T: pos = [-0.5,0.1]
+283.951	EXP	llAm_T: text = $14000
+283.951	EXP	llDel_T: pos = [-0.5,-0.1]
+283.951	EXP	llDel_T: text = en 149 días
+283.951	EXP	preguntaT: autoDraw = true
+283.951	EXP	ssAm_T: autoDraw = true
+283.951	EXP	ssDel_T: autoDraw = true
+283.951	EXP	llAm_T: autoDraw = true
+283.951	EXP	llDel_T: autoDraw = true
+286.964	DATA	Keydown: ArrowRight
+286.97700000000003	EXP	preguntaT: autoDraw = null
+286.97700000000003	EXP	ssAm_T: autoDraw = null
+286.97700000000003	EXP	ssDel_T: autoDraw = null
+286.97700000000003	EXP	llAm_T: autoDraw = null
+286.97700000000003	EXP	llDel_T: autoDraw = null
+286.97700000000003	EXP	textfbT: text = Elegiste no esperar
+286.97700000000003	EXP	textfbT: autoDraw = true
+289.987	EXP	textfbT: autoDraw = null
+289.987	EXP	textfbT: autoDraw = null
+289.987	EXP	ssAm_T: pos = [0.5,0.1]
+289.987	EXP	ssAm_T: text = $10000
+289.987	EXP	ssDel_T: pos = [0.5,-0.1]
+289.987	EXP	llAm_T: pos = [-0.5,0.1]
+289.987	EXP	llAm_T: text = $61000
+289.987	EXP	llDel_T: pos = [-0.5,-0.1]
+289.987	EXP	llDel_T: text = en 4 días
+289.987	EXP	preguntaT: autoDraw = true
+289.987	EXP	ssAm_T: autoDraw = true
+289.987	EXP	ssDel_T: autoDraw = true
+289.987	EXP	llAm_T: autoDraw = true
+289.987	EXP	llDel_T: autoDraw = true
+293.986	DATA	Keydown: ArrowLeft
+293.995	EXP	preguntaT: autoDraw = null
+293.995	EXP	ssAm_T: autoDraw = null
+293.995	EXP	ssDel_T: autoDraw = null
+293.995	EXP	llAm_T: autoDraw = null
+293.995	EXP	llDel_T: autoDraw = null
+293.995	EXP	textfbT: text = Elegiste esperar
+293.995	EXP	textfbT: autoDraw = true
+297.004	EXP	textfbT: autoDraw = null
+297.004	EXP	textfbT: autoDraw = null
+297.004	EXP	ssAm_T: pos = [-0.5,0.1]
+297.004	EXP	ssAm_T: text = $5000
+297.004	EXP	ssDel_T: pos = [-0.5,-0.1]
+297.004	EXP	llAm_T: pos = [0.5,0.1]
+297.004	EXP	llAm_T: text = $35000
+297.004	EXP	llDel_T: pos = [0.5,-0.1]
+297.004	EXP	llDel_T: text = en 150 días
+297.004	EXP	preguntaT: autoDraw = true
+297.004	EXP	ssAm_T: autoDraw = true
+297.004	EXP	ssDel_T: autoDraw = true
+297.004	EXP	llAm_T: autoDraw = true
+297.004	EXP	llDel_T: autoDraw = true
+306.09700000000004	DATA	Keydown: ArrowLeft
+306.112	EXP	preguntaT: autoDraw = null
+306.112	EXP	ssAm_T: autoDraw = null
+306.112	EXP	ssDel_T: autoDraw = null
+306.112	EXP	llAm_T: autoDraw = null
+306.112	EXP	llDel_T: autoDraw = null
+306.112	EXP	textfbT: text = Elegiste no esperar
+306.112	EXP	textfbT: autoDraw = true
+309.12100000000004	EXP	textfbT: autoDraw = null
+309.12100000000004	EXP	textfbT: autoDraw = null
+309.12100000000004	EXP	ssAm_T: pos = [-0.5,0.1]
+309.12100000000004	EXP	ssAm_T: text = $10000
+309.12100000000004	EXP	ssDel_T: pos = [-0.5,-0.1]
+309.12100000000004	EXP	llAm_T: pos = [0.5,0.1]
+309.12100000000004	EXP	llAm_T: text = $39000
+309.12100000000004	EXP	llDel_T: pos = [0.5,-0.1]
+309.12100000000004	EXP	llDel_T: text = en 29 días
+309.12100000000004	EXP	preguntaT: autoDraw = true
+309.12100000000004	EXP	ssAm_T: autoDraw = true
+309.12100000000004	EXP	ssDel_T: autoDraw = true
+309.12100000000004	EXP	llAm_T: autoDraw = true
+309.12100000000004	EXP	llDel_T: autoDraw = true
+320.336	DATA	Keydown: ArrowRight
+320.346	EXP	preguntaT: autoDraw = null
+320.346	EXP	ssAm_T: autoDraw = null
+320.346	EXP	ssDel_T: autoDraw = null
+320.346	EXP	llAm_T: autoDraw = null
+320.346	EXP	llDel_T: autoDraw = null
+320.346	EXP	textfbT: text = Elegiste esperar
+320.346	EXP	textfbT: autoDraw = true
+323.356	EXP	textfbT: autoDraw = null
+323.356	EXP	textfbT: autoDraw = null
+323.356	EXP	ssAm_T: pos = [0.5,0.1]
+323.356	EXP	ssAm_T: text = $5000
+323.356	EXP	ssDel_T: pos = [0.5,-0.1]
+323.356	EXP	llAm_T: pos = [-0.5,0.1]
+323.356	EXP	llAm_T: text = $56000
+323.356	EXP	llDel_T: pos = [-0.5,-0.1]
+323.356	EXP	llDel_T: text = en 89 días
+323.356	EXP	preguntaT: autoDraw = true
+323.356	EXP	ssAm_T: autoDraw = true
+323.356	EXP	ssDel_T: autoDraw = true
+323.356	EXP	llAm_T: autoDraw = true
+323.356	EXP	llDel_T: autoDraw = true
+325.064	DATA	Keydown: ArrowLeft
+325.074	EXP	preguntaT: autoDraw = null
+325.074	EXP	ssAm_T: autoDraw = null
+325.074	EXP	ssDel_T: autoDraw = null
+325.074	EXP	llAm_T: autoDraw = null
+325.074	EXP	llDel_T: autoDraw = null
+325.074	EXP	textfbT: text = Elegiste esperar
+325.074	EXP	textfbT: autoDraw = true
+328.081	EXP	textfbT: autoDraw = null
+328.081	EXP	textfbT: autoDraw = null
+328.081	EXP	ssAm_T: pos = [0.5,0.1]
+328.081	EXP	ssAm_T: text = $5000
+328.081	EXP	ssDel_T: pos = [0.5,-0.1]
+328.081	EXP	llAm_T: pos = [-0.5,0.1]
+328.081	EXP	llAm_T: text = $56000
+328.081	EXP	llDel_T: pos = [-0.5,-0.1]
+328.081	EXP	llDel_T: text = en 60 días
+328.081	EXP	preguntaT: autoDraw = true
+328.081	EXP	ssAm_T: autoDraw = true
+328.081	EXP	ssDel_T: autoDraw = true
+328.081	EXP	llAm_T: autoDraw = true
+328.081	EXP	llDel_T: autoDraw = true
+329.75300000000004	DATA	Keydown: ArrowLeft
+329.759	EXP	preguntaT: autoDraw = null
+329.759	EXP	ssAm_T: autoDraw = null
+329.759	EXP	ssDel_T: autoDraw = null
+329.759	EXP	llAm_T: autoDraw = null
+329.759	EXP	llDel_T: autoDraw = null
+329.759	EXP	textfbT: text = Elegiste esperar
+329.759	EXP	textfbT: autoDraw = true
+332.77	EXP	textfbT: autoDraw = null
+332.77	EXP	textfbT: autoDraw = null
+332.77	EXP	ssAm_T: pos = [0.5,0.1]
+332.77	EXP	ssAm_T: text = $10000
+332.77	EXP	ssDel_T: pos = [0.5,-0.1]
+332.77	EXP	llAm_T: pos = [-0.5,0.1]
+332.77	EXP	llAm_T: text = $151000
+332.77	EXP	llDel_T: pos = [-0.5,-0.1]
+332.77	EXP	llDel_T: text = en 151 días
+332.77	EXP	preguntaT: autoDraw = true
+332.77	EXP	ssAm_T: autoDraw = true
+332.77	EXP	ssDel_T: autoDraw = true
+332.77	EXP	llAm_T: autoDraw = true
+332.77	EXP	llDel_T: autoDraw = true
+335.701	DATA	Keydown: ArrowLeft
+335.707	EXP	preguntaT: autoDraw = null
+335.707	EXP	ssAm_T: autoDraw = null
+335.707	EXP	ssDel_T: autoDraw = null
+335.707	EXP	llAm_T: autoDraw = null
+335.707	EXP	llDel_T: autoDraw = null
+335.707	EXP	textfbT: text = Elegiste esperar
+335.707	EXP	textfbT: autoDraw = true
+338.719	EXP	textfbT: autoDraw = null
+338.719	EXP	textfbT: autoDraw = null
+338.719	EXP	ssAm_T: pos = [-0.5,0.1]
+338.719	EXP	ssAm_T: text = $5000
+338.719	EXP	ssDel_T: pos = [-0.5,-0.1]
+338.719	EXP	llAm_T: pos = [0.5,0.1]
+338.719	EXP	llAm_T: text = $149000
+338.719	EXP	llDel_T: pos = [0.5,-0.1]
+338.719	EXP	llDel_T: text = en 10 días
+338.719	EXP	preguntaT: autoDraw = true
+338.719	EXP	ssAm_T: autoDraw = true
+338.719	EXP	ssDel_T: autoDraw = true
+338.719	EXP	llAm_T: autoDraw = true
+338.719	EXP	llDel_T: autoDraw = true
+341.91200000000003	DATA	Keydown: ArrowRight
+341.92400000000004	EXP	preguntaT: autoDraw = null
+341.92400000000004	EXP	ssAm_T: autoDraw = null
+341.92400000000004	EXP	ssDel_T: autoDraw = null
+341.92400000000004	EXP	llAm_T: autoDraw = null
+341.92400000000004	EXP	llDel_T: autoDraw = null
+341.92400000000004	EXP	textfbT: text = Elegiste esperar
+341.92400000000004	EXP	textfbT: autoDraw = true
+344.934	EXP	textfbT: autoDraw = null
+344.934	EXP	textfbT: autoDraw = null
+344.934	EXP	ssAm_T: pos = [-0.5,0.1]
+344.934	EXP	ssAm_T: text = $5000
+344.934	EXP	ssDel_T: pos = [-0.5,-0.1]
+344.934	EXP	llAm_T: pos = [0.5,0.1]
+344.934	EXP	llAm_T: text = $15000
+344.934	EXP	llDel_T: pos = [0.5,-0.1]
+344.934	EXP	llDel_T: text = en 61 días
+344.934	EXP	preguntaT: autoDraw = true
+344.934	EXP	ssAm_T: autoDraw = true
+344.934	EXP	ssDel_T: autoDraw = true
+344.934	EXP	llAm_T: autoDraw = true
+344.934	EXP	llDel_T: autoDraw = true
+347.12800000000004	DATA	Keydown: ArrowLeft
+347.144	EXP	preguntaT: autoDraw = null
+347.144	EXP	ssAm_T: autoDraw = null
+347.144	EXP	ssDel_T: autoDraw = null
+347.144	EXP	llAm_T: autoDraw = null
+347.144	EXP	llDel_T: autoDraw = null
+347.144	EXP	textfbT: text = Elegiste no esperar
+347.144	EXP	textfbT: autoDraw = true
+350.15000000000003	EXP	textfbT: autoDraw = null
+350.15000000000003	EXP	textfbT: autoDraw = null
+350.15000000000003	EXP	ssAm_T: pos = [0.5,0.1]
+350.15000000000003	EXP	ssAm_T: text = $5000
+350.15000000000003	EXP	ssDel_T: pos = [0.5,-0.1]
+350.15000000000003	EXP	llAm_T: pos = [-0.5,0.1]
+350.15000000000003	EXP	llAm_T: text = $151000
+350.15000000000003	EXP	llDel_T: pos = [-0.5,-0.1]
+350.15000000000003	EXP	llDel_T: text = en 4 días
+350.15000000000003	EXP	preguntaT: autoDraw = true
+350.15000000000003	EXP	ssAm_T: autoDraw = true
+350.15000000000003	EXP	ssDel_T: autoDraw = true
+350.15000000000003	EXP	llAm_T: autoDraw = true
+350.15000000000003	EXP	llDel_T: autoDraw = true
+357.796	DATA	Keydown: ArrowLeft
+357.812	EXP	preguntaT: autoDraw = null
+357.812	EXP	ssAm_T: autoDraw = null
+357.812	EXP	ssDel_T: autoDraw = null
+357.812	EXP	llAm_T: autoDraw = null
+357.812	EXP	llDel_T: autoDraw = null
+357.812	EXP	textfbT: text = Elegiste esperar
+357.812	EXP	textfbT: autoDraw = true
+360.819	EXP	textfbT: autoDraw = null
+360.819	EXP	textfbT: autoDraw = null
+360.819	EXP	ssAm_T: pos = [0.5,0.1]
+360.819	EXP	ssAm_T: text = $25000
+360.819	EXP	ssDel_T: pos = [0.5,-0.1]
+360.819	EXP	llAm_T: pos = [-0.5,0.1]
+360.819	EXP	llAm_T: text = $75000
+360.819	EXP	llDel_T: pos = [-0.5,-0.1]
+360.819	EXP	llDel_T: text = en 5 días
+360.819	EXP	preguntaT: autoDraw = true
+360.819	EXP	ssAm_T: autoDraw = true
+360.819	EXP	ssDel_T: autoDraw = true
+360.819	EXP	llAm_T: autoDraw = true
+360.819	EXP	llDel_T: autoDraw = true
+362.469	DATA	Keydown: ArrowLeft
+362.475	EXP	preguntaT: autoDraw = null
+362.475	EXP	ssAm_T: autoDraw = null
+362.475	EXP	ssDel_T: autoDraw = null
+362.475	EXP	llAm_T: autoDraw = null
+362.475	EXP	llDel_T: autoDraw = null
+362.475	EXP	textfbT: text = Elegiste esperar
+362.475	EXP	textfbT: autoDraw = true
+365.487	EXP	textfbT: autoDraw = null
+365.487	EXP	textfbT: autoDraw = null
+365.487	EXP	ssAm_T: pos = [-0.5,0.1]
+365.487	EXP	ssAm_T: text = $5000
+365.487	EXP	ssDel_T: pos = [-0.5,-0.1]
+365.487	EXP	llAm_T: pos = [0.5,0.1]
+365.487	EXP	llAm_T: text = $36000
+365.487	EXP	llDel_T: pos = [0.5,-0.1]
+365.487	EXP	llDel_T: text = en 61 días
+365.487	EXP	preguntaT: autoDraw = true
+365.487	EXP	ssAm_T: autoDraw = true
+365.487	EXP	ssDel_T: autoDraw = true
+365.487	EXP	llAm_T: autoDraw = true
+365.487	EXP	llDel_T: autoDraw = true
+368.593	DATA	Keydown: ArrowRight
+368.60900000000004	EXP	preguntaT: autoDraw = null
+368.60900000000004	EXP	ssAm_T: autoDraw = null
+368.60900000000004	EXP	ssDel_T: autoDraw = null
+368.60900000000004	EXP	llAm_T: autoDraw = null
+368.60900000000004	EXP	llDel_T: autoDraw = null
+368.60900000000004	EXP	textfbT: text = Elegiste esperar
+368.60900000000004	EXP	textfbT: autoDraw = true
+371.62	EXP	textfbT: autoDraw = null
+371.62	EXP	textfbT: autoDraw = null
+371.62	EXP	ssAm_T: pos = [0.5,0.1]
+371.62	EXP	ssAm_T: text = $25000
+371.62	EXP	ssDel_T: pos = [0.5,-0.1]
+371.62	EXP	llAm_T: pos = [-0.5,0.1]
+371.62	EXP	llAm_T: text = $55000
+371.62	EXP	llDel_T: pos = [-0.5,-0.1]
+371.62	EXP	llDel_T: text = en 151 días
+371.62	EXP	preguntaT: autoDraw = true
+371.62	EXP	ssAm_T: autoDraw = true
+371.62	EXP	ssDel_T: autoDraw = true
+371.62	EXP	llAm_T: autoDraw = true
+371.62	EXP	llDel_T: autoDraw = true
+378.625	DATA	Keydown: ArrowRight
+378.645	EXP	preguntaT: autoDraw = null
+378.645	EXP	ssAm_T: autoDraw = null
+378.645	EXP	ssDel_T: autoDraw = null
+378.645	EXP	llAm_T: autoDraw = null
+378.645	EXP	llDel_T: autoDraw = null
+378.645	EXP	textfbT: text = Elegiste no esperar
+378.645	EXP	textfbT: autoDraw = true
+381.647	EXP	textfbT: autoDraw = null
+381.647	EXP	textfbT: autoDraw = null
+381.647	EXP	ssAm_T: pos = [0.5,0.1]
+381.647	EXP	ssAm_T: text = $25000
+381.647	EXP	ssDel_T: pos = [0.5,-0.1]
+381.647	EXP	llAm_T: pos = [-0.5,0.1]
+381.647	EXP	llAm_T: text = $75000
+381.647	EXP	llDel_T: pos = [-0.5,-0.1]
+381.647	EXP	llDel_T: text = en 151 días
+381.647	EXP	preguntaT: autoDraw = true
+381.647	EXP	ssAm_T: autoDraw = true
+381.647	EXP	ssDel_T: autoDraw = true
+381.647	EXP	llAm_T: autoDraw = true
+381.647	EXP	llDel_T: autoDraw = true
+384.653	DATA	Keydown: ArrowRight
+384.658	EXP	preguntaT: autoDraw = null
+384.658	EXP	ssAm_T: autoDraw = null
+384.658	EXP	ssDel_T: autoDraw = null
+384.658	EXP	llAm_T: autoDraw = null
+384.658	EXP	llDel_T: autoDraw = null
+384.658	EXP	textfbT: text = Elegiste no esperar
+384.658	EXP	textfbT: autoDraw = true
+387.66700000000003	EXP	textfbT: autoDraw = null
+387.66700000000003	EXP	textfbT: autoDraw = null
+387.66700000000003	EXP	ssAm_T: pos = [0.5,0.1]
+387.66700000000003	EXP	ssAm_T: text = $25000
+387.66700000000003	EXP	ssDel_T: pos = [0.5,-0.1]
+387.66700000000003	EXP	llAm_T: pos = [-0.5,0.1]
+387.66700000000003	EXP	llAm_T: text = $55000
+387.66700000000003	EXP	llDel_T: pos = [-0.5,-0.1]
+387.66700000000003	EXP	llDel_T: text = en 60 días
+387.66700000000003	EXP	preguntaT: autoDraw = true
+387.66700000000003	EXP	ssAm_T: autoDraw = true
+387.66700000000003	EXP	ssDel_T: autoDraw = true
+387.66700000000003	EXP	llAm_T: autoDraw = true
+387.66700000000003	EXP	llDel_T: autoDraw = true
+392.547	DATA	Keydown: ArrowRight
+392.558	EXP	preguntaT: autoDraw = null
+392.558	EXP	ssAm_T: autoDraw = null
+392.558	EXP	ssDel_T: autoDraw = null
+392.558	EXP	llAm_T: autoDraw = null
+392.558	EXP	llDel_T: autoDraw = null
+392.558	EXP	textfbT: text = Elegiste no esperar
+392.558	EXP	textfbT: autoDraw = true
+395.571	EXP	textfbT: autoDraw = null
+395.571	EXP	textfbT: autoDraw = null
+395.571	EXP	ssAm_T: pos = [-0.5,0.1]
+395.571	EXP	ssAm_T: text = $5000
+395.571	EXP	ssDel_T: pos = [-0.5,-0.1]
+395.571	EXP	llAm_T: pos = [0.5,0.1]
+395.571	EXP	llAm_T: text = $106000
+395.571	EXP	llDel_T: pos = [0.5,-0.1]
+395.571	EXP	llDel_T: text = en 29 días
+395.571	EXP	preguntaT: autoDraw = true
+395.571	EXP	ssAm_T: autoDraw = true
+395.571	EXP	ssDel_T: autoDraw = true
+395.571	EXP	llAm_T: autoDraw = true
+395.571	EXP	llDel_T: autoDraw = true
+397.545	DATA	Keydown: ArrowRight
+397.562	EXP	preguntaT: autoDraw = null
+397.562	EXP	ssAm_T: autoDraw = null
+397.562	EXP	ssDel_T: autoDraw = null
+397.562	EXP	llAm_T: autoDraw = null
+397.562	EXP	llDel_T: autoDraw = null
+397.562	EXP	textfbT: text = Elegiste esperar
+397.562	EXP	textfbT: autoDraw = true
+400.571	EXP	textfbT: autoDraw = null
+400.571	EXP	textfbT: autoDraw = null
+400.571	EXP	ssAm_T: pos = [-0.5,0.1]
+400.571	EXP	ssAm_T: text = $25000
+400.571	EXP	ssDel_T: pos = [-0.5,-0.1]
+400.571	EXP	llAm_T: pos = [0.5,0.1]
+400.571	EXP	llAm_T: text = $125000
+400.571	EXP	llDel_T: pos = [0.5,-0.1]
+400.571	EXP	llDel_T: text = en 4 días
+400.571	EXP	preguntaT: autoDraw = true
+400.571	EXP	ssAm_T: autoDraw = true
+400.571	EXP	ssDel_T: autoDraw = true
+400.571	EXP	llAm_T: autoDraw = true
+400.571	EXP	llDel_T: autoDraw = true
+402.20000000000005	DATA	Keydown: ArrowRight
+402.207	EXP	preguntaT: autoDraw = null
+402.207	EXP	ssAm_T: autoDraw = null
+402.207	EXP	ssDel_T: autoDraw = null
+402.207	EXP	llAm_T: autoDraw = null
+402.207	EXP	llDel_T: autoDraw = null
+402.207	EXP	textfbT: text = Elegiste esperar
+402.207	EXP	textfbT: autoDraw = true
+405.22	EXP	textfbT: autoDraw = null
+405.22	EXP	textfbT: autoDraw = null
+405.22	EXP	ssAm_T: pos = [-0.5,0.1]
+405.22	EXP	ssAm_T: text = $10000
+405.22	EXP	ssDel_T: pos = [-0.5,-0.1]
+405.22	EXP	llAm_T: pos = [0.5,0.1]
+405.22	EXP	llAm_T: text = $20000
+405.22	EXP	llDel_T: pos = [0.5,-0.1]
+405.22	EXP	llDel_T: text = en 90 días
+405.22	EXP	preguntaT: autoDraw = true
+405.22	EXP	ssAm_T: autoDraw = true
+405.22	EXP	ssDel_T: autoDraw = true
+405.22	EXP	llAm_T: autoDraw = true
+405.22	EXP	llDel_T: autoDraw = true
+407.73400000000004	DATA	Keydown: ArrowLeft
+407.745	EXP	preguntaT: autoDraw = null
+407.745	EXP	ssAm_T: autoDraw = null
+407.745	EXP	ssDel_T: autoDraw = null
+407.745	EXP	llAm_T: autoDraw = null
+407.745	EXP	llDel_T: autoDraw = null
+407.745	EXP	textfbT: text = Elegiste no esperar
+407.745	EXP	textfbT: autoDraw = true
+410.75	EXP	textfbT: autoDraw = null
+410.75	EXP	textfbT: autoDraw = null
+410.75	EXP	ssAm_T: pos = [-0.5,0.1]
+410.75	EXP	ssAm_T: text = $10000
+410.75	EXP	ssDel_T: pos = [-0.5,-0.1]
+410.75	EXP	llAm_T: pos = [0.5,0.1]
+410.75	EXP	llAm_T: text = $149000
+410.75	EXP	llDel_T: pos = [0.5,-0.1]
+410.75	EXP	llDel_T: text = en 61 días
+410.75	EXP	preguntaT: autoDraw = true
+410.75	EXP	ssAm_T: autoDraw = true
+410.75	EXP	ssDel_T: autoDraw = true
+410.75	EXP	llAm_T: autoDraw = true
+410.75	EXP	llDel_T: autoDraw = true
+414.159	DATA	Keydown: ArrowRight
+414.177	EXP	preguntaT: autoDraw = null
+414.177	EXP	ssAm_T: autoDraw = null
+414.177	EXP	ssDel_T: autoDraw = null
+414.177	EXP	llAm_T: autoDraw = null
+414.177	EXP	llDel_T: autoDraw = null
+414.177	EXP	textfbT: text = Elegiste esperar
+414.177	EXP	textfbT: autoDraw = true
+417.185	EXP	textfbT: autoDraw = null
+417.185	EXP	textfbT: autoDraw = null
+417.185	EXP	ssAm_T: pos = [-0.5,0.1]
+417.185	EXP	ssAm_T: text = $10000
+417.185	EXP	ssDel_T: pos = [-0.5,-0.1]
+417.185	EXP	llAm_T: pos = [0.5,0.1]
+417.185	EXP	llAm_T: text = $61000
+417.185	EXP	llDel_T: pos = [0.5,-0.1]
+417.185	EXP	llDel_T: text = en 89 días
+417.185	EXP	preguntaT: autoDraw = true
+417.185	EXP	ssAm_T: autoDraw = true
+417.185	EXP	ssDel_T: autoDraw = true
+417.185	EXP	llAm_T: autoDraw = true
+417.185	EXP	llDel_T: autoDraw = true
+419.96700000000004	DATA	Keydown: ArrowRight
+419.97400000000005	EXP	preguntaT: autoDraw = null
+419.97400000000005	EXP	ssAm_T: autoDraw = null
+419.97400000000005	EXP	ssDel_T: autoDraw = null
+419.97400000000005	EXP	llAm_T: autoDraw = null
+419.97400000000005	EXP	llDel_T: autoDraw = null
+419.97400000000005	EXP	textfbT: text = Elegiste esperar
+419.97400000000005	EXP	textfbT: autoDraw = true
+422.987	EXP	textfbT: autoDraw = null
+422.987	EXP	textfbT: autoDraw = null
+422.987	EXP	ssAm_T: pos = [0.5,0.1]
+422.987	EXP	ssAm_T: text = $5000
+422.987	EXP	ssDel_T: pos = [0.5,-0.1]
+422.987	EXP	llAm_T: pos = [-0.5,0.1]
+422.987	EXP	llAm_T: text = $56000
+422.987	EXP	llDel_T: pos = [-0.5,-0.1]
+422.987	EXP	llDel_T: text = en 9 días
+422.987	EXP	preguntaT: autoDraw = true
+422.987	EXP	ssAm_T: autoDraw = true
+422.987	EXP	ssDel_T: autoDraw = true
+422.987	EXP	llAm_T: autoDraw = true
+422.987	EXP	llDel_T: autoDraw = true
+426.16400000000004	DATA	Keydown: ArrowLeft
+426.175	EXP	preguntaT: autoDraw = null
+426.175	EXP	ssAm_T: autoDraw = null
+426.175	EXP	ssDel_T: autoDraw = null
+426.175	EXP	llAm_T: autoDraw = null
+426.175	EXP	llDel_T: autoDraw = null
+426.175	EXP	textfbT: text = Elegiste esperar
+426.175	EXP	textfbT: autoDraw = true
+429.184	EXP	textfbT: autoDraw = null
+429.184	EXP	textfbT: autoDraw = null
+429.184	EXP	ssAm_T: pos = [0.5,0.1]
+429.184	EXP	ssAm_T: text = $5000
+429.184	EXP	ssDel_T: pos = [0.5,-0.1]
+429.184	EXP	llAm_T: pos = [-0.5,0.1]
+429.184	EXP	llAm_T: text = $15000
+429.184	EXP	llDel_T: pos = [-0.5,-0.1]
+429.184	EXP	llDel_T: text = en 11 días
+429.184	EXP	preguntaT: autoDraw = true
+429.184	EXP	ssAm_T: autoDraw = true
+429.184	EXP	ssDel_T: autoDraw = true
+429.184	EXP	llAm_T: autoDraw = true
+429.184	EXP	llDel_T: autoDraw = true
+449.178	EXP	preguntaT: autoDraw = null
+449.178	EXP	ssAm_T: autoDraw = null
+449.178	EXP	ssDel_T: autoDraw = null
+449.178	EXP	llAm_T: autoDraw = null
+449.178	EXP	llDel_T: autoDraw = null
+449.178	EXP	preguntaT: autoDraw = null
+449.178	EXP	ssAm_T: autoDraw = null
+449.178	EXP	ssDel_T: autoDraw = null
+449.178	EXP	llAm_T: autoDraw = null
+449.178	EXP	llDel_T: autoDraw = null
+449.178	EXP	textfbT: text = No respondiste a tiempo!
+449.178	EXP	textfbT: autoDraw = true
+452.184	EXP	textfbT: autoDraw = null
+452.184	EXP	textfbT: autoDraw = null
+452.184	EXP	ssAm_T: pos = [-0.5,0.1]
+452.184	EXP	ssAm_T: text = $5000
+452.184	EXP	ssDel_T: pos = [-0.5,-0.1]
+452.184	EXP	llAm_T: pos = [0.5,0.1]
+452.184	EXP	llAm_T: text = $55000
+452.184	EXP	llDel_T: pos = [0.5,-0.1]
+452.184	EXP	llDel_T: text = en 151 días
+452.184	EXP	preguntaT: autoDraw = true
+452.184	EXP	ssAm_T: autoDraw = true
+452.184	EXP	ssDel_T: autoDraw = true
+452.184	EXP	llAm_T: autoDraw = true
+452.184	EXP	llDel_T: autoDraw = true
+459.635	DATA	Keydown: ArrowLeft
+459.647	EXP	preguntaT: autoDraw = null
+459.647	EXP	ssAm_T: autoDraw = null
+459.647	EXP	ssDel_T: autoDraw = null
+459.647	EXP	llAm_T: autoDraw = null
+459.647	EXP	llDel_T: autoDraw = null
+459.647	EXP	textfbT: text = Elegiste no esperar
+459.647	EXP	textfbT: autoDraw = true
+462.6570000000001	EXP	textfbT: autoDraw = null
+462.6570000000001	EXP	textfbT: autoDraw = null
+462.6570000000001	EXP	ssAm_T: pos = [-0.5,0.1]
+462.6570000000001	EXP	ssAm_T: text = $25000
+462.6570000000001	EXP	ssDel_T: pos = [-0.5,-0.1]
+462.6570000000001	EXP	llAm_T: pos = [0.5,0.1]
+462.6570000000001	EXP	llAm_T: text = $150000
+462.6570000000001	EXP	llDel_T: pos = [0.5,-0.1]
+462.6570000000001	EXP	llDel_T: text = en 150 días
+462.6570000000001	EXP	preguntaT: autoDraw = true
+462.6570000000001	EXP	ssAm_T: autoDraw = true
+462.6570000000001	EXP	ssDel_T: autoDraw = true
+462.6570000000001	EXP	llAm_T: autoDraw = true
+462.6570000000001	EXP	llDel_T: autoDraw = true
+465.514	DATA	Keydown: ArrowRight
+465.52700000000004	EXP	preguntaT: autoDraw = null
+465.52700000000004	EXP	ssAm_T: autoDraw = null
+465.52700000000004	EXP	ssDel_T: autoDraw = null
+465.52700000000004	EXP	llAm_T: autoDraw = null
+465.52700000000004	EXP	llDel_T: autoDraw = null
+465.52700000000004	EXP	textfbT: text = Elegiste esperar
+465.52700000000004	EXP	textfbT: autoDraw = true
+468.534	EXP	textfbT: autoDraw = null
+468.534	EXP	textfbT: autoDraw = null
+468.534	EXP	ssAm_T: pos = [0.5,0.1]
+468.534	EXP	ssAm_T: text = $25000
+468.534	EXP	ssDel_T: pos = [0.5,-0.1]
+468.534	EXP	llAm_T: pos = [-0.5,0.1]
+468.534	EXP	llAm_T: text = $75000
+468.534	EXP	llDel_T: pos = [-0.5,-0.1]
+468.534	EXP	llDel_T: text = en 31 días
+468.534	EXP	preguntaT: autoDraw = true
+468.534	EXP	ssAm_T: autoDraw = true
+468.534	EXP	ssDel_T: autoDraw = true
+468.534	EXP	llAm_T: autoDraw = true
+468.534	EXP	llDel_T: autoDraw = true
+473.153	DATA	Keydown: ArrowLeft
+473.159	EXP	preguntaT: autoDraw = null
+473.159	EXP	ssAm_T: autoDraw = null
+473.159	EXP	ssDel_T: autoDraw = null
+473.159	EXP	llAm_T: autoDraw = null
+473.159	EXP	llDel_T: autoDraw = null
+473.159	EXP	textfbT: text = Elegiste esperar
+473.159	EXP	textfbT: autoDraw = true
+476.172	EXP	textfbT: autoDraw = null
+476.172	EXP	textfbT: autoDraw = null
+476.172	EXP	ssAm_T: pos = [0.5,0.1]
+476.172	EXP	ssAm_T: text = $10000
+476.172	EXP	ssDel_T: pos = [0.5,-0.1]
+476.172	EXP	llAm_T: pos = [-0.5,0.1]
+476.172	EXP	llAm_T: text = $109000
+476.172	EXP	llDel_T: pos = [-0.5,-0.1]
+476.172	EXP	llDel_T: text = en 149 días
+476.172	EXP	preguntaT: autoDraw = true
+476.172	EXP	ssAm_T: autoDraw = true
+476.172	EXP	ssDel_T: autoDraw = true
+476.172	EXP	llAm_T: autoDraw = true
+476.172	EXP	llDel_T: autoDraw = true
+477.836	DATA	Keydown: ArrowLeft
+477.843	EXP	preguntaT: autoDraw = null
+477.843	EXP	ssAm_T: autoDraw = null
+477.843	EXP	ssDel_T: autoDraw = null
+477.843	EXP	llAm_T: autoDraw = null
+477.843	EXP	llDel_T: autoDraw = null
+477.843	EXP	textfbT: text = Elegiste esperar
+477.843	EXP	textfbT: autoDraw = true
+480.85400000000004	EXP	textfbT: autoDraw = null
+480.85400000000004	EXP	textfbT: autoDraw = null
+480.85400000000004	EXP	ssAm_T: pos = [-0.5,0.1]
+480.85400000000004	EXP	ssAm_T: text = $5000
+480.85400000000004	EXP	ssDel_T: pos = [-0.5,-0.1]
+480.85400000000004	EXP	llAm_T: pos = [0.5,0.1]
+480.85400000000004	EXP	llAm_T: text = $104000
+480.85400000000004	EXP	llDel_T: pos = [0.5,-0.1]
+480.85400000000004	EXP	llDel_T: text = en 5 días
+480.85400000000004	EXP	preguntaT: autoDraw = true
+480.85400000000004	EXP	ssAm_T: autoDraw = true
+480.85400000000004	EXP	ssDel_T: autoDraw = true
+480.85400000000004	EXP	llAm_T: autoDraw = true
+480.85400000000004	EXP	llDel_T: autoDraw = true
+482.904	DATA	Keydown: ArrowRight
+482.908	EXP	preguntaT: autoDraw = null
+482.908	EXP	ssAm_T: autoDraw = null
+482.908	EXP	ssDel_T: autoDraw = null
+482.908	EXP	llAm_T: autoDraw = null
+482.908	EXP	llDel_T: autoDraw = null
+482.908	EXP	textfbT: text = Elegiste esperar
+482.908	EXP	textfbT: autoDraw = true
+485.91700000000003	EXP	textfbT: autoDraw = null
+485.91700000000003	EXP	textfbT: autoDraw = null
+485.91700000000003	EXP	ssAm_T: pos = [-0.5,0.1]
+485.91700000000003	EXP	ssAm_T: text = $10000
+485.91700000000003	EXP	ssDel_T: pos = [-0.5,-0.1]
+485.91700000000003	EXP	llAm_T: pos = [0.5,0.1]
+485.91700000000003	EXP	llAm_T: text = $109000
+485.91700000000003	EXP	llDel_T: pos = [0.5,-0.1]
+485.91700000000003	EXP	llDel_T: text = en 5 días
+485.91700000000003	EXP	preguntaT: autoDraw = true
+485.91700000000003	EXP	ssAm_T: autoDraw = true
+485.91700000000003	EXP	ssDel_T: autoDraw = true
+485.91700000000003	EXP	llAm_T: autoDraw = true
+485.91700000000003	EXP	llDel_T: autoDraw = true
+489.305	DATA	Keydown: ArrowRight
+489.31	EXP	preguntaT: autoDraw = null
+489.31	EXP	ssAm_T: autoDraw = null
+489.31	EXP	ssDel_T: autoDraw = null
+489.31	EXP	llAm_T: autoDraw = null
+489.31	EXP	llDel_T: autoDraw = null
+489.31	EXP	textfbT: text = Elegiste esperar
+489.31	EXP	textfbT: autoDraw = true
+492.319	EXP	textfbT: autoDraw = null
+492.319	EXP	textfbT: autoDraw = null
+492.319	EXP	ssAm_T: pos = [-0.5,0.1]
+492.319	EXP	ssAm_T: text = $5000
+492.319	EXP	ssDel_T: pos = [-0.5,-0.1]
+492.319	EXP	llAm_T: pos = [0.5,0.1]
+492.319	EXP	llAm_T: text = $54000
+492.319	EXP	llDel_T: pos = [0.5,-0.1]
+492.319	EXP	llDel_T: text = en 5 días
+492.319	EXP	preguntaT: autoDraw = true
+492.319	EXP	ssAm_T: autoDraw = true
+492.319	EXP	ssDel_T: autoDraw = true
+492.319	EXP	llAm_T: autoDraw = true
+492.319	EXP	llDel_T: autoDraw = true
+493.696	DATA	Keydown: ArrowRight
+493.709	EXP	preguntaT: autoDraw = null
+493.709	EXP	ssAm_T: autoDraw = null
+493.709	EXP	ssDel_T: autoDraw = null
+493.709	EXP	llAm_T: autoDraw = null
+493.709	EXP	llDel_T: autoDraw = null
+493.709	EXP	textfbT: text = Elegiste esperar
+493.709	EXP	textfbT: autoDraw = true
+496.718	EXP	textfbT: autoDraw = null
+496.718	EXP	textfbT: autoDraw = null
+496.718	EXP	ssAm_T: pos = [0.5,0.1]
+496.718	EXP	ssAm_T: text = $25000
+496.718	EXP	ssDel_T: pos = [0.5,-0.1]
+496.718	EXP	llAm_T: pos = [-0.5,0.1]
+496.718	EXP	llAm_T: text = $35000
+496.718	EXP	llDel_T: pos = [-0.5,-0.1]
+496.718	EXP	llDel_T: text = en 5 días
+496.718	EXP	preguntaT: autoDraw = true
+496.718	EXP	ssAm_T: autoDraw = true
+496.718	EXP	ssDel_T: autoDraw = true
+496.718	EXP	llAm_T: autoDraw = true
+496.718	EXP	llDel_T: autoDraw = true
+499.71700000000004	DATA	Keydown: ArrowLeft
+499.72400000000005	EXP	preguntaT: autoDraw = null
+499.72400000000005	EXP	ssAm_T: autoDraw = null
+499.72400000000005	EXP	ssDel_T: autoDraw = null
+499.72400000000005	EXP	llAm_T: autoDraw = null
+499.72400000000005	EXP	llDel_T: autoDraw = null
+499.72400000000005	EXP	textfbT: text = Elegiste esperar
+499.72400000000005	EXP	textfbT: autoDraw = true
+502.733	EXP	textfbT: autoDraw = null
+502.733	EXP	textfbT: autoDraw = null
+502.733	EXP	ssAm_T: pos = [0.5,0.1]
+502.733	EXP	ssAm_T: text = $25000
+502.733	EXP	ssDel_T: pos = [0.5,-0.1]
+502.733	EXP	llAm_T: pos = [-0.5,0.1]
+502.733	EXP	llAm_T: text = $125000
+502.733	EXP	llDel_T: pos = [-0.5,-0.1]
+502.733	EXP	llDel_T: text = en 9 días
+502.733	EXP	preguntaT: autoDraw = true
+502.733	EXP	ssAm_T: autoDraw = true
+502.733	EXP	ssDel_T: autoDraw = true
+502.733	EXP	llAm_T: autoDraw = true
+502.733	EXP	llDel_T: autoDraw = true
+504.497	DATA	Keydown: ArrowLeft
+504.509	EXP	preguntaT: autoDraw = null
+504.509	EXP	ssAm_T: autoDraw = null
+504.509	EXP	ssDel_T: autoDraw = null
+504.509	EXP	llAm_T: autoDraw = null
+504.509	EXP	llDel_T: autoDraw = null
+504.509	EXP	textfbT: text = Elegiste esperar
+504.509	EXP	textfbT: autoDraw = true
+507.514	EXP	textfbT: autoDraw = null
+507.514	EXP	textfbT: autoDraw = null
+507.514	EXP	ssAm_T: pos = [-0.5,0.1]
+507.514	EXP	ssAm_T: text = $25000
+507.514	EXP	ssDel_T: pos = [-0.5,-0.1]
+507.514	EXP	llAm_T: pos = [0.5,0.1]
+507.514	EXP	llAm_T: text = $125000
+507.514	EXP	llDel_T: pos = [0.5,-0.1]
+507.514	EXP	llDel_T: text = en 89 días
+507.514	EXP	preguntaT: autoDraw = true
+507.514	EXP	ssAm_T: autoDraw = true
+507.514	EXP	ssDel_T: autoDraw = true
+507.514	EXP	llAm_T: autoDraw = true
+507.514	EXP	llDel_T: autoDraw = true
+510.98600000000005	DATA	Keydown: ArrowRight
+510.993	EXP	preguntaT: autoDraw = null
+510.993	EXP	ssAm_T: autoDraw = null
+510.993	EXP	ssDel_T: autoDraw = null
+510.993	EXP	llAm_T: autoDraw = null
+510.993	EXP	llDel_T: autoDraw = null
+510.993	EXP	textfbT: text = Elegiste esperar
+510.993	EXP	textfbT: autoDraw = true
+514.004	EXP	textfbT: autoDraw = null
+514.004	EXP	textfbT: autoDraw = null
+514.004	EXP	ssAm_T: pos = [0.5,0.1]
+514.004	EXP	ssAm_T: text = $10000
+514.004	EXP	ssDel_T: pos = [0.5,-0.1]
+514.004	EXP	llAm_T: pos = [-0.5,0.1]
+514.004	EXP	llAm_T: text = $21000
+514.004	EXP	llDel_T: pos = [-0.5,-0.1]
+514.004	EXP	llDel_T: text = en 31 días
+514.004	EXP	preguntaT: autoDraw = true
+514.004	EXP	ssAm_T: autoDraw = true
+514.004	EXP	ssDel_T: autoDraw = true
+514.004	EXP	llAm_T: autoDraw = true
+514.004	EXP	llDel_T: autoDraw = true
+518.471	DATA	Keydown: ArrowLeft
+518.4749999999999	EXP	preguntaT: autoDraw = null
+518.4749999999999	EXP	ssAm_T: autoDraw = null
+518.4749999999999	EXP	ssDel_T: autoDraw = null
+518.4749999999999	EXP	llAm_T: autoDraw = null
+518.4749999999999	EXP	llDel_T: autoDraw = null
+518.4749999999999	EXP	textfbT: text = Elegiste esperar
+518.4749999999999	EXP	textfbT: autoDraw = true
+521.485	EXP	textfbT: autoDraw = null
+521.485	EXP	textfbT: autoDraw = null
+521.485	EXP	ssAm_T: pos = [-0.5,0.1]
+521.485	EXP	ssAm_T: text = $10000
+521.485	EXP	ssDel_T: pos = [-0.5,-0.1]
+521.485	EXP	llAm_T: pos = [0.5,0.1]
+521.485	EXP	llAm_T: text = $149000
+521.485	EXP	llDel_T: pos = [0.5,-0.1]
+521.485	EXP	llDel_T: text = en 89 días
+521.485	EXP	preguntaT: autoDraw = true
+521.485	EXP	ssAm_T: autoDraw = true
+521.485	EXP	ssDel_T: autoDraw = true
+521.485	EXP	llAm_T: autoDraw = true
+521.485	EXP	llDel_T: autoDraw = true
+525.203	DATA	Keydown: ArrowRight
+525.209	EXP	preguntaT: autoDraw = null
+525.209	EXP	ssAm_T: autoDraw = null
+525.209	EXP	ssDel_T: autoDraw = null
+525.209	EXP	llAm_T: autoDraw = null
+525.209	EXP	llDel_T: autoDraw = null
+525.209	EXP	textfbT: text = Elegiste esperar
+525.209	EXP	textfbT: autoDraw = true
+528.2189999999999	EXP	textfbT: autoDraw = null
+528.2189999999999	EXP	textfbT: autoDraw = null
+528.2189999999999	EXP	ssAm_T: pos = [0.5,0.1]
+528.2189999999999	EXP	ssAm_T: text = $25000
+528.2189999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+528.2189999999999	EXP	llAm_T: pos = [-0.5,0.1]
+528.2189999999999	EXP	llAm_T: text = $55000
+528.2189999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+528.2189999999999	EXP	llDel_T: text = en 30 días
+528.2189999999999	EXP	preguntaT: autoDraw = true
+528.2189999999999	EXP	ssAm_T: autoDraw = true
+528.2189999999999	EXP	ssDel_T: autoDraw = true
+528.2189999999999	EXP	llAm_T: autoDraw = true
+528.2189999999999	EXP	llDel_T: autoDraw = true
+531.327	DATA	Keydown: ArrowLeft
+531.341	EXP	preguntaT: autoDraw = null
+531.341	EXP	ssAm_T: autoDraw = null
+531.341	EXP	ssDel_T: autoDraw = null
+531.341	EXP	llAm_T: autoDraw = null
+531.341	EXP	llDel_T: autoDraw = null
+531.341	EXP	textfbT: text = Elegiste esperar
+531.341	EXP	textfbT: autoDraw = true
+534.3539999999999	EXP	textfbT: autoDraw = null
+534.3539999999999	EXP	textfbT: autoDraw = null
+534.3539999999999	EXP	ssAm_T: pos = [0.5,0.1]
+534.3539999999999	EXP	ssAm_T: text = $5000
+534.3539999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+534.3539999999999	EXP	llAm_T: pos = [-0.5,0.1]
+534.3539999999999	EXP	llAm_T: text = $106000
+534.3539999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+534.3539999999999	EXP	llDel_T: text = en 152 días
+534.3539999999999	EXP	preguntaT: autoDraw = true
+534.3539999999999	EXP	ssAm_T: autoDraw = true
+534.3539999999999	EXP	ssDel_T: autoDraw = true
+534.3539999999999	EXP	llAm_T: autoDraw = true
+534.3539999999999	EXP	llDel_T: autoDraw = true
+535.9459999999999	DATA	Keydown: ArrowLeft
+535.958	EXP	preguntaT: autoDraw = null
+535.958	EXP	ssAm_T: autoDraw = null
+535.958	EXP	ssDel_T: autoDraw = null
+535.958	EXP	llAm_T: autoDraw = null
+535.958	EXP	llDel_T: autoDraw = null
+535.958	EXP	textfbT: text = Elegiste esperar
+535.958	EXP	textfbT: autoDraw = true
+538.9699999999999	EXP	textfbT: autoDraw = null
+538.9699999999999	EXP	textfbT: autoDraw = null
+538.9699999999999	EXP	ssAm_T: pos = [-0.5,0.1]
+538.9699999999999	EXP	ssAm_T: text = $10000
+538.9699999999999	EXP	ssDel_T: pos = [-0.5,-0.1]
+538.9699999999999	EXP	llAm_T: pos = [0.5,0.1]
+538.9699999999999	EXP	llAm_T: text = $59000
+538.9699999999999	EXP	llDel_T: pos = [0.5,-0.1]
+538.9699999999999	EXP	llDel_T: text = en 9 días
+538.9699999999999	EXP	preguntaT: autoDraw = true
+538.9699999999999	EXP	ssAm_T: autoDraw = true
+538.9699999999999	EXP	ssDel_T: autoDraw = true
+538.9699999999999	EXP	llAm_T: autoDraw = true
+538.9699999999999	EXP	llDel_T: autoDraw = true
+540.944	DATA	Keydown: ArrowRight
+540.957	EXP	preguntaT: autoDraw = null
+540.957	EXP	ssAm_T: autoDraw = null
+540.957	EXP	ssDel_T: autoDraw = null
+540.957	EXP	llAm_T: autoDraw = null
+540.957	EXP	llDel_T: autoDraw = null
+540.957	EXP	textfbT: text = Elegiste esperar
+540.957	EXP	textfbT: autoDraw = true
+543.971	EXP	textfbT: autoDraw = null
+543.971	EXP	textfbT: autoDraw = null
+543.971	EXP	ssAm_T: pos = [-0.5,0.1]
+543.971	EXP	ssAm_T: text = $25000
+543.971	EXP	ssDel_T: pos = [-0.5,-0.1]
+543.971	EXP	llAm_T: pos = [0.5,0.1]
+543.971	EXP	llAm_T: text = $35000
+543.971	EXP	llDel_T: pos = [0.5,-0.1]
+543.971	EXP	llDel_T: text = en 90 días
+543.971	EXP	preguntaT: autoDraw = true
+543.971	EXP	ssAm_T: autoDraw = true
+543.971	EXP	ssDel_T: autoDraw = true
+543.971	EXP	llAm_T: autoDraw = true
+543.971	EXP	llDel_T: autoDraw = true
+545.7629999999999	DATA	Keydown: ArrowLeft
+545.778	EXP	preguntaT: autoDraw = null
+545.778	EXP	ssAm_T: autoDraw = null
+545.778	EXP	ssDel_T: autoDraw = null
+545.778	EXP	llAm_T: autoDraw = null
+545.778	EXP	llDel_T: autoDraw = null
+545.778	EXP	textfbT: text = Elegiste no esperar
+545.778	EXP	textfbT: autoDraw = true
+548.78	EXP	textfbT: autoDraw = null
+548.78	EXP	textfbT: autoDraw = null
+548.78	EXP	ssAm_T: pos = [-0.5,0.1]
+548.78	EXP	ssAm_T: text = $25000
+548.78	EXP	ssDel_T: pos = [-0.5,-0.1]
+548.78	EXP	llAm_T: pos = [0.5,0.1]
+548.78	EXP	llAm_T: text = $55000
+548.78	EXP	llDel_T: pos = [0.5,-0.1]
+548.78	EXP	llDel_T: text = en 90 días
+548.78	EXP	preguntaT: autoDraw = true
+548.78	EXP	ssAm_T: autoDraw = true
+548.78	EXP	ssDel_T: autoDraw = true
+548.78	EXP	llAm_T: autoDraw = true
+548.78	EXP	llDel_T: autoDraw = true
+550.943	DATA	Keydown: ArrowRight
+550.962	EXP	preguntaT: autoDraw = null
+550.962	EXP	ssAm_T: autoDraw = null
+550.962	EXP	ssDel_T: autoDraw = null
+550.962	EXP	llAm_T: autoDraw = null
+550.962	EXP	llDel_T: autoDraw = null
+550.962	EXP	textfbT: text = Elegiste esperar
+550.962	EXP	textfbT: autoDraw = true
+553.9649999999999	EXP	textfbT: autoDraw = null
+553.9649999999999	EXP	textfbT: autoDraw = null
+553.9649999999999	EXP	ssAm_T: pos = [0.5,0.1]
+553.9649999999999	EXP	ssAm_T: text = $25000
+553.9649999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+553.9649999999999	EXP	llAm_T: pos = [-0.5,0.1]
+553.9649999999999	EXP	llAm_T: text = $55000
+553.9649999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+553.9649999999999	EXP	llDel_T: text = en 11 días
+553.9649999999999	EXP	preguntaT: autoDraw = true
+553.9649999999999	EXP	ssAm_T: autoDraw = true
+553.9649999999999	EXP	ssDel_T: autoDraw = true
+553.9649999999999	EXP	llAm_T: autoDraw = true
+553.9649999999999	EXP	llDel_T: autoDraw = true
+556.146	DATA	Keydown: ArrowLeft
+556.1569999999999	EXP	preguntaT: autoDraw = null
+556.1569999999999	EXP	ssAm_T: autoDraw = null
+556.1569999999999	EXP	ssDel_T: autoDraw = null
+556.1569999999999	EXP	llAm_T: autoDraw = null
+556.1569999999999	EXP	llDel_T: autoDraw = null
+556.1569999999999	EXP	textfbT: text = Elegiste esperar
+556.1569999999999	EXP	textfbT: autoDraw = true
+559.1709999999999	EXP	textfbT: autoDraw = null
+559.1709999999999	EXP	textfbT: autoDraw = null
+559.1709999999999	EXP	ssAm_T: pos = [0.5,0.1]
+559.1709999999999	EXP	ssAm_T: text = $5000
+559.1709999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+559.1709999999999	EXP	llAm_T: pos = [-0.5,0.1]
+559.1709999999999	EXP	llAm_T: text = $35000
+559.1709999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+559.1709999999999	EXP	llDel_T: text = en 31 días
+559.1709999999999	EXP	preguntaT: autoDraw = true
+559.1709999999999	EXP	ssAm_T: autoDraw = true
+559.1709999999999	EXP	ssDel_T: autoDraw = true
+559.1709999999999	EXP	llAm_T: autoDraw = true
+559.1709999999999	EXP	llDel_T: autoDraw = true
+561.212	DATA	Keydown: ArrowLeft
+561.2239999999999	EXP	preguntaT: autoDraw = null
+561.2239999999999	EXP	ssAm_T: autoDraw = null
+561.2239999999999	EXP	ssDel_T: autoDraw = null
+561.2239999999999	EXP	llAm_T: autoDraw = null
+561.2239999999999	EXP	llDel_T: autoDraw = null
+561.2239999999999	EXP	textfbT: text = Elegiste esperar
+561.2239999999999	EXP	textfbT: autoDraw = true
+564.2339999999999	EXP	textfbT: autoDraw = null
+564.2339999999999	EXP	textfbT: autoDraw = null
+564.2339999999999	EXP	ssAm_T: pos = [0.5,0.1]
+564.2339999999999	EXP	ssAm_T: text = $5000
+564.2339999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+564.2339999999999	EXP	llAm_T: pos = [-0.5,0.1]
+564.2339999999999	EXP	llAm_T: text = $104000
+564.2339999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+564.2339999999999	EXP	llDel_T: text = en 90 días
+564.2339999999999	EXP	preguntaT: autoDraw = true
+564.2339999999999	EXP	ssAm_T: autoDraw = true
+564.2339999999999	EXP	ssDel_T: autoDraw = true
+564.2339999999999	EXP	llAm_T: autoDraw = true
+564.2339999999999	EXP	llDel_T: autoDraw = true
+565.5029999999999	DATA	Keydown: ArrowLeft
+565.5079999999999	EXP	preguntaT: autoDraw = null
+565.5079999999999	EXP	ssAm_T: autoDraw = null
+565.5079999999999	EXP	ssDel_T: autoDraw = null
+565.5079999999999	EXP	llAm_T: autoDraw = null
+565.5079999999999	EXP	llDel_T: autoDraw = null
+565.5079999999999	EXP	textfbT: text = Elegiste esperar
+565.5079999999999	EXP	textfbT: autoDraw = true
+568.52	EXP	textfbT: autoDraw = null
+568.52	EXP	textfbT: autoDraw = null
+568.52	EXP	ssAm_T: pos = [-0.5,0.1]
+568.52	EXP	ssAm_T: text = $25000
+568.52	EXP	ssDel_T: pos = [-0.5,-0.1]
+568.52	EXP	llAm_T: pos = [0.5,0.1]
+568.52	EXP	llAm_T: text = $35000
+568.52	EXP	llDel_T: pos = [0.5,-0.1]
+568.52	EXP	llDel_T: text = en 150 días
+568.52	EXP	preguntaT: autoDraw = true
+568.52	EXP	ssAm_T: autoDraw = true
+568.52	EXP	ssDel_T: autoDraw = true
+568.52	EXP	llAm_T: autoDraw = true
+568.52	EXP	llDel_T: autoDraw = true
+570.726	DATA	Keydown: ArrowLeft
+570.746	EXP	preguntaT: autoDraw = null
+570.746	EXP	ssAm_T: autoDraw = null
+570.746	EXP	ssDel_T: autoDraw = null
+570.746	EXP	llAm_T: autoDraw = null
+570.746	EXP	llDel_T: autoDraw = null
+570.746	EXP	textfbT: text = Elegiste no esperar
+570.746	EXP	textfbT: autoDraw = true
+573.751	EXP	textfbT: autoDraw = null
+573.751	EXP	textfbT: autoDraw = null
+573.751	EXP	ssAm_T: pos = [-0.5,0.1]
+573.751	EXP	ssAm_T: text = $25000
+573.751	EXP	ssDel_T: pos = [-0.5,-0.1]
+573.751	EXP	llAm_T: pos = [0.5,0.1]
+573.751	EXP	llAm_T: text = $150000
+573.751	EXP	llDel_T: pos = [0.5,-0.1]
+573.751	EXP	llDel_T: text = en 89 días
+573.751	EXP	preguntaT: autoDraw = true
+573.751	EXP	ssAm_T: autoDraw = true
+573.751	EXP	ssDel_T: autoDraw = true
+573.751	EXP	llAm_T: autoDraw = true
+573.751	EXP	llDel_T: autoDraw = true
+575.6659999999999	DATA	Keydown: ArrowRight
+575.678	EXP	preguntaT: autoDraw = null
+575.678	EXP	ssAm_T: autoDraw = null
+575.678	EXP	ssDel_T: autoDraw = null
+575.678	EXP	llAm_T: autoDraw = null
+575.678	EXP	llDel_T: autoDraw = null
+575.678	EXP	textfbT: text = Elegiste esperar
+575.678	EXP	textfbT: autoDraw = true
+578.685	EXP	textfbT: autoDraw = null
+578.685	EXP	textfbT: autoDraw = null
+578.685	EXP	ssAm_T: pos = [-0.5,0.1]
+578.685	EXP	ssAm_T: text = $25000
+578.685	EXP	ssDel_T: pos = [-0.5,-0.1]
+578.685	EXP	llAm_T: pos = [0.5,0.1]
+578.685	EXP	llAm_T: text = $35000
+578.685	EXP	llDel_T: pos = [0.5,-0.1]
+578.685	EXP	llDel_T: text = en 30 días
+578.685	EXP	preguntaT: autoDraw = true
+578.685	EXP	ssAm_T: autoDraw = true
+578.685	EXP	ssDel_T: autoDraw = true
+578.685	EXP	llAm_T: autoDraw = true
+578.685	EXP	llDel_T: autoDraw = true
+581.4639999999999	DATA	Keydown: ArrowLeft
+581.478	EXP	preguntaT: autoDraw = null
+581.478	EXP	ssAm_T: autoDraw = null
+581.478	EXP	ssDel_T: autoDraw = null
+581.478	EXP	llAm_T: autoDraw = null
+581.478	EXP	llDel_T: autoDraw = null
+581.478	EXP	textfbT: text = Elegiste no esperar
+581.478	EXP	textfbT: autoDraw = true
+584.4839999999999	EXP	textfbT: autoDraw = null
+584.4839999999999	EXP	textfbT: autoDraw = null
+584.4839999999999	EXP	ssAm_T: pos = [0.5,0.1]
+584.4839999999999	EXP	ssAm_T: text = $25000
+584.4839999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+584.4839999999999	EXP	llAm_T: pos = [-0.5,0.1]
+584.4839999999999	EXP	llAm_T: text = $150000
+584.4839999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+584.4839999999999	EXP	llDel_T: text = en 29 días
+584.4839999999999	EXP	preguntaT: autoDraw = true
+584.4839999999999	EXP	ssAm_T: autoDraw = true
+584.4839999999999	EXP	ssDel_T: autoDraw = true
+584.4839999999999	EXP	llAm_T: autoDraw = true
+584.4839999999999	EXP	llDel_T: autoDraw = true
+587.2819999999999	DATA	Keydown: ArrowLeft
+587.295	EXP	preguntaT: autoDraw = null
+587.295	EXP	ssAm_T: autoDraw = null
+587.295	EXP	ssDel_T: autoDraw = null
+587.295	EXP	llAm_T: autoDraw = null
+587.295	EXP	llDel_T: autoDraw = null
+587.295	EXP	textfbT: text = Elegiste esperar
+587.295	EXP	textfbT: autoDraw = true
+590.298	EXP	textfbT: autoDraw = null
+590.298	EXP	textfbT: autoDraw = null
+590.298	EXP	ssAm_T: pos = [0.5,0.1]
+590.298	EXP	ssAm_T: text = $5000
+590.298	EXP	ssDel_T: pos = [0.5,-0.1]
+590.298	EXP	llAm_T: pos = [-0.5,0.1]
+590.298	EXP	llAm_T: text = $150000
+590.298	EXP	llDel_T: pos = [-0.5,-0.1]
+590.298	EXP	llDel_T: text = en 30 días
+590.298	EXP	preguntaT: autoDraw = true
+590.298	EXP	ssAm_T: autoDraw = true
+590.298	EXP	ssDel_T: autoDraw = true
+590.298	EXP	llAm_T: autoDraw = true
+590.298	EXP	llDel_T: autoDraw = true
+592.612	DATA	Keydown: ArrowLeft
+592.6239999999999	EXP	preguntaT: autoDraw = null
+592.6239999999999	EXP	ssAm_T: autoDraw = null
+592.6239999999999	EXP	ssDel_T: autoDraw = null
+592.6239999999999	EXP	llAm_T: autoDraw = null
+592.6239999999999	EXP	llDel_T: autoDraw = null
+592.6239999999999	EXP	textfbT: text = Elegiste esperar
+592.6239999999999	EXP	textfbT: autoDraw = true
+595.636	EXP	textfbT: autoDraw = null
+595.636	EXP	textfbT: autoDraw = null
+595.636	EXP	ssAm_T: pos = [0.5,0.1]
+595.636	EXP	ssAm_T: text = $10000
+595.636	EXP	ssDel_T: pos = [0.5,-0.1]
+595.636	EXP	llAm_T: pos = [-0.5,0.1]
+595.636	EXP	llAm_T: text = $39000
+595.636	EXP	llDel_T: pos = [-0.5,-0.1]
+595.636	EXP	llDel_T: text = en 150 días
+595.636	EXP	preguntaT: autoDraw = true
+595.636	EXP	ssAm_T: autoDraw = true
+595.636	EXP	ssDel_T: autoDraw = true
+595.636	EXP	llAm_T: autoDraw = true
+595.636	EXP	llDel_T: autoDraw = true
+599.52	DATA	Keydown: ArrowRight
+599.529	EXP	preguntaT: autoDraw = null
+599.529	EXP	ssAm_T: autoDraw = null
+599.529	EXP	ssDel_T: autoDraw = null
+599.529	EXP	llAm_T: autoDraw = null
+599.529	EXP	llDel_T: autoDraw = null
+599.529	EXP	textfbT: text = Elegiste no esperar
+599.529	EXP	textfbT: autoDraw = true
+602.536	EXP	textfbT: autoDraw = null
+602.536	EXP	textfbT: autoDraw = null
+602.536	EXP	ssAm_T: pos = [-0.5,0.1]
+602.536	EXP	ssAm_T: text = $25000
+602.536	EXP	ssDel_T: pos = [-0.5,-0.1]
+602.536	EXP	llAm_T: pos = [0.5,0.1]
+602.536	EXP	llAm_T: text = $55000
+602.536	EXP	llDel_T: pos = [0.5,-0.1]
+602.536	EXP	llDel_T: text = en 6 días
+602.536	EXP	preguntaT: autoDraw = true
+602.536	EXP	ssAm_T: autoDraw = true
+602.536	EXP	ssDel_T: autoDraw = true
+602.536	EXP	llAm_T: autoDraw = true
+602.536	EXP	llDel_T: autoDraw = true
+604.236	DATA	Keydown: ArrowRight
+604.246	EXP	preguntaT: autoDraw = null
+604.246	EXP	ssAm_T: autoDraw = null
+604.246	EXP	ssDel_T: autoDraw = null
+604.246	EXP	llAm_T: autoDraw = null
+604.246	EXP	llDel_T: autoDraw = null
+604.246	EXP	textfbT: text = Elegiste esperar
+604.246	EXP	textfbT: autoDraw = true
+607.256	EXP	textfbT: autoDraw = null
+607.256	EXP	textfbT: autoDraw = null
+607.256	EXP	ssAm_T: pos = [0.5,0.1]
+607.256	EXP	ssAm_T: text = $10000
+607.256	EXP	ssDel_T: pos = [0.5,-0.1]
+607.256	EXP	llAm_T: pos = [-0.5,0.1]
+607.256	EXP	llAm_T: text = $110000
+607.256	EXP	llDel_T: pos = [-0.5,-0.1]
+607.256	EXP	llDel_T: text = en 60 días
+607.256	EXP	preguntaT: autoDraw = true
+607.256	EXP	ssAm_T: autoDraw = true
+607.256	EXP	ssDel_T: autoDraw = true
+607.256	EXP	llAm_T: autoDraw = true
+607.256	EXP	llDel_T: autoDraw = true
+609.336	DATA	Keydown: ArrowLeft
+609.343	EXP	preguntaT: autoDraw = null
+609.343	EXP	ssAm_T: autoDraw = null
+609.343	EXP	ssDel_T: autoDraw = null
+609.343	EXP	llAm_T: autoDraw = null
+609.343	EXP	llDel_T: autoDraw = null
+609.343	EXP	textfbT: text = Elegiste esperar
+609.343	EXP	textfbT: autoDraw = true
+612.353	EXP	textfbT: autoDraw = null
+612.353	EXP	textfbT: autoDraw = null
+612.353	EXP	ssAm_T: pos = [0.5,0.1]
+612.353	EXP	ssAm_T: text = $10000
+612.353	EXP	ssDel_T: pos = [0.5,-0.1]
+612.353	EXP	llAm_T: pos = [-0.5,0.1]
+612.353	EXP	llAm_T: text = $10000
+612.353	EXP	llDel_T: pos = [-0.5,-0.1]
+612.353	EXP	llDel_T: text = en 150 días
+612.353	EXP	preguntaT: autoDraw = true
+612.353	EXP	ssAm_T: autoDraw = true
+612.353	EXP	ssDel_T: autoDraw = true
+612.353	EXP	llAm_T: autoDraw = true
+612.353	EXP	llDel_T: autoDraw = true
+617.0169999999999	DATA	Keydown: ArrowRight
+617.028	EXP	preguntaT: autoDraw = null
+617.028	EXP	ssAm_T: autoDraw = null
+617.028	EXP	ssDel_T: autoDraw = null
+617.028	EXP	llAm_T: autoDraw = null
+617.028	EXP	llDel_T: autoDraw = null
+617.028	EXP	textfbT: text = Elegiste no esperar
+617.028	EXP	textfbT: autoDraw = true
+620.031	EXP	textfbT: autoDraw = null
+620.031	EXP	textfbT: autoDraw = null
+620.031	EXP	ssAm_T: pos = [-0.5,0.1]
+620.031	EXP	ssAm_T: text = $10000
+620.031	EXP	ssDel_T: pos = [-0.5,-0.1]
+620.031	EXP	llAm_T: pos = [0.5,0.1]
+620.031	EXP	llAm_T: text = $61000
+620.031	EXP	llDel_T: pos = [0.5,-0.1]
+620.031	EXP	llDel_T: text = en 150 días
+620.031	EXP	preguntaT: autoDraw = true
+620.031	EXP	ssAm_T: autoDraw = true
+620.031	EXP	ssDel_T: autoDraw = true
+620.031	EXP	llAm_T: autoDraw = true
+620.031	EXP	llDel_T: autoDraw = true
+622.266	DATA	Keydown: ArrowRight
+622.2769999999999	EXP	preguntaT: autoDraw = null
+622.2769999999999	EXP	ssAm_T: autoDraw = null
+622.2769999999999	EXP	ssDel_T: autoDraw = null
+622.2769999999999	EXP	llAm_T: autoDraw = null
+622.2769999999999	EXP	llDel_T: autoDraw = null
+622.2769999999999	EXP	textfbT: text = Elegiste esperar
+622.2769999999999	EXP	textfbT: autoDraw = true
+626.636	EXP	textfbT: autoDraw = null
+626.636	EXP	textfbT: autoDraw = null
+626.636	EXP	ssAm_T: pos = [0.5,0.1]
+626.636	EXP	ssAm_T: text = $25000
+626.636	EXP	ssDel_T: pos = [0.5,-0.1]
+626.636	EXP	llAm_T: pos = [-0.5,0.1]
+626.636	EXP	llAm_T: text = $150000
+626.636	EXP	llDel_T: pos = [-0.5,-0.1]
+626.636	EXP	llDel_T: text = en 61 días
+626.636	EXP	preguntaT: autoDraw = true
+626.636	EXP	ssAm_T: autoDraw = true
+626.636	EXP	ssDel_T: autoDraw = true
+626.636	EXP	llAm_T: autoDraw = true
+626.636	EXP	llDel_T: autoDraw = true
+629.059	DATA	Keydown: ArrowLeft
+629.0749999999999	EXP	preguntaT: autoDraw = null
+629.0749999999999	EXP	ssAm_T: autoDraw = null
+629.0749999999999	EXP	ssDel_T: autoDraw = null
+629.0749999999999	EXP	llAm_T: autoDraw = null
+629.0749999999999	EXP	llDel_T: autoDraw = null
+629.0749999999999	EXP	textfbT: text = Elegiste esperar
+629.0749999999999	EXP	textfbT: autoDraw = true
+632.087	EXP	textfbT: autoDraw = null
+632.087	EXP	textfbT: autoDraw = null
+632.087	EXP	ssAm_T: pos = [-0.5,0.1]
+632.087	EXP	ssAm_T: text = $5000
+632.087	EXP	ssDel_T: pos = [-0.5,-0.1]
+632.087	EXP	llAm_T: pos = [0.5,0.1]
+632.087	EXP	llAm_T: text = $15000
+632.087	EXP	llDel_T: pos = [0.5,-0.1]
+632.087	EXP	llDel_T: text = en 91 días
+632.087	EXP	preguntaT: autoDraw = true
+632.087	EXP	ssAm_T: autoDraw = true
+632.087	EXP	ssDel_T: autoDraw = true
+632.087	EXP	llAm_T: autoDraw = true
+632.087	EXP	llDel_T: autoDraw = true
+634.8120000000001	DATA	Keydown: ArrowLeft
+634.828	EXP	preguntaT: autoDraw = null
+634.828	EXP	ssAm_T: autoDraw = null
+634.828	EXP	ssDel_T: autoDraw = null
+634.828	EXP	llAm_T: autoDraw = null
+634.828	EXP	llDel_T: autoDraw = null
+634.828	EXP	textfbT: text = Elegiste no esperar
+634.828	EXP	textfbT: autoDraw = true
+637.838	EXP	textfbT: autoDraw = null
+637.838	EXP	textfbT: autoDraw = null
+637.838	EXP	ssAm_T: pos = [0.5,0.1]
+637.838	EXP	ssAm_T: text = $10000
+637.838	EXP	ssDel_T: pos = [0.5,-0.1]
+637.838	EXP	llAm_T: pos = [-0.5,0.1]
+637.838	EXP	llAm_T: text = $20000
+637.838	EXP	llDel_T: pos = [-0.5,-0.1]
+637.838	EXP	llDel_T: text = en 59 días
+637.838	EXP	preguntaT: autoDraw = true
+637.838	EXP	ssAm_T: autoDraw = true
+637.838	EXP	ssDel_T: autoDraw = true
+637.838	EXP	llAm_T: autoDraw = true
+637.838	EXP	llDel_T: autoDraw = true
+640.438	DATA	Keydown: ArrowRight
+640.443	EXP	preguntaT: autoDraw = null
+640.443	EXP	ssAm_T: autoDraw = null
+640.443	EXP	ssDel_T: autoDraw = null
+640.443	EXP	llAm_T: autoDraw = null
+640.443	EXP	llDel_T: autoDraw = null
+640.443	EXP	textfbT: text = Elegiste no esperar
+640.443	EXP	textfbT: autoDraw = true
+643.456	EXP	textfbT: autoDraw = null
+643.456	EXP	textfbT: autoDraw = null
+643.456	EXP	ssAm_T: pos = [-0.5,0.1]
+643.456	EXP	ssAm_T: text = $25000
+643.456	EXP	ssDel_T: pos = [-0.5,-0.1]
+643.456	EXP	llAm_T: pos = [0.5,0.1]
+643.456	EXP	llAm_T: text = $35000
+643.456	EXP	llDel_T: pos = [0.5,-0.1]
+643.456	EXP	llDel_T: text = en 11 días
+643.456	EXP	preguntaT: autoDraw = true
+643.456	EXP	ssAm_T: autoDraw = true
+643.456	EXP	ssDel_T: autoDraw = true
+643.456	EXP	llAm_T: autoDraw = true
+643.456	EXP	llDel_T: autoDraw = true
+645.866	DATA	Keydown: ArrowRight
+645.8779999999999	EXP	preguntaT: autoDraw = null
+645.8779999999999	EXP	ssAm_T: autoDraw = null
+645.8779999999999	EXP	ssDel_T: autoDraw = null
+645.8779999999999	EXP	llAm_T: autoDraw = null
+645.8779999999999	EXP	llDel_T: autoDraw = null
+645.8779999999999	EXP	textfbT: text = Elegiste esperar
+645.8779999999999	EXP	textfbT: autoDraw = true
+648.885	EXP	textfbT: autoDraw = null
+648.885	EXP	textfbT: autoDraw = null
+648.885	EXP	ssAm_T: pos = [0.5,0.1]
+648.885	EXP	ssAm_T: text = $25000
+648.885	EXP	ssDel_T: pos = [0.5,-0.1]
+648.885	EXP	llAm_T: pos = [-0.5,0.1]
+648.885	EXP	llAm_T: text = $75000
+648.885	EXP	llDel_T: pos = [-0.5,-0.1]
+648.885	EXP	llDel_T: text = en 10 días
+648.885	EXP	preguntaT: autoDraw = true
+648.885	EXP	ssAm_T: autoDraw = true
+648.885	EXP	ssDel_T: autoDraw = true
+648.885	EXP	llAm_T: autoDraw = true
+648.885	EXP	llDel_T: autoDraw = true
+650.8249999999999	DATA	Keydown: ArrowLeft
+650.842	EXP	preguntaT: autoDraw = null
+650.842	EXP	ssAm_T: autoDraw = null
+650.842	EXP	ssDel_T: autoDraw = null
+650.842	EXP	llAm_T: autoDraw = null
+650.842	EXP	llDel_T: autoDraw = null
+650.842	EXP	textfbT: text = Elegiste esperar
+650.842	EXP	textfbT: autoDraw = true
+653.853	EXP	textfbT: autoDraw = null
+653.853	EXP	textfbT: autoDraw = null
+653.853	EXP	ssAm_T: pos = [-0.5,0.1]
+653.853	EXP	ssAm_T: text = $5000
+653.853	EXP	ssDel_T: pos = [-0.5,-0.1]
+653.853	EXP	llAm_T: pos = [0.5,0.1]
+653.853	EXP	llAm_T: text = $35000
+653.853	EXP	llDel_T: pos = [0.5,-0.1]
+653.853	EXP	llDel_T: text = en 6 días
+653.853	EXP	preguntaT: autoDraw = true
+653.853	EXP	ssAm_T: autoDraw = true
+653.853	EXP	ssDel_T: autoDraw = true
+653.853	EXP	llAm_T: autoDraw = true
+653.853	EXP	llDel_T: autoDraw = true
+655.826	DATA	Keydown: ArrowRight
+655.842	EXP	preguntaT: autoDraw = null
+655.842	EXP	ssAm_T: autoDraw = null
+655.842	EXP	ssDel_T: autoDraw = null
+655.842	EXP	llAm_T: autoDraw = null
+655.842	EXP	llDel_T: autoDraw = null
+655.842	EXP	textfbT: text = Elegiste esperar
+655.842	EXP	textfbT: autoDraw = true
+658.853	EXP	textfbT: autoDraw = null
+658.853	EXP	textfbT: autoDraw = null
+658.853	EXP	ssAm_T: pos = [-0.5,0.1]
+658.853	EXP	ssAm_T: text = $25000
+658.853	EXP	ssDel_T: pos = [-0.5,-0.1]
+658.853	EXP	llAm_T: pos = [0.5,0.1]
+658.853	EXP	llAm_T: text = $150000
+658.853	EXP	llDel_T: pos = [0.5,-0.1]
+658.853	EXP	llDel_T: text = en 4 días
+658.853	EXP	preguntaT: autoDraw = true
+658.853	EXP	ssAm_T: autoDraw = true
+658.853	EXP	ssDel_T: autoDraw = true
+658.853	EXP	llAm_T: autoDraw = true
+658.853	EXP	llDel_T: autoDraw = true
+661.0139999999999	DATA	Keydown: ArrowRight
+661.024	EXP	preguntaT: autoDraw = null
+661.024	EXP	ssAm_T: autoDraw = null
+661.024	EXP	ssDel_T: autoDraw = null
+661.024	EXP	llAm_T: autoDraw = null
+661.024	EXP	llDel_T: autoDraw = null
+661.024	EXP	textfbT: text = Elegiste esperar
+661.024	EXP	textfbT: autoDraw = true
+664.0369999999999	EXP	textfbT: autoDraw = null
+664.0369999999999	EXP	textfbT: autoDraw = null
+664.0369999999999	EXP	ssAm_T: pos = [0.5,0.1]
+664.0369999999999	EXP	ssAm_T: text = $10000
+664.0369999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+664.0369999999999	EXP	llAm_T: pos = [-0.5,0.1]
+664.0369999999999	EXP	llAm_T: text = $39000
+664.0369999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+664.0369999999999	EXP	llDel_T: text = en 59 días
+664.0369999999999	EXP	preguntaT: autoDraw = true
+664.0369999999999	EXP	ssAm_T: autoDraw = true
+664.0369999999999	EXP	ssDel_T: autoDraw = true
+664.0369999999999	EXP	llAm_T: autoDraw = true
+664.0369999999999	EXP	llDel_T: autoDraw = true
+667.586	DATA	Keydown: ArrowLeft
+667.593	EXP	preguntaT: autoDraw = null
+667.593	EXP	ssAm_T: autoDraw = null
+667.593	EXP	ssDel_T: autoDraw = null
+667.593	EXP	llAm_T: autoDraw = null
+667.593	EXP	llDel_T: autoDraw = null
+667.593	EXP	textfbT: text = Elegiste esperar
+667.593	EXP	textfbT: autoDraw = true
+670.6	EXP	textfbT: autoDraw = null
+670.6	EXP	textfbT: autoDraw = null
+670.6	EXP	ssAm_T: pos = [-0.5,0.1]
+670.6	EXP	ssAm_T: text = $25000
+670.6	EXP	ssDel_T: pos = [-0.5,-0.1]
+670.6	EXP	llAm_T: pos = [0.5,0.1]
+670.6	EXP	llAm_T: text = $125000
+670.6	EXP	llDel_T: pos = [0.5,-0.1]
+670.6	EXP	llDel_T: text = en 59 días
+670.6	EXP	preguntaT: autoDraw = true
+670.6	EXP	ssAm_T: autoDraw = true
+670.6	EXP	ssDel_T: autoDraw = true
+670.6	EXP	llAm_T: autoDraw = true
+670.6	EXP	llDel_T: autoDraw = true
+673.0459999999999	DATA	Keydown: ArrowRight
+673.059	EXP	preguntaT: autoDraw = null
+673.059	EXP	ssAm_T: autoDraw = null
+673.059	EXP	ssDel_T: autoDraw = null
+673.059	EXP	llAm_T: autoDraw = null
+673.059	EXP	llDel_T: autoDraw = null
+673.059	EXP	textfbT: text = Elegiste esperar
+673.059	EXP	textfbT: autoDraw = true
+676.0649999999999	EXP	textfbT: autoDraw = null
+676.0649999999999	EXP	textfbT: autoDraw = null
+676.0649999999999	EXP	ssAm_T: pos = [0.5,0.1]
+676.0649999999999	EXP	ssAm_T: text = $25000
+676.0649999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+676.0649999999999	EXP	llAm_T: pos = [-0.5,0.1]
+676.0649999999999	EXP	llAm_T: text = $125000
+676.0649999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+676.0649999999999	EXP	llDel_T: text = en 149 días
+676.0649999999999	EXP	preguntaT: autoDraw = true
+676.0649999999999	EXP	ssAm_T: autoDraw = true
+676.0649999999999	EXP	ssDel_T: autoDraw = true
+676.0649999999999	EXP	llAm_T: autoDraw = true
+676.0649999999999	EXP	llDel_T: autoDraw = true
+679.7769999999999	DATA	Keydown: ArrowLeft
+679.7909999999999	EXP	preguntaT: autoDraw = null
+679.7909999999999	EXP	ssAm_T: autoDraw = null
+679.7909999999999	EXP	ssDel_T: autoDraw = null
+679.7909999999999	EXP	llAm_T: autoDraw = null
+679.7909999999999	EXP	llDel_T: autoDraw = null
+679.7909999999999	EXP	textfbT: text = Elegiste esperar
+679.7909999999999	EXP	textfbT: autoDraw = true
+682.803	EXP	textfbT: autoDraw = null
+682.803	EXP	textfbT: autoDraw = null
+682.803	EXP	ssAm_T: pos = [0.5,0.1]
+682.803	EXP	ssAm_T: text = $10000
+682.803	EXP	ssDel_T: pos = [0.5,-0.1]
+682.803	EXP	llAm_T: pos = [-0.5,0.1]
+682.803	EXP	llAm_T: text = $20000
+682.803	EXP	llDel_T: pos = [-0.5,-0.1]
+682.803	EXP	llDel_T: text = en 5 días
+682.803	EXP	preguntaT: autoDraw = true
+682.803	EXP	ssAm_T: autoDraw = true
+682.803	EXP	ssDel_T: autoDraw = true
+682.803	EXP	llAm_T: autoDraw = true
+682.803	EXP	llDel_T: autoDraw = true
+685.6479999999999	DATA	Keydown: ArrowLeft
+685.6569999999999	EXP	preguntaT: autoDraw = null
+685.6569999999999	EXP	ssAm_T: autoDraw = null
+685.6569999999999	EXP	ssDel_T: autoDraw = null
+685.6569999999999	EXP	llAm_T: autoDraw = null
+685.6569999999999	EXP	llDel_T: autoDraw = null
+685.6569999999999	EXP	textfbT: text = Elegiste esperar
+685.6569999999999	EXP	textfbT: autoDraw = true
+688.6709999999999	EXP	textfbT: autoDraw = null
+688.6709999999999	EXP	textfbT: autoDraw = null
+688.6709999999999	EXP	ssAm_T: pos = [0.5,0.1]
+688.6709999999999	EXP	ssAm_T: text = $25000
+688.6709999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+688.6709999999999	EXP	llAm_T: pos = [-0.5,0.1]
+688.6709999999999	EXP	llAm_T: text = $150000
+688.6709999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+688.6709999999999	EXP	llDel_T: text = en 9 días
+688.6709999999999	EXP	preguntaT: autoDraw = true
+688.6709999999999	EXP	ssAm_T: autoDraw = true
+688.6709999999999	EXP	ssDel_T: autoDraw = true
+688.6709999999999	EXP	llAm_T: autoDraw = true
+688.6709999999999	EXP	llDel_T: autoDraw = true
+690.419	DATA	Keydown: ArrowLeft
+690.4259999999999	EXP	preguntaT: autoDraw = null
+690.4259999999999	EXP	ssAm_T: autoDraw = null
+690.4259999999999	EXP	ssDel_T: autoDraw = null
+690.4259999999999	EXP	llAm_T: autoDraw = null
+690.4259999999999	EXP	llDel_T: autoDraw = null
+690.4259999999999	EXP	textfbT: text = Elegiste esperar
+690.4259999999999	EXP	textfbT: autoDraw = true
+693.4370000000001	EXP	textfbT: autoDraw = null
+693.4370000000001	EXP	textfbT: autoDraw = null
+693.4370000000001	EXP	ssAm_T: pos = [-0.5,0.1]
+693.4370000000001	EXP	ssAm_T: text = $10000
+693.4370000000001	EXP	ssDel_T: pos = [-0.5,-0.1]
+693.4370000000001	EXP	llAm_T: pos = [0.5,0.1]
+693.4370000000001	EXP	llAm_T: text = $19000
+693.4370000000001	EXP	llDel_T: pos = [0.5,-0.1]
+693.4370000000001	EXP	llDel_T: text = en 11 días
+693.4370000000001	EXP	preguntaT: autoDraw = true
+693.4370000000001	EXP	ssAm_T: autoDraw = true
+693.4370000000001	EXP	ssDel_T: autoDraw = true
+693.4370000000001	EXP	llAm_T: autoDraw = true
+693.4370000000001	EXP	llDel_T: autoDraw = true
+696.4019999999999	DATA	Keydown: ArrowRight
+696.408	EXP	preguntaT: autoDraw = null
+696.408	EXP	ssAm_T: autoDraw = null
+696.408	EXP	ssDel_T: autoDraw = null
+696.408	EXP	llAm_T: autoDraw = null
+696.408	EXP	llDel_T: autoDraw = null
+696.408	EXP	textfbT: text = Elegiste esperar
+696.408	EXP	textfbT: autoDraw = true
+699.42	EXP	textfbT: autoDraw = null
+699.42	EXP	textfbT: autoDraw = null
+699.42	EXP	ssAm_T: pos = [0.5,0.1]
+699.42	EXP	ssAm_T: text = $5000
+699.42	EXP	ssDel_T: pos = [0.5,-0.1]
+699.42	EXP	llAm_T: pos = [-0.5,0.1]
+699.42	EXP	llAm_T: text = $35000
+699.42	EXP	llDel_T: pos = [-0.5,-0.1]
+699.42	EXP	llDel_T: text = en 89 días
+699.42	EXP	preguntaT: autoDraw = true
+699.42	EXP	ssAm_T: autoDraw = true
+699.42	EXP	ssDel_T: autoDraw = true
+699.42	EXP	llAm_T: autoDraw = true
+699.42	EXP	llDel_T: autoDraw = true
+702.069	DATA	Keydown: ArrowLeft
+702.0749999999999	EXP	preguntaT: autoDraw = null
+702.0749999999999	EXP	ssAm_T: autoDraw = null
+702.0749999999999	EXP	ssDel_T: autoDraw = null
+702.0749999999999	EXP	llAm_T: autoDraw = null
+702.0749999999999	EXP	llDel_T: autoDraw = null
+702.0749999999999	EXP	textfbT: text = Elegiste esperar
+702.0749999999999	EXP	textfbT: autoDraw = true
+705.087	EXP	textfbT: autoDraw = null
+705.087	EXP	textfbT: autoDraw = null
+705.087	EXP	ssAm_T: pos = [-0.5,0.1]
+705.087	EXP	ssAm_T: text = $10000
+705.087	EXP	ssDel_T: pos = [-0.5,-0.1]
+705.087	EXP	llAm_T: pos = [0.5,0.1]
+705.087	EXP	llAm_T: text = $111000
+705.087	EXP	llDel_T: pos = [0.5,-0.1]
+705.087	EXP	llDel_T: text = en 30 días
+705.087	EXP	preguntaT: autoDraw = true
+705.087	EXP	ssAm_T: autoDraw = true
+705.087	EXP	ssDel_T: autoDraw = true
+705.087	EXP	llAm_T: autoDraw = true
+705.087	EXP	llDel_T: autoDraw = true
+707.486	DATA	Keydown: ArrowRight
+707.492	EXP	preguntaT: autoDraw = null
+707.492	EXP	ssAm_T: autoDraw = null
+707.492	EXP	ssDel_T: autoDraw = null
+707.492	EXP	llAm_T: autoDraw = null
+707.492	EXP	llDel_T: autoDraw = null
+707.492	EXP	textfbT: text = Elegiste esperar
+707.492	EXP	textfbT: autoDraw = true
+710.502	EXP	textfbT: autoDraw = null
+710.502	EXP	textfbT: autoDraw = null
+710.502	EXP	ssAm_T: pos = [0.5,0.1]
+710.502	EXP	ssAm_T: text = $10000
+710.502	EXP	ssDel_T: pos = [0.5,-0.1]
+710.502	EXP	llAm_T: pos = [-0.5,0.1]
+710.502	EXP	llAm_T: text = $60000
+710.502	EXP	llDel_T: pos = [-0.5,-0.1]
+710.502	EXP	llDel_T: text = en 60 días
+710.502	EXP	preguntaT: autoDraw = true
+710.502	EXP	ssAm_T: autoDraw = true
+710.502	EXP	ssDel_T: autoDraw = true
+710.502	EXP	llAm_T: autoDraw = true
+710.502	EXP	llDel_T: autoDraw = true
+712.795	DATA	Keydown: ArrowLeft
+712.809	EXP	preguntaT: autoDraw = null
+712.809	EXP	ssAm_T: autoDraw = null
+712.809	EXP	ssDel_T: autoDraw = null
+712.809	EXP	llAm_T: autoDraw = null
+712.809	EXP	llDel_T: autoDraw = null
+712.809	EXP	textfbT: text = Elegiste esperar
+712.809	EXP	textfbT: autoDraw = true
+715.8159999999999	EXP	textfbT: autoDraw = null
+715.8159999999999	EXP	textfbT: autoDraw = null
+715.8159999999999	EXP	ssAm_T: pos = [-0.5,0.1]
+715.8159999999999	EXP	ssAm_T: text = $10000
+715.8159999999999	EXP	ssDel_T: pos = [-0.5,-0.1]
+715.8159999999999	EXP	llAm_T: pos = [0.5,0.1]
+715.8159999999999	EXP	llAm_T: text = $151000
+715.8159999999999	EXP	llDel_T: pos = [0.5,-0.1]
+715.8159999999999	EXP	llDel_T: text = en 11 días
+715.8159999999999	EXP	preguntaT: autoDraw = true
+715.8159999999999	EXP	ssAm_T: autoDraw = true
+715.8159999999999	EXP	ssDel_T: autoDraw = true
+715.8159999999999	EXP	llAm_T: autoDraw = true
+715.8159999999999	EXP	llDel_T: autoDraw = true
+718.1669999999999	DATA	Keydown: ArrowRight
+718.1759999999999	EXP	preguntaT: autoDraw = null
+718.1759999999999	EXP	ssAm_T: autoDraw = null
+718.1759999999999	EXP	ssDel_T: autoDraw = null
+718.1759999999999	EXP	llAm_T: autoDraw = null
+718.1759999999999	EXP	llDel_T: autoDraw = null
+718.1759999999999	EXP	textfbT: text = Elegiste esperar
+718.1759999999999	EXP	textfbT: autoDraw = true
+721.189	EXP	textfbT: autoDraw = null
+721.189	EXP	textfbT: autoDraw = null
+721.189	EXP	ssAm_T: pos = [0.5,0.1]
+721.189	EXP	ssAm_T: text = $5000
+721.189	EXP	ssDel_T: pos = [0.5,-0.1]
+721.189	EXP	llAm_T: pos = [-0.5,0.1]
+721.189	EXP	llAm_T: text = $56000
+721.189	EXP	llDel_T: pos = [-0.5,-0.1]
+721.189	EXP	llDel_T: text = en 29 días
+721.189	EXP	preguntaT: autoDraw = true
+721.189	EXP	ssAm_T: autoDraw = true
+721.189	EXP	ssDel_T: autoDraw = true
+721.189	EXP	llAm_T: autoDraw = true
+721.189	EXP	llDel_T: autoDraw = true
+722.9549999999999	DATA	Keydown: ArrowLeft
+722.959	EXP	preguntaT: autoDraw = null
+722.959	EXP	ssAm_T: autoDraw = null
+722.959	EXP	ssDel_T: autoDraw = null
+722.959	EXP	llAm_T: autoDraw = null
+722.959	EXP	llDel_T: autoDraw = null
+722.959	EXP	textfbT: text = Elegiste esperar
+722.959	EXP	textfbT: autoDraw = true
+725.971	EXP	textfbT: autoDraw = null
+725.971	EXP	textfbT: autoDraw = null
+725.971	EXP	ssAm_T: pos = [-0.5,0.1]
+725.971	EXP	ssAm_T: text = $10000
+725.971	EXP	ssDel_T: pos = [-0.5,-0.1]
+725.971	EXP	llAm_T: pos = [0.5,0.1]
+725.971	EXP	llAm_T: text = $40000
+725.971	EXP	llDel_T: pos = [0.5,-0.1]
+725.971	EXP	llDel_T: text = en 10 días
+725.971	EXP	preguntaT: autoDraw = true
+725.971	EXP	ssAm_T: autoDraw = true
+725.971	EXP	ssDel_T: autoDraw = true
+725.971	EXP	llAm_T: autoDraw = true
+725.971	EXP	llDel_T: autoDraw = true
+728.4119999999999	DATA	Keydown: ArrowRight
+728.425	EXP	preguntaT: autoDraw = null
+728.425	EXP	ssAm_T: autoDraw = null
+728.425	EXP	ssDel_T: autoDraw = null
+728.425	EXP	llAm_T: autoDraw = null
+728.425	EXP	llDel_T: autoDraw = null
+728.425	EXP	textfbT: text = Elegiste esperar
+728.425	EXP	textfbT: autoDraw = true
+731.429	EXP	textfbT: autoDraw = null
+731.429	EXP	textfbT: autoDraw = null
+731.429	EXP	ssAm_T: pos = [-0.5,0.1]
+731.429	EXP	ssAm_T: text = $10000
+731.429	EXP	ssDel_T: pos = [-0.5,-0.1]
+731.429	EXP	llAm_T: pos = [0.5,0.1]
+731.429	EXP	llAm_T: text = $111000
+731.429	EXP	llDel_T: pos = [0.5,-0.1]
+731.429	EXP	llDel_T: text = en 10 días
+731.429	EXP	preguntaT: autoDraw = true
+731.429	EXP	ssAm_T: autoDraw = true
+731.429	EXP	ssDel_T: autoDraw = true
+731.429	EXP	llAm_T: autoDraw = true
+731.429	EXP	llDel_T: autoDraw = true
+733.409	DATA	Keydown: ArrowRight
+733.425	EXP	preguntaT: autoDraw = null
+733.425	EXP	ssAm_T: autoDraw = null
+733.425	EXP	ssDel_T: autoDraw = null
+733.425	EXP	llAm_T: autoDraw = null
+733.425	EXP	llDel_T: autoDraw = null
+733.425	EXP	textfbT: text = Elegiste esperar
+733.425	EXP	textfbT: autoDraw = true
+736.438	EXP	textfbT: autoDraw = null
+736.438	EXP	textfbT: autoDraw = null
+736.438	EXP	ssAm_T: pos = [0.5,0.1]
+736.438	EXP	ssAm_T: text = $5000
+736.438	EXP	ssDel_T: pos = [0.5,-0.1]
+736.438	EXP	llAm_T: pos = [-0.5,0.1]
+736.438	EXP	llAm_T: text = $16000
+736.438	EXP	llDel_T: pos = [-0.5,-0.1]
+736.438	EXP	llDel_T: text = en 4 días
+736.438	EXP	preguntaT: autoDraw = true
+736.438	EXP	ssAm_T: autoDraw = true
+736.438	EXP	ssDel_T: autoDraw = true
+736.438	EXP	llAm_T: autoDraw = true
+736.438	EXP	llDel_T: autoDraw = true
+739.1759999999999	DATA	Keydown: ArrowLeft
+739.193	EXP	preguntaT: autoDraw = null
+739.193	EXP	ssAm_T: autoDraw = null
+739.193	EXP	ssDel_T: autoDraw = null
+739.193	EXP	llAm_T: autoDraw = null
+739.193	EXP	llDel_T: autoDraw = null
+739.193	EXP	textfbT: text = Elegiste esperar
+739.193	EXP	textfbT: autoDraw = true
+742.2049999999999	EXP	textfbT: autoDraw = null
+742.2049999999999	EXP	textfbT: autoDraw = null
+742.2049999999999	EXP	ssAm_T: pos = [0.5,0.1]
+742.2049999999999	EXP	ssAm_T: text = $10000
+742.2049999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+742.2049999999999	EXP	llAm_T: pos = [-0.5,0.1]
+742.2049999999999	EXP	llAm_T: text = $39000
+742.2049999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+742.2049999999999	EXP	llDel_T: text = en 6 días
+742.2049999999999	EXP	preguntaT: autoDraw = true
+742.2049999999999	EXP	ssAm_T: autoDraw = true
+742.2049999999999	EXP	ssDel_T: autoDraw = true
+742.2049999999999	EXP	llAm_T: autoDraw = true
+742.2049999999999	EXP	llDel_T: autoDraw = true
+745.509	DATA	Keydown: ArrowLeft
+745.526	EXP	preguntaT: autoDraw = null
+745.526	EXP	ssAm_T: autoDraw = null
+745.526	EXP	ssDel_T: autoDraw = null
+745.526	EXP	llAm_T: autoDraw = null
+745.526	EXP	llDel_T: autoDraw = null
+745.526	EXP	textfbT: text = Elegiste esperar
+745.526	EXP	textfbT: autoDraw = true
+748.5369999999999	EXP	textfbT: autoDraw = null
+748.5369999999999	EXP	textfbT: autoDraw = null
+748.5369999999999	EXP	ssAm_T: pos = [0.5,0.1]
+748.5369999999999	EXP	ssAm_T: text = $25000
+748.5369999999999	EXP	ssDel_T: pos = [0.5,-0.1]
+748.5369999999999	EXP	llAm_T: pos = [-0.5,0.1]
+748.5369999999999	EXP	llAm_T: text = $125000
+748.5369999999999	EXP	llDel_T: pos = [-0.5,-0.1]
+748.5369999999999	EXP	llDel_T: text = en 31 días
+748.5369999999999	EXP	preguntaT: autoDraw = true
+748.5369999999999	EXP	ssAm_T: autoDraw = true
+748.5369999999999	EXP	ssDel_T: autoDraw = true
+748.5369999999999	EXP	llAm_T: autoDraw = true
+748.5369999999999	EXP	llDel_T: autoDraw = true
+751.651	DATA	Keydown: ArrowLeft
+751.659	EXP	preguntaT: autoDraw = null
+751.659	EXP	ssAm_T: autoDraw = null
+751.659	EXP	ssDel_T: autoDraw = null
+751.659	EXP	llAm_T: autoDraw = null
+751.659	EXP	llDel_T: autoDraw = null
+751.659	EXP	textfbT: text = Elegiste esperar
+751.659	EXP	textfbT: autoDraw = true
+754.67	EXP	textfbT: autoDraw = null
+754.67	EXP	textfbT: autoDraw = null
+754.67	EXP	ssAm_T: pos = [-0.5,0.1]
+754.67	EXP	ssAm_T: text = $10000
+754.67	EXP	ssDel_T: pos = [-0.5,-0.1]
+754.67	EXP	llAm_T: pos = [0.5,0.1]
+754.67	EXP	llAm_T: text = $150000
+754.67	EXP	llDel_T: pos = [0.5,-0.1]
+754.67	EXP	llDel_T: text = en 30 días
+754.67	EXP	preguntaT: autoDraw = true
+754.67	EXP	ssAm_T: autoDraw = true
+754.67	EXP	ssDel_T: autoDraw = true
+754.67	EXP	llAm_T: autoDraw = true
+754.67	EXP	llDel_T: autoDraw = true
+756.521	DATA	Keydown: ArrowRight
+756.526	EXP	preguntaT: autoDraw = null
+756.526	EXP	ssAm_T: autoDraw = null
+756.526	EXP	ssDel_T: autoDraw = null
+756.526	EXP	llAm_T: autoDraw = null
+756.526	EXP	llDel_T: autoDraw = null
+756.526	EXP	textfbT: text = Elegiste esperar
+756.526	EXP	textfbT: autoDraw = true
+759.536	EXP	textfbT: autoDraw = null
+759.536	EXP	textfbT: autoDraw = null
+759.536	EXP	ssAm_T: pos = [-0.5,0.1]
+759.536	EXP	ssAm_T: text = $5000
+759.536	EXP	ssDel_T: pos = [-0.5,-0.1]
+759.536	EXP	llAm_T: pos = [0.5,0.1]
+759.536	EXP	llAm_T: text = $105000
+759.536	EXP	llDel_T: pos = [0.5,-0.1]
+759.536	EXP	llDel_T: text = en 60 días
+759.536	EXP	preguntaT: autoDraw = true
+759.536	EXP	ssAm_T: autoDraw = true
+759.536	EXP	ssDel_T: autoDraw = true
+759.536	EXP	llAm_T: autoDraw = true
+759.536	EXP	llDel_T: autoDraw = true
+762.084	DATA	Keydown: ArrowRight
+762.0949999999999	EXP	preguntaT: autoDraw = null
+762.0949999999999	EXP	ssAm_T: autoDraw = null
+762.0949999999999	EXP	ssDel_T: autoDraw = null
+762.0949999999999	EXP	llAm_T: autoDraw = null
+762.0949999999999	EXP	llDel_T: autoDraw = null
+762.0949999999999	EXP	textfbT: text = Elegiste esperar
+762.0949999999999	EXP	textfbT: autoDraw = true
+767.184	EXP	textfbT: autoDraw = null
+767.184	EXP	textfbT: autoDraw = null
+767.184	EXP	ssAm_T: pos = [-0.5,0.1]
+767.184	EXP	ssAm_T: text = $5000
+767.184	EXP	ssDel_T: pos = [-0.5,-0.1]
+767.184	EXP	llAm_T: pos = [0.5,0.1]
+767.184	EXP	llAm_T: text = $149000
+767.184	EXP	llDel_T: pos = [0.5,-0.1]
+767.184	EXP	llDel_T: text = en 59 días
+767.184	EXP	preguntaT: autoDraw = true
+767.184	EXP	ssAm_T: autoDraw = true
+767.184	EXP	ssDel_T: autoDraw = true
+767.184	EXP	llAm_T: autoDraw = true
+767.184	EXP	llDel_T: autoDraw = true
+769.422	DATA	Keydown: ArrowRight
+769.4259999999999	EXP	preguntaT: autoDraw = null
+769.4259999999999	EXP	ssAm_T: autoDraw = null
+769.4259999999999	EXP	ssDel_T: autoDraw = null
+769.4259999999999	EXP	llAm_T: autoDraw = null
+769.4259999999999	EXP	llDel_T: autoDraw = null
+769.4259999999999	EXP	textfbT: text = Elegiste esperar
+769.4259999999999	EXP	textfbT: autoDraw = true
+772.439	EXP	textfbT: autoDraw = null
+772.439	EXP	textfbT: autoDraw = null
+772.439	EXP	ssAm_T: pos = [0.5,0.1]
+772.439	EXP	ssAm_T: text = $25000
+772.439	EXP	ssDel_T: pos = [0.5,-0.1]
+772.439	EXP	llAm_T: pos = [-0.5,0.1]
+772.439	EXP	llAm_T: text = $35000
+772.439	EXP	llDel_T: pos = [-0.5,-0.1]
+772.439	EXP	llDel_T: text = en 60 días
+772.439	EXP	preguntaT: autoDraw = true
+772.439	EXP	ssAm_T: autoDraw = true
+772.439	EXP	ssDel_T: autoDraw = true
+772.439	EXP	llAm_T: autoDraw = true
+772.439	EXP	llDel_T: autoDraw = true
+774.9449999999999	DATA	Keydown: ArrowRight
+774.961	EXP	preguntaT: autoDraw = null
+774.961	EXP	ssAm_T: autoDraw = null
+774.961	EXP	ssDel_T: autoDraw = null
+774.961	EXP	llAm_T: autoDraw = null
+774.961	EXP	llDel_T: autoDraw = null
+774.961	EXP	textfbT: text = Elegiste no esperar
+774.961	EXP	textfbT: autoDraw = true
+777.967	EXP	textfbT: autoDraw = null
+777.967	EXP	textfbT: autoDraw = null
+777.967	EXP	Gracias: autoDraw = true
+780.1429999999999	DATA	Keydown: ArrowRight
+806.4119999999999	DATA	Mouse: wheel shift=(0,1), pos=(739,383)
+806.419	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.427	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.435	DATA	Mouse: wheel shift=(-2,3), pos=(739,383)
+806.442	DATA	Mouse: wheel shift=(-3,3), pos=(739,383)
+806.451	DATA	Mouse: wheel shift=(-3,3), pos=(739,383)
+806.459	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.468	DATA	Mouse: wheel shift=(-3,3), pos=(739,383)
+806.476	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.4839999999999	DATA	Mouse: wheel shift=(-3,2), pos=(739,383)
+806.492	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.502	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.5079999999999	DATA	Mouse: wheel shift=(-2,2), pos=(739,383)
+806.5179999999999	DATA	Mouse: wheel shift=(-1,2), pos=(739,383)
+806.525	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.534	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.543	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.547	DATA	Mouse: wheel shift=(-1,0), pos=(739,384)
+806.559	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.563	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.571	DATA	Mouse: wheel shift=(-1,0), pos=(739,384)
+806.579	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.587	DATA	Mouse: wheel shift=(-1,0), pos=(739,384)
+806.603	DATA	Mouse: wheel shift=(-1,0), pos=(739,384)
+806.627	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.636	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.6429999999999	DATA	Mouse: wheel shift=(-1,1), pos=(739,384)
+806.919	DATA	Mouse: wheel shift=(0,1), pos=(739,383)
+806.925	DATA	Mouse: wheel shift=(-1,2), pos=(739,383)
+806.935	DATA	Mouse: wheel shift=(-1,2), pos=(739,383)
+806.943	DATA	Mouse: wheel shift=(-1,3), pos=(739,383)
+806.951	DATA	Mouse: wheel shift=(-2,3), pos=(739,383)
+806.958	DATA	Mouse: wheel shift=(-3,3), pos=(739,383)
+806.9639999999999	DATA	Mouse: wheel shift=(-3,5), pos=(739,383)
+806.972	DATA	Mouse: wheel shift=(-4,5), pos=(739,383)
+806.98	DATA	Mouse: wheel shift=(-4,5), pos=(739,383)
+806.987	DATA	Mouse: wheel shift=(-5,6), pos=(739,383)
+806.995	DATA	Mouse: wheel shift=(-5,6), pos=(739,383)
+807.0029999999999	DATA	Mouse: wheel shift=(-5,6), pos=(739,383)
+807.011	DATA	Mouse: wheel shift=(-6,6), pos=(739,383)
+807.019	DATA	Mouse: wheel shift=(-6,6), pos=(739,383)
+807.0269999999999	DATA	Mouse: wheel shift=(-6,6), pos=(739,383)
+807.035	DATA	Mouse: wheel shift=(-6,6), pos=(739,383)
+807.043	DATA	Mouse: wheel shift=(-6,6), pos=(739,383)
+807.052	DATA	Mouse: wheel shift=(-7,6), pos=(739,383)
+807.06	DATA	Mouse: wheel shift=(-9,8), pos=(739,383)
+807.0849999999999	DATA	Mouse: wheel shift=(-18,14), pos=(739,383)
+807.102	DATA	Mouse: wheel shift=(-22,18), pos=(739,383)
+807.1179999999999	DATA	Mouse: wheel shift=(-23,19), pos=(739,383)
+807.135	DATA	Mouse: wheel shift=(-24,19), pos=(739,383)
+807.1519999999999	DATA	Mouse: wheel shift=(-23,19), pos=(739,383)
+807.168	DATA	Mouse: wheel shift=(-23,19), pos=(739,383)
+807.184	DATA	Mouse: wheel shift=(-21,18), pos=(739,383)
+807.202	DATA	Mouse: wheel shift=(-24,19), pos=(739,383)
+807.218	DATA	Mouse: wheel shift=(-22,18), pos=(739,383)
+807.2339999999999	DATA	Mouse: wheel shift=(-20,16), pos=(739,383)
+807.252	DATA	Mouse: wheel shift=(-19,15), pos=(739,383)
+807.2679999999999	DATA	Mouse: wheel shift=(-17,14), pos=(739,383)
+807.285	DATA	Mouse: wheel shift=(-16,13), pos=(739,383)
+807.302	DATA	Mouse: wheel shift=(-14,12), pos=(739,383)
+807.318	DATA	Mouse: wheel shift=(-13,10), pos=(739,383)
+808.1329999999999	DATA	Mouse: wheel shift=(0,1), pos=(848,341)
+808.1419999999999	DATA	Mouse: wheel shift=(-3,5), pos=(848,341)
+808.1519999999999	DATA	Mouse: wheel shift=(-4,6), pos=(848,341)
+808.159	DATA	Mouse: wheel shift=(-4,6), pos=(848,341)
+808.168	DATA	Mouse: wheel shift=(-5,7), pos=(848,341)
+808.175	DATA	Mouse: wheel shift=(-8,11), pos=(848,341)
+808.1809999999999	DATA	Mouse: wheel shift=(-9,12), pos=(848,341)
+808.1909999999999	DATA	Mouse: wheel shift=(-9,12), pos=(848,341)
+808.197	DATA	Mouse: wheel shift=(-10,12), pos=(848,341)
+808.204	DATA	Mouse: wheel shift=(-11,13), pos=(848,341)
+808.212	DATA	Mouse: wheel shift=(-12,14), pos=(848,341)
+808.2199999999999	DATA	Mouse: wheel shift=(-13,14), pos=(848,341)
+808.228	DATA	Mouse: wheel shift=(-18,17), pos=(848,341)
+808.2529999999999	DATA	Mouse: wheel shift=(-35,35), pos=(848,341)
+808.271	DATA	Mouse: wheel shift=(-48,47), pos=(848,341)
+808.2879999999999	DATA	Mouse: wheel shift=(-52,52), pos=(848,341)
+808.304	DATA	Mouse: wheel shift=(-54,53), pos=(848,341)
+808.3199999999999	DATA	Mouse: wheel shift=(-52,52), pos=(848,341)
+808.337	DATA	Mouse: wheel shift=(-50,50), pos=(848,341)
+808.3539999999999	DATA	Mouse: wheel shift=(-48,48), pos=(848,341)
+808.372	DATA	Mouse: wheel shift=(-51,51), pos=(848,341)
+808.3879999999999	DATA	Mouse: wheel shift=(-47,47), pos=(848,341)
+808.405	DATA	Mouse: wheel shift=(-43,43), pos=(848,341)
+808.4209999999999	DATA	Mouse: wheel shift=(-40,40), pos=(848,341)
+808.4359999999999	DATA	Mouse: wheel shift=(-37,37), pos=(848,341)
+808.477	DATA	Mouse: wheel shift=(-3,0), pos=(848,341)
+808.485	DATA	Mouse: wheel shift=(-7,5), pos=(848,341)
+808.4929999999999	DATA	Mouse: wheel shift=(-10,2), pos=(848,341)
+808.501	DATA	Mouse: wheel shift=(-12,2), pos=(848,341)
+808.51	DATA	Mouse: wheel shift=(-19,3), pos=(848,341)
+808.5169999999999	DATA	Mouse: wheel shift=(-27,3), pos=(848,341)
+808.525	DATA	Mouse: wheel shift=(-25,2), pos=(848,341)
+808.533	DATA	Mouse: wheel shift=(-32,2), pos=(848,341)
+808.5419999999999	DATA	Mouse: wheel shift=(-34,2), pos=(848,341)
+808.55	DATA	Mouse: wheel shift=(-34,1), pos=(848,341)
+808.559	DATA	Mouse: wheel shift=(-33,1), pos=(848,341)
+808.567	DATA	Mouse: wheel shift=(-24,1), pos=(848,341)
+808.576	DATA	Mouse: wheel shift=(-27,1), pos=(848,341)
+808.601	DATA	Mouse: wheel shift=(-69,0), pos=(848,341)
+808.617	DATA	Mouse: wheel shift=(-94,0), pos=(848,341)
+808.634	DATA	Mouse: wheel shift=(-99,0), pos=(848,341)
+808.651	DATA	Mouse: wheel shift=(-97,0), pos=(848,341)
+808.6669999999999	DATA	Mouse: wheel shift=(-95,0), pos=(848,341)
+808.685	DATA	Mouse: wheel shift=(-90,0), pos=(848,341)
+808.701	DATA	Mouse: wheel shift=(-86,0), pos=(848,341)
+808.717	DATA	Mouse: wheel shift=(-85,0), pos=(848,341)
+808.7339999999999	DATA	Mouse: wheel shift=(-81,0), pos=(848,341)
+808.75	DATA	Mouse: wheel shift=(-76,0), pos=(848,341)
+808.7679999999999	DATA	Mouse: wheel shift=(-72,0), pos=(848,341)
+808.785	DATA	Mouse: wheel shift=(-66,0), pos=(848,341)
+808.802	DATA	Mouse: wheel shift=(-62,0), pos=(848,341)
+808.817	DATA	Mouse: wheel shift=(-58,0), pos=(848,341)
+808.834	DATA	Mouse: wheel shift=(-54,0), pos=(848,341)
+808.909	DATA	Mouse: wheel shift=(4,0), pos=(848,341)
+808.914	DATA	Mouse: wheel shift=(6,0), pos=(848,341)
+808.9209999999999	DATA	Mouse: wheel shift=(10,1), pos=(848,341)
+808.929	DATA	Mouse: wheel shift=(16,1), pos=(848,341)
+808.9370000000001	DATA	Mouse: wheel shift=(22,1), pos=(848,341)
+808.9449999999999	DATA	Mouse: wheel shift=(23,1), pos=(848,341)
+808.953	DATA	Mouse: wheel shift=(33,1), pos=(848,341)
+808.961	DATA	Mouse: wheel shift=(35,-1), pos=(848,341)
+808.9689999999999	DATA	Mouse: wheel shift=(47,-2), pos=(848,341)
+808.977	DATA	Mouse: wheel shift=(45,-3), pos=(848,341)
+808.985	DATA	Mouse: wheel shift=(42,-4), pos=(848,341)
+809.012	DATA	Mouse: wheel shift=(98,0), pos=(848,341)
+809.0269999999999	DATA	Mouse: wheel shift=(128,0), pos=(848,341)
+809.043	DATA	Mouse: wheel shift=(130,0), pos=(848,341)
+809.0609999999999	DATA	Mouse: wheel shift=(126,0), pos=(848,341)
+809.077	DATA	Mouse: wheel shift=(121,0), pos=(848,341)
+809.0939999999999	DATA	Mouse: wheel shift=(116,0), pos=(848,341)
+809.111	DATA	Mouse: wheel shift=(110,0), pos=(848,341)
+809.1279999999999	DATA	Mouse: wheel shift=(103,0), pos=(848,341)
+821.322	DATA	Keydown: Escape

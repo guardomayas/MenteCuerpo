@@ -1,0 +1,651 @@
+0.41800000000000015	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1276,767] )
+5.334000000000001	DATA	Keydown: 3
+6.428000000000001	DATA	Keydown: 8
+6.949	DATA	Keydown: 5
+11.408000000000001	EXP	Created intro1 = TextStim( name=intro1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.47342209399445895,"y":-0.2033898305084746,~, text=A continuación vas a completar una tarea computari~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.412	EXP	Created intro2 = TextStim( name=intro2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.48931606247962844,"y":-0.1864406779661017,~, text=Todas las decisiones que tendrás que tomar serán e~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.414000000000001	EXP	Created intro2_2 = TextStim( name=intro2_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4858971388119296,"y":-0.1694915254237288,"~, text=Aunque estas decisiones son hipotéticas, te pedimo~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.415000000000001	EXP	Created Intro2_3 = TextStim( name=Intro2_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4917100411505867,"y":-0.13559322033898305,~, text=Si escoges la opción de la izquierda oprime la fle~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.416	EXP	Created intro3 = TextStim( name=intro3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.4050143364977184,"y":0.2661016949152542,"w~, text=Por ejemplo, ¿qué preferirías?, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.42	EXP	Created ss_am = TextStim( name=ss_am, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[-0.5,0.1], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.6216259574641461,"y":0.05501955671447197,"~, text=$5.000, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.421000000000001	EXP	Created ss_del = TextStim( name=ss_del, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[-0.5,-0.1], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.564113810911017,"y":-0.14498044328552803,"~, text=hoy, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.422	EXP	Created ll_am = TextStim( name=ll_am, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0.5,0.1], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":0.3562584669369296,"y":0.05501955671447197,"w~, text=$10.000, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.423	EXP	Created ll_del = TextStim( name=ll_del, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0.5,-0.1], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":0.3363952238836375,"y":-0.14498044328552803,"~, text=en 7 días, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.423	EXP	Created Intro4 = TextStim( name=Intro4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4767312021267927,"y":-0.03389830508474576,~, text=Hagamos unos ensayos de práctica, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.424000000000001	EXP	Created pregunta = TextStim( name=pregunta, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.228343103202412,"y":0.2661016949152542,"wi~, text=¿qué preferirías?, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.425	EXP	Created ssAm_P = TextStim( name=ssAm_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.19453551529905475,"y":-0.04498044328552803~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.425	EXP	Created ssDel_P = TextStim( name=ssDel_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.06411381091101695,"y":-0.04498044328552803~, text=hoy, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.426	EXP	Created llAm_P = TextStim( name=llAm_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":-0.19453551529905475,"y":-0.04498044328552803~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.427000000000001	EXP	Created llDel_P = TextStim( name=llDel_P, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":-0.19453551529905475,"y":-0.04498044328552803~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.427000000000001	EXP	Created feedbackP = TextStim( name=feedbackP, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.14669891317633638,"y":-0.03389830508474576~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.428	EXP	Created comienzo = TextStim( name=comienzo, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4951070017112125,"y":-0.13559322033898305,~, text=Ahora sí vamos a empezar con la tarea. Recuerda qu~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.429	EXP	Created preguntaT = TextStim( name=preguntaT, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.228343103202412,"y":0.2661016949152542,"wi~, text=¿qué preferirías?, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.429	EXP	Created ssAm_T = TextStim( name=ssAm_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.19453551529905475,"y":-0.04498044328552803~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.429	EXP	Created ssDel_T = TextStim( name=ssDel_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.06411381091101695,"y":-0.04498044328552803~, text=hoy, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.430000000000001	EXP	Created llAm_T = TextStim( name=llAm_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":-0.19453551529905475,"y":-0.04498044328552803~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.430000000000001	EXP	Created llDel_T = TextStim( name=llDel_T, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":-0.19453551529905475,"y":-0.04498044328552803~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.08, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.431000000000001	EXP	Created textfbT = TextStim( name=textfbT, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.14669891317633638,"y":-0.03389830508474576~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.431000000000001	EXP	Created Gracias = TextStim( name=Gracias, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4016613021512386,"y":-0.1016949152542373,"~, text=Terminaste!
+
+Muchas gracias por participar!, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.06, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+11.584000000000001	EXP	intro1: units = height
+11.584000000000001	EXP	intro1: pos = [0,0]
+11.584000000000001	EXP	intro1: size = undefined
+11.584000000000001	EXP	intro1: ori = null
+11.584000000000001	EXP	intro1: opacity = 1
+11.584000000000001	EXP	intro1: depth = null
+11.584000000000001	EXP	intro1: clipMask = null
+11.584000000000001	EXP	intro1: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	intro1: text = A continuación vas a completar una tarea computarizada en la que tomarás una serie de decisiones.
+
+Presiona la barra de espacio para continuar.
+11.584000000000001	EXP	intro1: alignHoriz = center
+11.584000000000001	EXP	intro1: alignVert = center
+11.584000000000001	EXP	intro1: flipHoriz = null
+11.584000000000001	EXP	intro1: flipVert = null
+11.584000000000001	EXP	intro1: font = Arial
+11.584000000000001	EXP	intro1: height = 0.06
+11.584000000000001	EXP	intro1: wrapWidth = 1
+11.584000000000001	EXP	intro1: bold = null
+11.584000000000001	EXP	intro1: italic = null
+11.584000000000001	EXP	intro1: color = #FFFFFF
+11.584000000000001	EXP	intro1: contrast = 1
+11.584000000000001	EXP	intro2: units = height
+11.584000000000001	EXP	intro2: pos = [0,0]
+11.584000000000001	EXP	intro2: size = undefined
+11.584000000000001	EXP	intro2: ori = null
+11.584000000000001	EXP	intro2: opacity = 1
+11.584000000000001	EXP	intro2: depth = null
+11.584000000000001	EXP	intro2: clipMask = null
+11.584000000000001	EXP	intro2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	intro2: text = Todas las decisiones que tendrás que tomar serán elecciones entre dos opciones de recompensas monetarias que podrías recibir: una opción de dinero que obtendrías hoy contra una opción de dinero que obtendrías en el futuro. 
+
+En cada pregunta, las cantidades de dinero ofrecido y el número de días que habría que esperar en el futuro cambiarán. 
+
+En cada pregunta, la opción inmediata y la  opción futura cambiarán de lado en la pantalla, así que debes poner atención para responder con el teclado cuál es tu preferencia.
+11.584000000000001	EXP	intro2: alignHoriz = center
+11.584000000000001	EXP	intro2: alignVert = center
+11.584000000000001	EXP	intro2: flipHoriz = null
+11.584000000000001	EXP	intro2: flipVert = null
+11.584000000000001	EXP	intro2: font = Arial
+11.584000000000001	EXP	intro2: height = 0.03
+11.584000000000001	EXP	intro2: wrapWidth = 1
+11.584000000000001	EXP	intro2: bold = null
+11.584000000000001	EXP	intro2: italic = null
+11.584000000000001	EXP	intro2: color = #FFFFFF
+11.584000000000001	EXP	intro2: contrast = 1
+11.584000000000001	EXP	intro2_2: units = height
+11.584000000000001	EXP	intro2_2: pos = [0,0]
+11.584000000000001	EXP	intro2_2: size = undefined
+11.584000000000001	EXP	intro2_2: ori = null
+11.584000000000001	EXP	intro2_2: opacity = 1
+11.584000000000001	EXP	intro2_2: depth = null
+11.584000000000001	EXP	intro2_2: clipMask = null
+11.584000000000001	EXP	intro2_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	intro2_2: text = Aunque estas decisiones son hipotéticas, te pedimos que hagas cada elección con honestidad, es decir, que respondas cuál es tu verdadera preferencia tal y como si fuéramos a darte el dinero que escogiste en la fecha en la que escogiste.
+
+Es muy importante que sepas que en esta tarea NO HAY respuestas correctas o incorrectas, cada pregunta es sobre TU preferencia, así que tus respuestas pueden ser muy distintas de las de otra persona. Por este motivo, te recomendamos que contestes con sinceridad para que tus respuestas reflejen tus preferencias únicas.
+11.584000000000001	EXP	intro2_2: alignHoriz = center
+11.584000000000001	EXP	intro2_2: alignVert = center
+11.584000000000001	EXP	intro2_2: flipHoriz = null
+11.584000000000001	EXP	intro2_2: flipVert = null
+11.584000000000001	EXP	intro2_2: font = Arial
+11.584000000000001	EXP	intro2_2: height = 0.03
+11.584000000000001	EXP	intro2_2: wrapWidth = 1
+11.584000000000001	EXP	intro2_2: bold = null
+11.584000000000001	EXP	intro2_2: italic = null
+11.584000000000001	EXP	intro2_2: color = #FFFFFF
+11.584000000000001	EXP	intro2_2: contrast = 1
+11.584000000000001	EXP	Intro2_3: units = height
+11.584000000000001	EXP	Intro2_3: pos = [0,0]
+11.584000000000001	EXP	Intro2_3: size = undefined
+11.584000000000001	EXP	Intro2_3: ori = null
+11.584000000000001	EXP	Intro2_3: opacity = 1
+11.584000000000001	EXP	Intro2_3: depth = null
+11.584000000000001	EXP	Intro2_3: clipMask = null
+11.584000000000001	EXP	Intro2_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	Intro2_3: text = Si escoges la opción de la izquierda oprime la flecha hacia la izquierda, si escoges la opción de la derecha oprime la flecha hacia la derecha
+11.584000000000001	EXP	Intro2_3: alignHoriz = center
+11.584000000000001	EXP	Intro2_3: alignVert = center
+11.584000000000001	EXP	Intro2_3: flipHoriz = null
+11.584000000000001	EXP	Intro2_3: flipVert = null
+11.584000000000001	EXP	Intro2_3: font = Arial
+11.584000000000001	EXP	Intro2_3: height = 0.06
+11.584000000000001	EXP	Intro2_3: wrapWidth = 1
+11.584000000000001	EXP	Intro2_3: bold = null
+11.584000000000001	EXP	Intro2_3: italic = null
+11.584000000000001	EXP	Intro2_3: color = #FFFFFF
+11.584000000000001	EXP	Intro2_3: contrast = 1
+11.584000000000001	EXP	intro3: units = height
+11.584000000000001	EXP	intro3: pos = [0,0.3]
+11.584000000000001	EXP	intro3: size = undefined
+11.584000000000001	EXP	intro3: ori = null
+11.584000000000001	EXP	intro3: opacity = 1
+11.584000000000001	EXP	intro3: depth = -1
+11.584000000000001	EXP	intro3: clipMask = null
+11.584000000000001	EXP	intro3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	intro3: text = Por ejemplo, ¿qué preferirías?
+11.584000000000001	EXP	intro3: alignHoriz = center
+11.584000000000001	EXP	intro3: alignVert = center
+11.584000000000001	EXP	intro3: flipHoriz = null
+11.584000000000001	EXP	intro3: flipVert = null
+11.584000000000001	EXP	intro3: font = Arial
+11.584000000000001	EXP	intro3: height = 0.06
+11.584000000000001	EXP	intro3: wrapWidth = 1
+11.584000000000001	EXP	intro3: bold = null
+11.584000000000001	EXP	intro3: italic = null
+11.584000000000001	EXP	intro3: color = #FFFFFF
+11.584000000000001	EXP	intro3: contrast = 1
+11.584000000000001	EXP	ss_am: units = height
+11.584000000000001	EXP	ss_am: pos = [-0.5,0.1]
+11.584000000000001	EXP	ss_am: size = undefined
+11.584000000000001	EXP	ss_am: ori = null
+11.584000000000001	EXP	ss_am: opacity = 1
+11.584000000000001	EXP	ss_am: depth = -2
+11.584000000000001	EXP	ss_am: clipMask = null
+11.584000000000001	EXP	ss_am: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ss_am: text = $5.000
+11.584000000000001	EXP	ss_am: alignHoriz = center
+11.584000000000001	EXP	ss_am: alignVert = center
+11.584000000000001	EXP	ss_am: flipHoriz = null
+11.584000000000001	EXP	ss_am: flipVert = null
+11.584000000000001	EXP	ss_am: font = Arial
+11.584000000000001	EXP	ss_am: height = 0.08
+11.584000000000001	EXP	ss_am: wrapWidth = 1
+11.584000000000001	EXP	ss_am: bold = null
+11.584000000000001	EXP	ss_am: italic = null
+11.584000000000001	EXP	ss_am: color = #FFFFFF
+11.584000000000001	EXP	ss_am: contrast = 1
+11.584000000000001	EXP	ss_del: units = height
+11.584000000000001	EXP	ss_del: pos = [-0.5,-0.1]
+11.584000000000001	EXP	ss_del: size = undefined
+11.584000000000001	EXP	ss_del: ori = null
+11.584000000000001	EXP	ss_del: opacity = 1
+11.584000000000001	EXP	ss_del: depth = -3
+11.584000000000001	EXP	ss_del: clipMask = null
+11.584000000000001	EXP	ss_del: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ss_del: text = hoy
+11.584000000000001	EXP	ss_del: alignHoriz = center
+11.584000000000001	EXP	ss_del: alignVert = center
+11.584000000000001	EXP	ss_del: flipHoriz = null
+11.584000000000001	EXP	ss_del: flipVert = null
+11.584000000000001	EXP	ss_del: font = Arial
+11.584000000000001	EXP	ss_del: height = 0.08
+11.584000000000001	EXP	ss_del: wrapWidth = 1
+11.584000000000001	EXP	ss_del: bold = null
+11.584000000000001	EXP	ss_del: italic = null
+11.584000000000001	EXP	ss_del: color = #FFFFFF
+11.584000000000001	EXP	ss_del: contrast = 1
+11.584000000000001	EXP	ll_am: units = height
+11.584000000000001	EXP	ll_am: pos = [0.5,0.1]
+11.584000000000001	EXP	ll_am: size = undefined
+11.584000000000001	EXP	ll_am: ori = null
+11.584000000000001	EXP	ll_am: opacity = 1
+11.584000000000001	EXP	ll_am: depth = -4
+11.584000000000001	EXP	ll_am: clipMask = null
+11.584000000000001	EXP	ll_am: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ll_am: text = $10.000
+11.584000000000001	EXP	ll_am: alignHoriz = center
+11.584000000000001	EXP	ll_am: alignVert = center
+11.584000000000001	EXP	ll_am: flipHoriz = null
+11.584000000000001	EXP	ll_am: flipVert = null
+11.584000000000001	EXP	ll_am: font = Arial
+11.584000000000001	EXP	ll_am: height = 0.08
+11.584000000000001	EXP	ll_am: wrapWidth = 1
+11.584000000000001	EXP	ll_am: bold = null
+11.584000000000001	EXP	ll_am: italic = null
+11.584000000000001	EXP	ll_am: color = #FFFFFF
+11.584000000000001	EXP	ll_am: contrast = 1
+11.584000000000001	EXP	ll_del: units = height
+11.584000000000001	EXP	ll_del: pos = [0.5,-0.1]
+11.584000000000001	EXP	ll_del: size = undefined
+11.584000000000001	EXP	ll_del: ori = null
+11.584000000000001	EXP	ll_del: opacity = 1
+11.584000000000001	EXP	ll_del: depth = -5
+11.584000000000001	EXP	ll_del: clipMask = null
+11.584000000000001	EXP	ll_del: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ll_del: text = en 7 días
+11.584000000000001	EXP	ll_del: alignHoriz = center
+11.584000000000001	EXP	ll_del: alignVert = center
+11.584000000000001	EXP	ll_del: flipHoriz = null
+11.584000000000001	EXP	ll_del: flipVert = null
+11.584000000000001	EXP	ll_del: font = Arial
+11.584000000000001	EXP	ll_del: height = 0.08
+11.584000000000001	EXP	ll_del: wrapWidth = 1
+11.584000000000001	EXP	ll_del: bold = null
+11.584000000000001	EXP	ll_del: italic = null
+11.584000000000001	EXP	ll_del: color = #FFFFFF
+11.584000000000001	EXP	ll_del: contrast = 1
+11.584000000000001	EXP	Intro4: units = height
+11.584000000000001	EXP	Intro4: pos = [0,0]
+11.584000000000001	EXP	Intro4: size = undefined
+11.584000000000001	EXP	Intro4: ori = null
+11.584000000000001	EXP	Intro4: opacity = 1
+11.584000000000001	EXP	Intro4: depth = null
+11.584000000000001	EXP	Intro4: clipMask = null
+11.584000000000001	EXP	Intro4: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	Intro4: text = Hagamos unos ensayos de práctica
+11.584000000000001	EXP	Intro4: alignHoriz = center
+11.584000000000001	EXP	Intro4: alignVert = center
+11.584000000000001	EXP	Intro4: flipHoriz = null
+11.584000000000001	EXP	Intro4: flipVert = null
+11.584000000000001	EXP	Intro4: font = Arial
+11.584000000000001	EXP	Intro4: height = 0.06
+11.584000000000001	EXP	Intro4: wrapWidth = 1
+11.584000000000001	EXP	Intro4: bold = null
+11.584000000000001	EXP	Intro4: italic = null
+11.584000000000001	EXP	Intro4: color = #FFFFFF
+11.584000000000001	EXP	Intro4: contrast = 1
+11.584000000000001	EXP	pregunta: units = height
+11.584000000000001	EXP	pregunta: pos = [0,0.3]
+11.584000000000001	EXP	pregunta: size = undefined
+11.584000000000001	EXP	pregunta: ori = null
+11.584000000000001	EXP	pregunta: opacity = 1
+11.584000000000001	EXP	pregunta: depth = -1
+11.584000000000001	EXP	pregunta: clipMask = null
+11.584000000000001	EXP	pregunta: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	pregunta: text = ¿qué preferirías?
+11.584000000000001	EXP	pregunta: alignHoriz = center
+11.584000000000001	EXP	pregunta: alignVert = center
+11.584000000000001	EXP	pregunta: flipHoriz = null
+11.584000000000001	EXP	pregunta: flipVert = null
+11.584000000000001	EXP	pregunta: font = Arial
+11.584000000000001	EXP	pregunta: height = 0.06
+11.584000000000001	EXP	pregunta: wrapWidth = 1
+11.584000000000001	EXP	pregunta: bold = null
+11.584000000000001	EXP	pregunta: italic = null
+11.584000000000001	EXP	pregunta: color = #FFFFFF
+11.584000000000001	EXP	pregunta: contrast = 1
+11.584000000000001	EXP	ssAm_P: units = height
+11.584000000000001	EXP	ssAm_P: pos = [0,0]
+11.584000000000001	EXP	ssAm_P: size = undefined
+11.584000000000001	EXP	ssAm_P: ori = null
+11.584000000000001	EXP	ssAm_P: opacity = 1
+11.584000000000001	EXP	ssAm_P: depth = -2
+11.584000000000001	EXP	ssAm_P: clipMask = null
+11.584000000000001	EXP	ssAm_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ssAm_P: text = default text
+11.584000000000001	EXP	ssAm_P: alignHoriz = center
+11.584000000000001	EXP	ssAm_P: alignVert = center
+11.584000000000001	EXP	ssAm_P: flipHoriz = null
+11.584000000000001	EXP	ssAm_P: flipVert = null
+11.584000000000001	EXP	ssAm_P: font = Arial
+11.584000000000001	EXP	ssAm_P: height = 0.08
+11.584000000000001	EXP	ssAm_P: wrapWidth = 1
+11.584000000000001	EXP	ssAm_P: bold = null
+11.584000000000001	EXP	ssAm_P: italic = null
+11.584000000000001	EXP	ssAm_P: color = #FFFFFF
+11.584000000000001	EXP	ssAm_P: contrast = 1
+11.584000000000001	EXP	ssDel_P: units = height
+11.584000000000001	EXP	ssDel_P: pos = [0,0]
+11.584000000000001	EXP	ssDel_P: size = undefined
+11.584000000000001	EXP	ssDel_P: ori = null
+11.584000000000001	EXP	ssDel_P: opacity = 1
+11.584000000000001	EXP	ssDel_P: depth = -3
+11.584000000000001	EXP	ssDel_P: clipMask = null
+11.584000000000001	EXP	ssDel_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ssDel_P: text = hoy
+11.584000000000001	EXP	ssDel_P: alignHoriz = center
+11.584000000000001	EXP	ssDel_P: alignVert = center
+11.584000000000001	EXP	ssDel_P: flipHoriz = null
+11.584000000000001	EXP	ssDel_P: flipVert = null
+11.584000000000001	EXP	ssDel_P: font = Arial
+11.584000000000001	EXP	ssDel_P: height = 0.08
+11.584000000000001	EXP	ssDel_P: wrapWidth = 1
+11.584000000000001	EXP	ssDel_P: bold = null
+11.584000000000001	EXP	ssDel_P: italic = null
+11.584000000000001	EXP	ssDel_P: color = #FFFFFF
+11.584000000000001	EXP	ssDel_P: contrast = 1
+11.584000000000001	EXP	llAm_P: units = height
+11.584000000000001	EXP	llAm_P: pos = [0,0]
+11.584000000000001	EXP	llAm_P: size = undefined
+11.584000000000001	EXP	llAm_P: ori = null
+11.584000000000001	EXP	llAm_P: opacity = 1
+11.584000000000001	EXP	llAm_P: depth = -4
+11.584000000000001	EXP	llAm_P: clipMask = null
+11.584000000000001	EXP	llAm_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	llAm_P: text = default text
+11.584000000000001	EXP	llAm_P: alignHoriz = center
+11.584000000000001	EXP	llAm_P: alignVert = center
+11.584000000000001	EXP	llAm_P: flipHoriz = null
+11.584000000000001	EXP	llAm_P: flipVert = null
+11.584000000000001	EXP	llAm_P: font = Arial
+11.584000000000001	EXP	llAm_P: height = 0.08
+11.584000000000001	EXP	llAm_P: wrapWidth = 1
+11.584000000000001	EXP	llAm_P: bold = null
+11.584000000000001	EXP	llAm_P: italic = null
+11.584000000000001	EXP	llAm_P: color = #FFFFFF
+11.584000000000001	EXP	llAm_P: contrast = 1
+11.584000000000001	EXP	llDel_P: units = height
+11.584000000000001	EXP	llDel_P: pos = [0,0]
+11.584000000000001	EXP	llDel_P: size = undefined
+11.584000000000001	EXP	llDel_P: ori = null
+11.584000000000001	EXP	llDel_P: opacity = 1
+11.584000000000001	EXP	llDel_P: depth = -5
+11.584000000000001	EXP	llDel_P: clipMask = null
+11.584000000000001	EXP	llDel_P: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	llDel_P: text = default text
+11.584000000000001	EXP	llDel_P: alignHoriz = center
+11.584000000000001	EXP	llDel_P: alignVert = center
+11.584000000000001	EXP	llDel_P: flipHoriz = null
+11.584000000000001	EXP	llDel_P: flipVert = null
+11.584000000000001	EXP	llDel_P: font = Arial
+11.584000000000001	EXP	llDel_P: height = 0.08
+11.584000000000001	EXP	llDel_P: wrapWidth = 1
+11.584000000000001	EXP	llDel_P: bold = null
+11.584000000000001	EXP	llDel_P: italic = null
+11.584000000000001	EXP	llDel_P: color = #FFFFFF
+11.584000000000001	EXP	llDel_P: contrast = 1
+11.584000000000001	EXP	feedbackP: units = height
+11.584000000000001	EXP	feedbackP: pos = [0,0]
+11.584000000000001	EXP	feedbackP: size = undefined
+11.584000000000001	EXP	feedbackP: ori = null
+11.584000000000001	EXP	feedbackP: opacity = 1
+11.584000000000001	EXP	feedbackP: depth = -1
+11.584000000000001	EXP	feedbackP: clipMask = null
+11.584000000000001	EXP	feedbackP: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	feedbackP: text = default text
+11.584000000000001	EXP	feedbackP: alignHoriz = center
+11.584000000000001	EXP	feedbackP: alignVert = center
+11.584000000000001	EXP	feedbackP: flipHoriz = null
+11.584000000000001	EXP	feedbackP: flipVert = null
+11.584000000000001	EXP	feedbackP: font = Arial
+11.584000000000001	EXP	feedbackP: height = 0.06
+11.584000000000001	EXP	feedbackP: wrapWidth = 1
+11.584000000000001	EXP	feedbackP: bold = null
+11.584000000000001	EXP	feedbackP: italic = null
+11.584000000000001	EXP	feedbackP: color = #FFFFFF
+11.584000000000001	EXP	feedbackP: contrast = 1
+11.584000000000001	EXP	comienzo: units = height
+11.584000000000001	EXP	comienzo: pos = [0,0]
+11.584000000000001	EXP	comienzo: size = undefined
+11.584000000000001	EXP	comienzo: ori = null
+11.584000000000001	EXP	comienzo: opacity = 1
+11.584000000000001	EXP	comienzo: depth = null
+11.584000000000001	EXP	comienzo: clipMask = null
+11.584000000000001	EXP	comienzo: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	comienzo: text = Ahora sí vamos a empezar con la tarea. Recuerda que debes contestar todas las preguntas. Tienes 20 segundos por cada pregunta. 
+11.584000000000001	EXP	comienzo: alignHoriz = center
+11.584000000000001	EXP	comienzo: alignVert = center
+11.584000000000001	EXP	comienzo: flipHoriz = null
+11.584000000000001	EXP	comienzo: flipVert = null
+11.584000000000001	EXP	comienzo: font = Arial
+11.584000000000001	EXP	comienzo: height = 0.06
+11.584000000000001	EXP	comienzo: wrapWidth = 1
+11.584000000000001	EXP	comienzo: bold = null
+11.584000000000001	EXP	comienzo: italic = null
+11.584000000000001	EXP	comienzo: color = #FFFFFF
+11.584000000000001	EXP	comienzo: contrast = 1
+11.584000000000001	EXP	preguntaT: units = height
+11.584000000000001	EXP	preguntaT: pos = [0,0.3]
+11.584000000000001	EXP	preguntaT: size = undefined
+11.584000000000001	EXP	preguntaT: ori = null
+11.584000000000001	EXP	preguntaT: opacity = 1
+11.584000000000001	EXP	preguntaT: depth = -1
+11.584000000000001	EXP	preguntaT: clipMask = null
+11.584000000000001	EXP	preguntaT: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	preguntaT: text = ¿qué preferirías?
+11.584000000000001	EXP	preguntaT: alignHoriz = center
+11.584000000000001	EXP	preguntaT: alignVert = center
+11.584000000000001	EXP	preguntaT: flipHoriz = null
+11.584000000000001	EXP	preguntaT: flipVert = null
+11.584000000000001	EXP	preguntaT: font = Arial
+11.584000000000001	EXP	preguntaT: height = 0.06
+11.584000000000001	EXP	preguntaT: wrapWidth = 1
+11.584000000000001	EXP	preguntaT: bold = null
+11.584000000000001	EXP	preguntaT: italic = null
+11.584000000000001	EXP	preguntaT: color = #FFFFFF
+11.584000000000001	EXP	preguntaT: contrast = 1
+11.584000000000001	EXP	ssAm_T: units = height
+11.584000000000001	EXP	ssAm_T: pos = [0,0]
+11.584000000000001	EXP	ssAm_T: size = undefined
+11.584000000000001	EXP	ssAm_T: ori = null
+11.584000000000001	EXP	ssAm_T: opacity = 1
+11.584000000000001	EXP	ssAm_T: depth = -2
+11.584000000000001	EXP	ssAm_T: clipMask = null
+11.584000000000001	EXP	ssAm_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ssAm_T: text = default text
+11.584000000000001	EXP	ssAm_T: alignHoriz = center
+11.584000000000001	EXP	ssAm_T: alignVert = center
+11.584000000000001	EXP	ssAm_T: flipHoriz = null
+11.584000000000001	EXP	ssAm_T: flipVert = null
+11.584000000000001	EXP	ssAm_T: font = Arial
+11.584000000000001	EXP	ssAm_T: height = 0.08
+11.584000000000001	EXP	ssAm_T: wrapWidth = 1
+11.584000000000001	EXP	ssAm_T: bold = null
+11.584000000000001	EXP	ssAm_T: italic = null
+11.584000000000001	EXP	ssAm_T: color = #FFFFFF
+11.584000000000001	EXP	ssAm_T: contrast = 1
+11.584000000000001	EXP	ssDel_T: units = height
+11.584000000000001	EXP	ssDel_T: pos = [0,0]
+11.584000000000001	EXP	ssDel_T: size = undefined
+11.584000000000001	EXP	ssDel_T: ori = null
+11.584000000000001	EXP	ssDel_T: opacity = 1
+11.584000000000001	EXP	ssDel_T: depth = -3
+11.584000000000001	EXP	ssDel_T: clipMask = null
+11.584000000000001	EXP	ssDel_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	ssDel_T: text = hoy
+11.584000000000001	EXP	ssDel_T: alignHoriz = center
+11.584000000000001	EXP	ssDel_T: alignVert = center
+11.584000000000001	EXP	ssDel_T: flipHoriz = null
+11.584000000000001	EXP	ssDel_T: flipVert = null
+11.584000000000001	EXP	ssDel_T: font = Arial
+11.584000000000001	EXP	ssDel_T: height = 0.08
+11.584000000000001	EXP	ssDel_T: wrapWidth = 1
+11.584000000000001	EXP	ssDel_T: bold = null
+11.584000000000001	EXP	ssDel_T: italic = null
+11.584000000000001	EXP	ssDel_T: color = #FFFFFF
+11.584000000000001	EXP	ssDel_T: contrast = 1
+11.584000000000001	EXP	llAm_T: units = height
+11.584000000000001	EXP	llAm_T: pos = [0,0]
+11.584000000000001	EXP	llAm_T: size = undefined
+11.584000000000001	EXP	llAm_T: ori = null
+11.584000000000001	EXP	llAm_T: opacity = 1
+11.584000000000001	EXP	llAm_T: depth = -4
+11.584000000000001	EXP	llAm_T: clipMask = null
+11.584000000000001	EXP	llAm_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	llAm_T: text = default text
+11.584000000000001	EXP	llAm_T: alignHoriz = center
+11.584000000000001	EXP	llAm_T: alignVert = center
+11.584000000000001	EXP	llAm_T: flipHoriz = null
+11.584000000000001	EXP	llAm_T: flipVert = null
+11.584000000000001	EXP	llAm_T: font = Arial
+11.584000000000001	EXP	llAm_T: height = 0.08
+11.584000000000001	EXP	llAm_T: wrapWidth = 1
+11.584000000000001	EXP	llAm_T: bold = null
+11.584000000000001	EXP	llAm_T: italic = null
+11.584000000000001	EXP	llAm_T: color = #FFFFFF
+11.584000000000001	EXP	llAm_T: contrast = 1
+11.584000000000001	EXP	llDel_T: units = height
+11.584000000000001	EXP	llDel_T: pos = [0,0]
+11.584000000000001	EXP	llDel_T: size = undefined
+11.584000000000001	EXP	llDel_T: ori = null
+11.584000000000001	EXP	llDel_T: opacity = 1
+11.584000000000001	EXP	llDel_T: depth = -5
+11.584000000000001	EXP	llDel_T: clipMask = null
+11.584000000000001	EXP	llDel_T: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	llDel_T: text = default text
+11.584000000000001	EXP	llDel_T: alignHoriz = center
+11.584000000000001	EXP	llDel_T: alignVert = center
+11.584000000000001	EXP	llDel_T: flipHoriz = null
+11.584000000000001	EXP	llDel_T: flipVert = null
+11.584000000000001	EXP	llDel_T: font = Arial
+11.584000000000001	EXP	llDel_T: height = 0.08
+11.584000000000001	EXP	llDel_T: wrapWidth = 1
+11.584000000000001	EXP	llDel_T: bold = null
+11.584000000000001	EXP	llDel_T: italic = null
+11.584000000000001	EXP	llDel_T: color = #FFFFFF
+11.584000000000001	EXP	llDel_T: contrast = 1
+11.584000000000001	EXP	textfbT: units = height
+11.584000000000001	EXP	textfbT: pos = [0,0]
+11.584000000000001	EXP	textfbT: size = undefined
+11.584000000000001	EXP	textfbT: ori = null
+11.584000000000001	EXP	textfbT: opacity = 1
+11.584000000000001	EXP	textfbT: depth = -1
+11.584000000000001	EXP	textfbT: clipMask = null
+11.584000000000001	EXP	textfbT: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	textfbT: text = default text
+11.584000000000001	EXP	textfbT: alignHoriz = center
+11.584000000000001	EXP	textfbT: alignVert = center
+11.584000000000001	EXP	textfbT: flipHoriz = null
+11.584000000000001	EXP	textfbT: flipVert = null
+11.584000000000001	EXP	textfbT: font = Arial
+11.584000000000001	EXP	textfbT: height = 0.06
+11.584000000000001	EXP	textfbT: wrapWidth = 1
+11.584000000000001	EXP	textfbT: bold = null
+11.584000000000001	EXP	textfbT: italic = null
+11.584000000000001	EXP	textfbT: color = #FFFFFF
+11.584000000000001	EXP	textfbT: contrast = 1
+11.584000000000001	EXP	Gracias: units = height
+11.584000000000001	EXP	Gracias: pos = [0,0]
+11.584000000000001	EXP	Gracias: size = undefined
+11.584000000000001	EXP	Gracias: ori = null
+11.584000000000001	EXP	Gracias: opacity = 1
+11.584000000000001	EXP	Gracias: depth = null
+11.584000000000001	EXP	Gracias: clipMask = null
+11.584000000000001	EXP	Gracias: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+11.584000000000001	EXP	Gracias: text = Terminaste!
+
+Muchas gracias por participar!
+11.584000000000001	EXP	Gracias: alignHoriz = center
+11.584000000000001	EXP	Gracias: alignVert = center
+11.584000000000001	EXP	Gracias: flipHoriz = null
+11.584000000000001	EXP	Gracias: flipVert = null
+11.584000000000001	EXP	Gracias: font = Arial
+11.584000000000001	EXP	Gracias: height = 0.06
+11.584000000000001	EXP	Gracias: wrapWidth = 1
+11.584000000000001	EXP	Gracias: bold = null
+11.584000000000001	EXP	Gracias: italic = null
+11.584000000000001	EXP	Gracias: color = #FFFFFF
+11.584000000000001	EXP	Gracias: contrast = 1
+11.584000000000001	EXP	intro1: autoDraw = true
+16.753999999999998	DATA	Keydown:  
+16.796	EXP	intro1: autoDraw = null
+16.796	EXP	intro2: autoDraw = true
+32.727000000000004	DATA	Keydown:  
+32.748000000000005	EXP	intro2: autoDraw = null
+32.748000000000005	EXP	intro2_2: autoDraw = true
+45.260000000000005	DATA	Mouse: 0 button down, pos=(891,648)
+45.474000000000004	DATA	Mouse: 0 button down, pos=(891,648)
+46.558	DATA	Keydown:  
+46.580000000000005	EXP	intro2_2: autoDraw = null
+46.580000000000005	EXP	Intro2_3: autoDraw = true
+50.673	DATA	Keydown:  
+50.718	EXP	Intro2_3: autoDraw = null
+50.718	EXP	intro3: autoDraw = true
+50.718	EXP	ss_am: autoDraw = true
+50.718	EXP	ss_del: autoDraw = true
+50.718	EXP	ll_am: autoDraw = true
+50.718	EXP	ll_del: autoDraw = true
+56.566	DATA	Keydown: ArrowLeft
+56.576	EXP	intro3: autoDraw = null
+56.576	EXP	ss_am: autoDraw = null
+56.576	EXP	ss_del: autoDraw = null
+56.576	EXP	ll_am: autoDraw = null
+56.576	EXP	ll_del: autoDraw = null
+56.576	EXP	Intro4: autoDraw = true
+58.857000000000006	DATA	Keydown:  
+58.947	EXP	Intro4: autoDraw = null
+58.947	EXP	ssAm_P: pos = [0.5,0.1]
+58.947	EXP	ssAm_P: text = $10000
+58.947	EXP	ssDel_P: pos = [0.5,-0.1]
+58.947	EXP	llAm_P: pos = [-0.5,0.1]
+58.947	EXP	llAm_P: text = $19000
+58.947	EXP	llDel_P: pos = [-0.5,-0.1]
+58.947	EXP	llDel_P: text = en 89 días
+58.947	EXP	pregunta: autoDraw = true
+58.947	EXP	ssAm_P: autoDraw = true
+58.947	EXP	ssDel_P: autoDraw = true
+58.947	EXP	llAm_P: autoDraw = true
+58.947	EXP	llDel_P: autoDraw = true
+66.607	DATA	Keydown: ArrowUp
+71.827	DATA	Keydown: ArrowRight
+71.845	EXP	pregunta: autoDraw = null
+71.845	EXP	ssAm_P: autoDraw = null
+71.845	EXP	ssDel_P: autoDraw = null
+71.845	EXP	llAm_P: autoDraw = null
+71.845	EXP	llDel_P: autoDraw = null
+71.845	EXP	feedbackP: text = Elegiste no esperar
+71.845	EXP	feedbackP: autoDraw = true
+74.598	DATA	Keydown:  
+74.85900000000001	EXP	feedbackP: autoDraw = null
+74.85900000000001	EXP	feedbackP: autoDraw = null
+74.85900000000001	EXP	ssAm_P: pos = [0.5,0.1]
+74.85900000000001	EXP	ssAm_P: text = $25000
+74.85900000000001	EXP	ssDel_P: pos = [0.5,-0.1]
+74.85900000000001	EXP	llAm_P: pos = [-0.5,0.1]
+74.85900000000001	EXP	llAm_P: text = $35000
+74.85900000000001	EXP	llDel_P: pos = [-0.5,-0.1]
+74.85900000000001	EXP	llDel_P: text = en 150 días
+74.85900000000001	EXP	pregunta: autoDraw = true
+74.85900000000001	EXP	ssAm_P: autoDraw = true
+74.85900000000001	EXP	ssDel_P: autoDraw = true
+74.85900000000001	EXP	llAm_P: autoDraw = true
+74.85900000000001	EXP	llDel_P: autoDraw = true
+78.824	DATA	Keydown: ArrowRight
+78.839	EXP	pregunta: autoDraw = null
+78.839	EXP	ssAm_P: autoDraw = null
+78.839	EXP	ssDel_P: autoDraw = null
+78.839	EXP	llAm_P: autoDraw = null
+78.839	EXP	llDel_P: autoDraw = null
+78.839	EXP	feedbackP: text = Elegiste no esperar
+78.839	EXP	feedbackP: autoDraw = true
+79.968	DATA	Keydown:  
+81.85600000000001	EXP	feedbackP: autoDraw = null
+81.85600000000001	EXP	feedbackP: autoDraw = null
+81.85600000000001	EXP	ssAm_P: pos = [-0.5,0.1]
+81.85600000000001	EXP	ssAm_P: text = $10000
+81.85600000000001	EXP	ssDel_P: pos = [-0.5,-0.1]
+81.85600000000001	EXP	llAm_P: pos = [0.5,0.1]
+81.85600000000001	EXP	llAm_P: text = $109000
+81.85600000000001	EXP	llDel_P: pos = [0.5,-0.1]
+81.85600000000001	EXP	llDel_P: text = en 9 días
+81.85600000000001	EXP	pregunta: autoDraw = true
+81.85600000000001	EXP	ssAm_P: autoDraw = true
+81.85600000000001	EXP	ssDel_P: autoDraw = true
+81.85600000000001	EXP	llAm_P: autoDraw = true
+81.85600000000001	EXP	llDel_P: autoDraw = true
+89.516	DATA	Keydown: ArrowRight
+89.531	EXP	pregunta: autoDraw = null
+89.531	EXP	ssAm_P: autoDraw = null
+89.531	EXP	ssDel_P: autoDraw = null
+89.531	EXP	llAm_P: autoDraw = null
+89.531	EXP	llDel_P: autoDraw = null
+89.531	EXP	feedbackP: text = Elegiste esperar
+89.531	EXP	feedbackP: autoDraw = true
+92.533	EXP	feedbackP: autoDraw = null
+92.533	EXP	feedbackP: autoDraw = null
+92.533	EXP	comienzo: autoDraw = true
+99.379	DATA	Keydown:  
+112.11200000000001	DATA	Mouse: 0 button down, pos=(911,766)
+112.357	DATA	Mouse: 0 button down, pos=(911,766)
+113.226	DATA	Keydown:  
+114.399	DATA	Keydown: ArrowLeft
+114.849	DATA	Keydown: ArrowRight
+116.00800000000001	DATA	Keydown: ArrowUp
+116.96300000000001	DATA	Keydown: ArrowDown
+119.524	DATA	Mouse: 0 button down, pos=(724,617)
+119.746	DATA	Mouse: 0 button down, pos=(724,616)
+119.941	DATA	Mouse: 0 button down, pos=(724,616)
+120.105	DATA	Mouse: 0 button down, pos=(724,616)
+123.912	DATA	Keydown: ArrowUp
+154.108	DATA	Keydown: ArrowUp
+155.356	DATA	Keydown: ArrowRight
+155.665	DATA	Keydown: ArrowLeft
+156.19700000000003	DATA	Keydown: ArrowDown
+156.73	DATA	Keydown: ArrowRight
+157.013	DATA	Keydown: ArrowLeft
+163.15699999999998	DATA	Keydown: ArrowUp
+223.641	DATA	Keydown: ArrowUp
+262.687	DATA	Keydown:  
+263.187	DATA	Keydown:  
+263.273	DATA	Keydown:  
+263.713	DATA	Keydown: ArrowRight
+264.156	DATA	Keydown: ArrowLeft
+264.553	DATA	Keydown: ArrowUp
+265.13100000000003	DATA	Keydown: ArrowDown
+272.829	DATA	Mouse: 0 button down, pos=(934,476)
+272.946	DATA	Mouse: 0 button down, pos=(934,476)
+273.02000000000004	DATA	Mouse: 0 button down, pos=(934,476)
+273.081	DATA	Mouse: 0 button down, pos=(934,476)
+274.01800000000003	DATA	Keydown: Escape
