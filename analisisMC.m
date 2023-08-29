@@ -13,17 +13,27 @@ addpath(data_folder)
 data_file_folders = dir(fullfile(data_folder, 'datos*'));
 sprintf('Tenemos %d carpetas de datos', length(data_file_folders))
 
-% extraer datos de análisis de cada sesión
+% extraer datos de análisis de cada sesión que son csv 
 for f = 1:length(data_file_folders)
     % esta_sesion = fullfile(data_folder,data_file_folders(f).name,'convert');
     esta_sesion = fullfile(data_folder,data_file_folders(f).name);
     addpath(esta_sesion)
-    prep = dir(fullfile(esta_sesion,'*.csv'));
+    prep = dir(fullfile(esta_sesion,'*.csv')); %Check for the file that crashes here 
+    %with prep(d).name
     for d = 1:length(prep)
         getBDataEstudiantes(prep(d).name)
     end
 end 
-
+% extraer datos de análisis de cada sesión que son xlsx 
+for f = 1:length(data_file_folders)
+    % esta_sesion = fullfile(data_folder,data_file_folders(f).name,'convert');
+    esta_sesion = fullfile(data_folder,data_file_folders(f).name);
+    addpath(esta_sesion)
+    prep = dir(fullfile(esta_sesion,'*.xlsx'));
+    for d = 1:length(prep)
+        getBDataEstudiantes(prep(d).name)
+    end
+end 
 % correr algoritmo de optimización para parámetros tasa de descuento en
 % todos los archivos
 
