@@ -1,11 +1,12 @@
 %%% Análisis tasa de descuento estudio mente y cuerpo %%%
 % silvia 07.10.2020
+% santiago 08.29.2023
 
 % Specifying Data Pathways with MATLAB Drive. I will modify it using only
 % relative pathways. 
-addpath(fullfile('/MATLAB Drive/URosario'))
+addpath(fullfile('/Users/guardomayas2/Matlab/MindBody'))
 
-data_folder = fullfile('/MATLAB Drive/URosario');
+data_folder = fullfile('/Users/guardomayas2/Matlab/MindBody');
 addpath(data_folder)
 
 % just grab the folders not datosMCmasDescuento_20220224.xlsx

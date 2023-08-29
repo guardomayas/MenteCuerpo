@@ -1,7 +1,7 @@
 function getBDataEstudiantes(xlsfile)
 %addpath( 'C:\Users\silvia.lopez\OneDrive - Universidad del rosario\Grupo Mente y Cuerpo\tarea\tareaMenteCuerpo\datos_270419\XLS'); %for office PC
 % addpath('/Users/silvia/OneDrive - Universidad del rosario/Proyectos/Ninos obesidad/ninos_shared/ninos_290918'); %for mac
-addpath(fullfile('/MATLAB Drive/URosario/datosMyC'))
+addpath(fullfile('datosMyC'))
 
 %raw = xlsread([xlsfile],'Sheet1');
 T = readtable([xlsfile]);
