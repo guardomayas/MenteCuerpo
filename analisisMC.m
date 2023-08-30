@@ -4,17 +4,12 @@
 
 % Specifying Data Pathways with MATLAB Drive. I will modify it using only
 % relative pathways. 
-addpath(fullfile('/Users/guardomayas2/Matlab/MindBody'))
-
-data_folder = fullfile('/Users/guardomayas2/Matlab/MindBody');
-addpath(data_folder)
-
-% just grab the folders not datosMCmasDescuento_20220224.xlsx
-data_file_folders = dir(fullfile(data_folder, 'datos*'));
+data_folder = 'data';
+data_file_folders = dir(fullfile(data_folder,'datos*'));
 sprintf('Tenemos %d carpetas de datos', length(data_file_folders))
 
 % extraer datos de análisis de cada sesión que son csv 
-for f = 1 %:length(data_file_folders) %Uncomment length when you want to analyze pavlovia data
+for f = 1%:length(data_file_folders) %Uncomment length when you want to analyze pavlovia data
     % esta_sesion = fullfile(data_folder,data_file_folders(f).name,'convert');
     esta_sesion = fullfile(data_folder,data_file_folders(f).name);
     addpath(esta_sesion)

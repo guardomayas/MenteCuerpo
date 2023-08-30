@@ -1,11 +1,21 @@
-function getBDataEstudiantes(xlsfile)
-%addpath( 'C:\Users\silvia.lopez\OneDrive - Universidad del rosario\Grupo Mente y Cuerpo\tarea\tareaMenteCuerpo\datos_270419\XLS'); %for office PC
-% addpath('/Users/silvia/OneDrive - Universidad del rosario/Proyectos/Ninos obesidad/ninos_shared/ninos_290918'); %for mac
-addpath(fullfile('datosMyC'))
+function getBDataEstudiantes(file_name)
 
-%raw = xlsread([xlsfile],'Sheet1');
-T = readtable([xlsfile]);
-
+data_folder = 'data'; % Assuming your script is in the parent directory of 'data'
+data_file_folders = dir(fullfile(data_folder, 'datos*'));    
+for i = 1%:length(data_file_folders)
+  file_path = fullfile(data_folder, data_file_folders(i).name, file_name);
+    
+% Get the file extension
+[~, ~, ext] = fileparts(file_name);
+%Create a conditional to read excel files
+if strcmp(ext, '.xlsx') 
+    %Read Excel
+    T = readtable(file_path, 'Sheet', 1);
+elseif strcmp(ext, '.csv')
+    T = readtable(file_path);
+%else
+ %   error('Unsupported file format. Only .xlsx and .csv files are supported.');
+end
 % Extract variables of interest for analysis: subject#, session#,
 % ss_am, ss_del, ll_am, ll_del, respT_corr, respT_rt.
 % for respT.corr, 1=chose delayed and 0=chose immediate
@@ -13,7 +23,7 @@ T = readtable([xlsfile]);
 data = [T.ss_am T.ss_del T.ll_am T.ll_del T.respT_corr T.respT_rt]; %output psychopy csv
 
 % Remove practice trials
-%data = data(10:end,:);
+%data = data(10:end,:);g
 
 % Remove rows with NaNs:
 data(isnan(data(:,1)),:) = [];
