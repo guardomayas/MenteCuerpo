@@ -2,7 +2,7 @@ function getBDataEstudiantes(file_name)
 
 data_folder = 'data'; % Assuming your script is in the parent directory of 'data'
 data_file_folders = dir(fullfile(data_folder, 'datos*'));    
-for i = 1%:length(data_file_folders)
+for i = 2:length(data_file_folders)
   file_path = fullfile(data_folder, data_file_folders(i).name, file_name);
     
 % Get the file extension
