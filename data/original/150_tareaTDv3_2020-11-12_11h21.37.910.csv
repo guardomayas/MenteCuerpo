@@ -1,0 +1,4 @@
+key1.keys,key1.rt,key2.keys,key2.rt,key2_2.keys,key2_2.rt,key2_3.keys,key2_3.rt,key3.keys,key3.rt,key4.keys,key4.rt,respP.keys,respP.corr,respP.rt,Practice.thisRepN,Practice.thisTrialN,Practice.thisN,Practice.thisIndex,Practice.ran,ssAmount,llAmount,llDelay,session,participant,date,expName,psychopyVersion,OS,frameRate
+space,3.88468,space,13.24561,space,5.157255,space,4.02498,right,7.86619,space,3.83354,right,0,4.553635,0,0,0,0,1,10000,109000,9,002,150,2020-11-12_11h21.37.910,tareaTDv3,2020.2.5,Win32,60
+,,,,,,,,,,,,left,0,4.784575,0,1,1,2,1,10000,19000,89,002,150,2020-11-12_11h21.37.910,tareaTDv3,2020.2.5,Win32,60
+,,,,,,,,,,,,left,0,5.218045,0,2,2,1,1,25000,35000,150,002,150,2020-11-12_11h21.37.910,tareaTDv3,2020.2.5,Win32,60
