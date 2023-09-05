@@ -9,7 +9,7 @@ data_file_folders = dir(fullfile(data_folder,'datos*'));
 sprintf('Tenemos %d carpetas de datos', length(data_file_folders))
 
 % extraer datos de análisis de cada sesión que son csv 
-for f = 2%:length(data_file_folders) %Uncomment length when you want to analyze pavlovia data
+for f = 1:length(data_file_folders) %Uncomment length when you want to analyze pavlovia data
     % esta_sesion = fullfile(data_folder,data_file_folders(f).name,'convert');
     esta_sesion = fullfile(data_folder,data_file_folders(f).name);
     addpath(esta_sesion)
@@ -20,15 +20,15 @@ for f = 2%:length(data_file_folders) %Uncomment length when you want to analyze 
     end
 end 
 % extraer datos de análisis de cada sesión que son xlsx 
-%for f = 1:length(data_file_folders) %Uncomment length when you want to analyze pavlovia data
- %   % esta_sesion = fullfile(data_folder,data_file_folders(f).name,'convert');
-  %  esta_sesion = fullfile(data_folder,data_file_folders(f).name);
-   % addpath(esta_sesion)
-    %prep = dir(fullfile(esta_sesion,'*.xlsx'));
-    %for d = 1:length(prep)
-     %   getBDataEstudiantes(prep(d).name)
-   % end
-%end 
+for f = 1:length(data_file_folders) %Uncomment length when you want to analyze pavlovia data
+    % esta_sesion = fullfile(data_folder,data_file_folders(f).name,'convert');
+    esta_sesion = fullfile(data_folder,data_file_folders(f).name);
+    addpath(esta_sesion)
+    prep = dir(fullfile(esta_sesion,'*.xlsx'));
+    for d = 1:length(prep)
+        getBDataEstudiantes(prep(d).name)
+    end
+end 
 % correr algoritmo de optimización para parámetros tasa de descuento en
 % todos los archivos
 
