@@ -1,7 +1,0 @@
-key1_keys,key1_rt,key2_keys,key2_rt,key2_2_keys,key2_2_rt,key2_3_keys,key2_3_rt,key3_keys,key3_rt,key4_keys,key4_rt,respP_keys,respP_corr,respP_rt,Practice_thisRepN,Practice_thisTrialN,Practice_thisN,Practice_thisIndex,Practice_ran,ssAmount,llAmount,llDelay,session,participant,date,expName,psychopyVersion,OS,frameRate,key5_keys,key5_rt,respT_keys,respT_corr,respT_rt,trials_thisRepN,trials_thisTrialN,trials_thisN,trials_thisIndex,trials_ran,ss_am,ss_del,ll_am,ll_del
-space,0.81888,space,0.16908,space,0.14456,space,0.235375,right,1.74841,space,0.15043,right,1.0,0.22064,0.0,0.0,0.0,1.0,1.0,25000.0,35000.0,150.0,2,8,2020-11-12_11h25.25.995,tareaTDv3,2020.2.5,Win32,60,,,,,,,,,,,,,,
-,,,,,,,,,,,,right,1.0,0.05299,0.0,1.0,1.0,2.0,1.0,10000.0,19000.0,89.0,2,8,2020-11-12_11h25.25.995,tareaTDv3,2020.2.5,Win32,60,,,,,,,,,,,,,,
-,,,,,,,,,,,,right,1.0,0.0486,0.0,2.0,2.0,0.0,1.0,10000.0,109000.0,9.0,2,8,2020-11-12_11h25.25.995,tareaTDv3,2020.2.5,Win32,60,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,2,8,2020-11-12_11h25.25.995,tareaTDv3,2020.2.5,Win32,60,g,1.85036,right,1.0,1.32251,0.0,0.0,0.0,69.0,1.0,25000.0,0.0,150000.0,9.0
-,,,,,,,,,,,,,,,,,,,,,,,2,8,2020-11-12_11h25.25.995,tareaTDv3,2020.2.5,Win32,60,,,right,1.0,1.44958,0.0,1.0,1.0,10.0,1.0,10000.0,0.0,21000.0,31.0
-,,,,,,,,,,,,,,,,,,,,,,,2,8,2020-11-12_11h25.25.995,tareaTDv3,2020.2.5,Win32,60,,,right,1.0,2.48289,0.0,2.0,2.0,32.0,1.0,5000.0,0.0,54000.0,5.0
